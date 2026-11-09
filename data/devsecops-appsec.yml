@@ -1,0 +1,138 @@
+# DevSecOps / AppSec
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: DevSecOps / AppSec
+slug: devsecops-appsec
+items:
+- repo: dependency-check/DependencyCheck
+  name: DependencyCheck
+  description: OWASP software composition analysis tool that detects known-vulnerable dependencies.
+  tags: []
+  subcategory: SCA
+  tier: main
+  added: '2026-11-09'
+  notes: Canonical home of OWASP dependency-check (jeremylong/DependencyCheck is an archived stub).
+- repo: google/osv-scanner
+  name: osv-scanner
+  description: Vulnerability scanner using the OSV.dev database.
+  tags: []
+  subcategory: SCA
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: aquasecurity/trivy
+  name: trivy
+  description: Scanner for vulnerabilities, misconfigurations, secrets and SBOM across containers, code and clouds.
+  tags: []
+  subcategory: Container & SCA
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: sigstore/cosign
+  name: cosign
+  description: Signing and verification for containers and other artifacts.
+  tags: []
+  subcategory: Supply Chain
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: trufflesecurity/trufflehog
+  name: trufflehog
+  description: Finds, verifies and analyzes leaked credentials.
+  tags:
+  - open-core
+  subcategory: Secrets
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: anchore/syft
+  name: syft
+  description: Generates SBOMs from container images and filesystems.
+  tags: []
+  subcategory: SBOM
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: anchore/grype
+  name: grype
+  description: Vulnerability scanner for container images and filesystems.
+  tags: []
+  subcategory: Container & SCA
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: DependencyTrack/dependency-track
+  name: dependency-track
+  description: SBOM-based component analysis and supply chain risk platform.
+  tags: []
+  subcategory: SBOM
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: DefectDojo/django-DefectDojo
+  name: django-DefectDojo
+  description: DevSecOps vulnerability management and ASPM platform.
+  tags:
+  - open-core
+  subcategory: ASPM
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: bridgecrewio/checkov
+  name: checkov
+  description: Static analysis for infrastructure as code misconfigurations.
+  tags:
+  - open-core
+  subcategory: IaC
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: semgrep/semgrep
+  name: semgrep
+  description: Lightweight static analysis for many languages with custom rules.
+  tags:
+  - open-core
+  subcategory: SAST
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: zaproxy/zaproxy
+  name: zaproxy
+  description: OWASP ZAP web application security scanner.
+  tags: []
+  subcategory: DAST
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: ossf/scorecard
+  name: scorecard
+  description: Automated security health checks for open-source projects.
+  tags: []
+  subcategory: Supply Chain
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: PyCQA/bandit
+  name: bandit
+  description: Finds common security issues in Python code.
+  tags: []
+  subcategory: SAST
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: step-security/harden-runner
+  name: harden-runner
+  description: Network egress filtering and runtime security for GitHub Actions runners.
+  tags:
+  - open-core
+  subcategory: CI/CD Security
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: gitleaks/gitleaks
+  name: gitleaks
+  description: Detects secrets like passwords and API keys in git repos and files.
+  tags: []
+  subcategory: Secrets
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: category Main cap (15) reached.'

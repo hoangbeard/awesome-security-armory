@@ -1,0 +1,14 @@
+# Human decisions the weekly scorer must not undo.
+# Remove an entry here when Rex wants the automatic rules to take over.
+watch:
+  - repo: xai-org/grok-build
+    reason: "anomaly: ~27.7k stars in ~4 months but only 1 visible contributor and 28 commits in 90 days (likely mirror/squashed publish)"
+  - repo: CyberStrikeus/CyberStrike
+    reason: "topics list identical to usestrix/strix (possible copied marketing); keep on Watchlist pending review"
+remove:
+  - repo: Comfy-Org/ComfyUI
+    reason: out of scope (generative media, not cybersecurity or software/coding)
+  - repo: penpot/penpot
+    reason: out of scope (drawing/design application, not a security or coding tool)
+  - repo: excalidraw/excalidraw
+    reason: out of scope (drawing/design application, not a security or coding tool)

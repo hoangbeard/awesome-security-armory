@@ -1,0 +1,146 @@
+# LLM, Agent Framework & MCP
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: LLM, Agent Framework & MCP
+slug: llm-agent-frameworks
+items:
+- repo: vercel/ai
+  name: ai
+  description: TypeScript toolkit for building AI applications and agents.
+  tags:
+  - ai
+  subcategory: SDKs & Gateways
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: vllm-project/vllm
+  name: vllm
+  description: High-throughput, memory-efficient LLM inference and serving engine.
+  tags:
+  - ai
+  subcategory: Inference Serving
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: modelcontextprotocol/servers
+  name: servers
+  description: Reference Model Context Protocol (MCP) server implementations.
+  tags:
+  - ai
+  subcategory: MCP
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: ggml-org/llama.cpp
+  name: llama.cpp
+  description: LLM inference in C/C++ with broad hardware support.
+  tags:
+  - ai
+  subcategory: Local Inference
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: openai/openai-agents-python
+  name: openai-agents-python
+  description: Lightweight Python framework for multi-agent workflows from OpenAI.
+  tags:
+  - ai
+  subcategory: Agent Frameworks
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: langchain-ai/langchain
+  name: langchain
+  description: Framework for building LLM-powered applications and agents.
+  tags:
+  - ai
+  - open-core
+  subcategory: Agent Frameworks
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: crewAIInc/crewAI
+  name: crewAI
+  description: Framework for orchestrating role-playing, collaborative AI agents.
+  tags:
+  - ai
+  - open-core
+  subcategory: Agent Frameworks
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: pydantic/pydantic-ai
+  name: pydantic-ai
+  description: Type-safe Python agent framework from the Pydantic team.
+  tags:
+  - ai
+  subcategory: Agent Frameworks
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: browser-use/browser-use
+  name: browser-use
+  description: Library that lets AI agents control a web browser.
+  tags:
+  - ai
+  - open-core
+  subcategory: Browser Agents
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: langchain-ai/langgraph
+  name: langgraph
+  description: Library for building stateful, multi-actor agent workflows as graphs.
+  tags:
+  - ai
+  - open-core
+  subcategory: Agent Frameworks
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: run-llama/llama_index
+  name: llama_index
+  description: Data framework for building RAG and agent applications over your data.
+  tags:
+  - ai
+  - open-core
+  subcategory: RAG & Data
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: ollama/ollama
+  name: ollama
+  description: Run and manage open LLMs locally with a simple CLI and API.
+  tags:
+  - ai
+  subcategory: Local Inference
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: modelcontextprotocol/python-sdk
+  name: python-sdk
+  description: Official Python SDK for building MCP servers and clients.
+  tags:
+  - ai
+  subcategory: MCP
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: BerriAI/litellm
+  name: litellm
+  description: Python SDK and proxy gateway to call 100+ LLM APIs in OpenAI format.
+  tags:
+  - ai
+  - open-core
+  subcategory: SDKs & Gateways
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: 17411 commits in 90 days (8.3 per contributor), likely automated/agent commits. From AI Repo Scout Notion seed.'
+- repo: microsoft/autogen
+  name: autogen
+  description: Microsoft framework for building multi-agent AI applications.
+  tags:
+  - ai
+  subcategory: Agent Frameworks
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

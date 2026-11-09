@@ -1,0 +1,798 @@
+{
+  "date": "2026-11-09",
+  "timezone": "Asia/Saigon (UTC+7)",
+  "repos": {
+    "deepseek-ai/deepseek-harness": {
+      "stars": 276739,
+      "forks": 33903,
+      "pushed_at": "2026-11-04T13:06:39Z",
+      "archived": false
+    },
+    "anomalyco/opencode": {
+      "stars": 225571,
+      "forks": 30464,
+      "pushed_at": "2026-11-09T05:25:09Z",
+      "archived": false
+    },
+    "openai/codex": {
+      "stars": 133950,
+      "forks": 21217,
+      "pushed_at": "2026-11-09T03:58:34Z",
+      "archived": false
+    },
+    "can1357/oh-my-pi": {
+      "stars": 38311,
+      "forks": 4351,
+      "pushed_at": "2026-11-09T03:47:22Z",
+      "archived": false
+    },
+    "xai-org/grok-build": {
+      "stars": 27720,
+      "forks": 5245,
+      "pushed_at": "2026-09-29T16:57:13Z",
+      "archived": false
+    },
+    "anthropics/claude-code": {
+      "stars": 155032,
+      "forks": 25346,
+      "pushed_at": "2026-11-06T17:04:01Z",
+      "archived": false
+    },
+    "Aider-AI/aider": {
+      "stars": 50027,
+      "forks": 5145,
+      "pushed_at": "2026-05-22T14:02:20Z",
+      "archived": false
+    },
+    "OpenHands/OpenHands": {
+      "stars": 92993,
+      "forks": 12425,
+      "pushed_at": "2026-11-09T05:16:02Z",
+      "archived": false
+    },
+    "continuedev/continue": {
+      "stars": 36434,
+      "forks": 5556,
+      "pushed_at": "2026-11-05T15:28:28Z",
+      "archived": false
+    },
+    "cline/cline": {
+      "stars": 71476,
+      "forks": 7898,
+      "pushed_at": "2026-11-07T00:08:40Z",
+      "archived": false
+    },
+    "RooCodeInc/Roo-Code": {
+      "stars": 24237,
+      "forks": 3430,
+      "pushed_at": "2026-05-15T18:08:47Z",
+      "archived": true
+    },
+    "google-gemini/gemini-cli": {
+      "stars": 108795,
+      "forks": 14932,
+      "pushed_at": "2026-11-09T01:05:59Z",
+      "archived": false
+    },
+    "aaif-goose/goose": {
+      "stars": 56381,
+      "forks": 6569,
+      "pushed_at": "2026-11-09T05:17:28Z",
+      "archived": false
+    },
+    "charmbracelet/crush": {
+      "stars": 29007,
+      "forks": 2361,
+      "pushed_at": "2026-11-08T00:45:57Z",
+      "archived": false
+    },
+    "Kilo-Org/kilocode": {
+      "stars": 27912,
+      "forks": 3348,
+      "pushed_at": "2026-11-08T23:17:55Z",
+      "archived": false
+    },
+    "TabbyML/tabby": {
+      "stars": 33925,
+      "forks": 1795,
+      "pushed_at": "2026-06-30T20:38:02Z",
+      "archived": false
+    },
+    "SWE-agent/SWE-agent": {
+      "stars": 20763,
+      "forks": 2264,
+      "pushed_at": "2026-11-02T23:40:08Z",
+      "archived": false
+    },
+    "QwenLM/qwen-code": {
+      "stars": 29113,
+      "forks": 3332,
+      "pushed_at": "2026-11-09T05:30:36Z",
+      "archived": false
+    },
+    "ollama/ollama": {
+      "stars": 186404,
+      "forks": 18974,
+      "pushed_at": "2026-11-08T00:36:55Z",
+      "archived": false
+    },
+    "langchain-ai/langchain": {
+      "stars": 149232,
+      "forks": 25098,
+      "pushed_at": "2026-11-09T01:34:53Z",
+      "archived": false
+    },
+    "vllm-project/vllm": {
+      "stars": 96575,
+      "forks": 24568,
+      "pushed_at": "2026-11-09T05:30:41Z",
+      "archived": false
+    },
+    "modelcontextprotocol/servers": {
+      "stars": 91878,
+      "forks": 11933,
+      "pushed_at": "2026-11-05T06:26:00Z",
+      "archived": false
+    },
+    "crewAIInc/crewAI": {
+      "stars": 60671,
+      "forks": 9113,
+      "pushed_at": "2026-11-09T04:01:45Z",
+      "archived": false
+    },
+    "vercel/ai": {
+      "stars": 27823,
+      "forks": 5561,
+      "pushed_at": "2026-11-09T02:57:28Z",
+      "archived": false
+    },
+    "BerriAI/litellm": {
+      "stars": 62934,
+      "forks": 13127,
+      "pushed_at": "2026-11-09T04:02:22Z",
+      "archived": false
+    },
+    "browser-use/browser-use": {
+      "stars": 120374,
+      "forks": 13449,
+      "pushed_at": "2026-11-09T05:28:23Z",
+      "archived": false
+    },
+    "langchain-ai/langgraph": {
+      "stars": 44673,
+      "forks": 7695,
+      "pushed_at": "2026-11-08T00:33:40Z",
+      "archived": false
+    },
+    "microsoft/autogen": {
+      "stars": 61752,
+      "forks": 9390,
+      "pushed_at": "2026-10-28T14:45:27Z",
+      "archived": false
+    },
+    "run-llama/llama_index": {
+      "stars": 52851,
+      "forks": 8533,
+      "pushed_at": "2026-11-08T21:41:55Z",
+      "archived": false
+    },
+    "ggml-org/llama.cpp": {
+      "stars": 133778,
+      "forks": 25274,
+      "pushed_at": "2026-11-09T03:01:30Z",
+      "archived": false
+    },
+    "pydantic/pydantic-ai": {
+      "stars": 21094,
+      "forks": 3136,
+      "pushed_at": "2026-11-09T01:56:15Z",
+      "archived": false
+    },
+    "modelcontextprotocol/python-sdk": {
+      "stars": 24805,
+      "forks": 4113,
+      "pushed_at": "2026-11-05T13:38:56Z",
+      "archived": false
+    },
+    "openai/openai-agents-python": {
+      "stars": 30568,
+      "forks": 5019,
+      "pushed_at": "2026-11-09T05:08:12Z",
+      "archived": false
+    },
+    "Comfy-Org/ComfyUI": {
+      "stars": 145837,
+      "forks": 17368,
+      "pushed_at": "2026-11-09T02:40:36Z",
+      "archived": false
+    },
+    "AUTOMATIC1111/stable-diffusion-webui": {
+      "stars": 165261,
+      "forks": 31611,
+      "pushed_at": "2026-03-02T07:00:53Z",
+      "archived": false
+    },
+    "promptfoo/promptfoo": {
+      "stars": 26976,
+      "forks": 2692,
+      "pushed_at": "2026-11-09T02:26:17Z",
+      "archived": false
+    },
+    "NVIDIA/garak": {
+      "stars": 9957,
+      "forks": 1456,
+      "pushed_at": "2026-11-06T23:26:29Z",
+      "archived": false
+    },
+    "microsoft/PyRIT": {
+      "stars": 4773,
+      "forks": 1038,
+      "pushed_at": "2026-11-09T05:21:29Z",
+      "archived": false
+    },
+    "snyk/agent-scan": {
+      "stars": 3226,
+      "forks": 297,
+      "pushed_at": "2026-11-06T16:13:58Z",
+      "archived": false
+    },
+    "protectai/llm-guard": {
+      "stars": 3218,
+      "forks": 475,
+      "pushed_at": "2026-07-08T23:58:40Z",
+      "archived": true
+    },
+    "data-privacy-stack/presidio": {
+      "stars": 11785,
+      "forks": 1418,
+      "pushed_at": "2026-11-08T06:40:46Z",
+      "archived": false
+    },
+    "NVIDIA-NeMo/Guardrails": {
+      "stars": 7455,
+      "forks": 898,
+      "pushed_at": "2026-11-07T02:47:40Z",
+      "archived": false
+    },
+    "guardrails-ai/guardrails": {
+      "stars": 7588,
+      "forks": 737,
+      "pushed_at": "2026-11-05T03:27:52Z",
+      "archived": false
+    },
+    "protectai/modelscan": {
+      "stars": 793,
+      "forks": 174,
+      "pushed_at": "2026-09-28T23:10:13Z",
+      "archived": false
+    },
+    "Trusted-AI/adversarial-robustness-toolbox": {
+      "stars": 6304,
+      "forks": 1355,
+      "pushed_at": "2026-11-05T07:52:55Z",
+      "archived": false
+    },
+    "meta-llama/PurpleLlama": {
+      "stars": 4470,
+      "forks": 785,
+      "pushed_at": "2026-10-30T17:56:26Z",
+      "archived": false
+    },
+    "cisco-ai-defense/mcp-scanner": {
+      "stars": 1113,
+      "forks": 159,
+      "pushed_at": "2026-11-06T19:40:33Z",
+      "archived": false
+    },
+    "splx-ai/agentic-radar": {
+      "stars": 1067,
+      "forks": 152,
+      "pushed_at": "2025-11-27T15:28:44Z",
+      "archived": false
+    },
+    "confident-ai/deepteam": {
+      "stars": 3092,
+      "forks": 506,
+      "pushed_at": "2026-10-23T11:32:04Z",
+      "archived": false
+    },
+    "Giskard-AI/giskard-oss": {
+      "stars": 5946,
+      "forks": 564,
+      "pushed_at": "2026-11-09T02:02:14Z",
+      "archived": false
+    },
+    "msoedov/agentic_security": {
+      "stars": 2042,
+      "forks": 303,
+      "pushed_at": "2026-11-04T09:49:57Z",
+      "archived": false
+    },
+    "usestrix/strix": {
+      "stars": 74495,
+      "forks": 8422,
+      "pushed_at": "2026-11-09T02:25:30Z",
+      "archived": false
+    },
+    "rapid7/metasploit-framework": {
+      "stars": 39340,
+      "forks": 15007,
+      "pushed_at": "2026-11-09T01:02:05Z",
+      "archived": false
+    },
+    "sqlmapproject/sqlmap": {
+      "stars": 38893,
+      "forks": 6438,
+      "pushed_at": "2026-11-06T14:31:55Z",
+      "archived": false
+    },
+    "projectdiscovery/nuclei": {
+      "stars": 32701,
+      "forks": 3981,
+      "pushed_at": "2026-11-09T04:24:44Z",
+      "archived": false
+    },
+    "AIPentest/CyberStrikeAI": {
+      "stars": 8490,
+      "forks": 1870,
+      "pushed_at": "2026-11-08T09:35:27Z",
+      "archived": false
+    },
+    "CyberStrikeus/CyberStrike": {
+      "stars": 3467,
+      "forks": 600,
+      "pushed_at": "2026-11-08T18:37:17Z",
+      "archived": false
+    },
+    "projectdiscovery/subfinder": {
+      "stars": 14749,
+      "forks": 1646,
+      "pushed_at": "2026-11-08T15:03:37Z",
+      "archived": false
+    },
+    "projectdiscovery/httpx": {
+      "stars": 10596,
+      "forks": 1121,
+      "pushed_at": "2026-11-08T15:03:45Z",
+      "archived": false
+    },
+    "SpecterOps/BloodHound": {
+      "stars": 3542,
+      "forks": 396,
+      "pushed_at": "2026-11-07T01:37:44Z",
+      "archived": false
+    },
+    "fortra/impacket": {
+      "stars": 16243,
+      "forks": 3979,
+      "pushed_at": "2026-11-04T17:26:25Z",
+      "archived": false
+    },
+    "BC-SECURITY/Empire": {
+      "stars": 5347,
+      "forks": 709,
+      "pushed_at": "2026-09-08T14:45:24Z",
+      "archived": false
+    },
+    "ffuf/ffuf": {
+      "stars": 17013,
+      "forks": 1627,
+      "pushed_at": "2026-09-26T08:58:08Z",
+      "archived": false
+    },
+    "peass-ng/PEASS-ng": {
+      "stars": 20792,
+      "forks": 3406,
+      "pushed_at": "2026-11-07T08:10:52Z",
+      "archived": false
+    },
+    "GreyDGL/PentestGPT": {
+      "stars": 16333,
+      "forks": 2858,
+      "pushed_at": "2026-07-14T12:58:31Z",
+      "archived": false
+    },
+    "vxcontrol/pentagi": {
+      "stars": 33729,
+      "forks": 5277,
+      "pushed_at": "2026-10-22T23:26:13Z",
+      "archived": false
+    },
+    "owasp-amass/amass": {
+      "stars": 15483,
+      "forks": 2202,
+      "pushed_at": "2026-11-09T05:26:25Z",
+      "archived": false
+    },
+    "epi052/feroxbuster": {
+      "stars": 8159,
+      "forks": 639,
+      "pushed_at": "2026-11-08T15:58:04Z",
+      "archived": false
+    },
+    "osquery/osquery": {
+      "stars": 23745,
+      "forks": 2637,
+      "pushed_at": "2026-11-08T20:16:13Z",
+      "archived": false
+    },
+    "wazuh/wazuh": {
+      "stars": 17624,
+      "forks": 2596,
+      "pushed_at": "2026-11-07T13:13:18Z",
+      "archived": false
+    },
+    "SigmaHQ/sigma": {
+      "stars": 11439,
+      "forks": 2927,
+      "pushed_at": "2026-11-09T01:21:51Z",
+      "archived": false
+    },
+    "OpenCTI-Platform/opencti": {
+      "stars": 10278,
+      "forks": 1502,
+      "pushed_at": "2026-11-08T23:37:12Z",
+      "archived": false
+    },
+    "zeek/zeek": {
+      "stars": 8196,
+      "forks": 1452,
+      "pushed_at": "2026-11-08T18:43:29Z",
+      "archived": false
+    },
+    "Velocidex/velociraptor": {
+      "stars": 4429,
+      "forks": 680,
+      "pushed_at": "2026-11-09T02:54:50Z",
+      "archived": false
+    },
+    "Yamato-Security/hayabusa": {
+      "stars": 3446,
+      "forks": 304,
+      "pushed_at": "2026-11-09T04:49:24Z",
+      "archived": false
+    },
+    "VirusTotal/yara": {
+      "stars": 10003,
+      "forks": 1593,
+      "pushed_at": "2026-10-27T11:53:52Z",
+      "archived": false
+    },
+    "OISF/suricata": {
+      "stars": 6845,
+      "forks": 1784,
+      "pushed_at": "2026-11-07T07:43:31Z",
+      "archived": false
+    },
+    "MISP/MISP": {
+      "stars": 6655,
+      "forks": 1662,
+      "pushed_at": "2026-11-08T08:48:18Z",
+      "archived": false
+    },
+    "Security-Onion-Solutions/securityonion": {
+      "stars": 4975,
+      "forks": 682,
+      "pushed_at": "2026-11-06T18:57:26Z",
+      "archived": false
+    },
+    "elastic/detection-rules": {
+      "stars": 2961,
+      "forks": 756,
+      "pushed_at": "2026-11-08T15:19:04Z",
+      "archived": false
+    },
+    "mandiant/capa": {
+      "stars": 6312,
+      "forks": 748,
+      "pushed_at": "2026-11-06T06:41:42Z",
+      "archived": false
+    },
+    "Shuffle/Shuffle": {
+      "stars": 2477,
+      "forks": 440,
+      "pushed_at": "2026-11-06T15:01:43Z",
+      "archived": false
+    },
+    "TheHive-Project/TheHive": {
+      "stars": 3950,
+      "forks": 707,
+      "pushed_at": "2025-07-25T13:57:27Z",
+      "archived": true
+    },
+    "log2timeline/plaso": {
+      "stars": 2187,
+      "forks": 434,
+      "pushed_at": "2026-11-07T11:35:37Z",
+      "archived": false
+    },
+    "prowler-cloud/prowler": {
+      "stars": 15196,
+      "forks": 2489,
+      "pushed_at": "2026-11-09T03:19:50Z",
+      "archived": false
+    },
+    "kubescape/kubescape": {
+      "stars": 11853,
+      "forks": 1094,
+      "pushed_at": "2026-11-07T11:47:55Z",
+      "archived": false
+    },
+    "falcosecurity/falco": {
+      "stars": 9563,
+      "forks": 1107,
+      "pushed_at": "2026-11-06T12:37:01Z",
+      "archived": false
+    },
+    "aquasecurity/kube-bench": {
+      "stars": 8257,
+      "forks": 1351,
+      "pushed_at": "2026-10-26T19:32:45Z",
+      "archived": false
+    },
+    "RhinoSecurityLabs/pacu": {
+      "stars": 5388,
+      "forks": 799,
+      "pushed_at": "2026-05-19T22:31:37Z",
+      "archived": false
+    },
+    "DataDog/stratus-red-team": {
+      "stars": 2444,
+      "forks": 329,
+      "pushed_at": "2026-11-04T14:16:12Z",
+      "archived": false
+    },
+    "nccgroup/ScoutSuite": {
+      "stars": 7872,
+      "forks": 1235,
+      "pushed_at": "2025-09-23T18:33:52Z",
+      "archived": false
+    },
+    "cloud-custodian/cloud-custodian": {
+      "stars": 6109,
+      "forks": 1677,
+      "pushed_at": "2026-11-06T18:07:16Z",
+      "archived": false
+    },
+    "aquasecurity/kube-hunter": {
+      "stars": 5092,
+      "forks": 611,
+      "pushed_at": "2024-03-19T12:30:55Z",
+      "archived": false
+    },
+    "kyverno/kyverno": {
+      "stars": 8325,
+      "forks": 1707,
+      "pushed_at": "2026-11-09T02:13:38Z",
+      "archived": false
+    },
+    "open-policy-agent/gatekeeper": {
+      "stars": 4302,
+      "forks": 884,
+      "pushed_at": "2026-11-06T21:23:09Z",
+      "archived": false
+    },
+    "cilium/tetragon": {
+      "stars": 5164,
+      "forks": 640,
+      "pushed_at": "2026-11-08T01:30:37Z",
+      "archived": false
+    },
+    "BishopFox/cloudfox": {
+      "stars": 2618,
+      "forks": 261,
+      "pushed_at": "2026-11-02T13:30:53Z",
+      "archived": false
+    },
+    "stackrox/stackrox": {
+      "stars": 1313,
+      "forks": 201,
+      "pushed_at": "2026-11-09T05:11:35Z",
+      "archived": false
+    },
+    "turbot/steampipe": {
+      "stars": 7999,
+      "forks": 345,
+      "pushed_at": "2026-11-06T18:31:19Z",
+      "archived": false
+    },
+    "aquasecurity/trivy": {
+      "stars": 39141,
+      "forks": 839,
+      "pushed_at": "2026-11-06T11:29:59Z",
+      "archived": false
+    },
+    "gitleaks/gitleaks": {
+      "stars": 30804,
+      "forks": 2353,
+      "pushed_at": "2026-10-28T04:14:29Z",
+      "archived": false
+    },
+    "trufflesecurity/trufflehog": {
+      "stars": 29001,
+      "forks": 2707,
+      "pushed_at": "2026-11-09T00:58:07Z",
+      "archived": false
+    },
+    "semgrep/semgrep": {
+      "stars": 17562,
+      "forks": 1158,
+      "pushed_at": "2026-11-09T00:06:50Z",
+      "archived": false
+    },
+    "zaproxy/zaproxy": {
+      "stars": 16138,
+      "forks": 2698,
+      "pushed_at": "2026-11-06T16:01:57Z",
+      "archived": false
+    },
+    "bridgecrewio/checkov": {
+      "stars": 9146,
+      "forks": 1463,
+      "pushed_at": "2026-11-08T15:03:14Z",
+      "archived": false
+    },
+    "jeremylong/DependencyCheck": {
+      "stars": 56,
+      "forks": 28,
+      "pushed_at": "2025-09-27T20:17:48Z",
+      "archived": true
+    },
+    "DefectDojo/django-DefectDojo": {
+      "stars": 5203,
+      "forks": 2014,
+      "pushed_at": "2026-11-09T05:11:31Z",
+      "archived": false
+    },
+    "anchore/grype": {
+      "stars": 13218,
+      "forks": 935,
+      "pushed_at": "2026-11-07T01:54:27Z",
+      "archived": false
+    },
+    "anchore/syft": {
+      "stars": 9858,
+      "forks": 1045,
+      "pushed_at": "2026-11-07T01:56:11Z",
+      "archived": false
+    },
+    "google/osv-scanner": {
+      "stars": 11460,
+      "forks": 843,
+      "pushed_at": "2026-11-09T04:18:05Z",
+      "archived": false
+    },
+    "ossf/scorecard": {
+      "stars": 5817,
+      "forks": 765,
+      "pushed_at": "2026-11-08T10:09:44Z",
+      "archived": false
+    },
+    "sigstore/cosign": {
+      "stars": 6420,
+      "forks": 838,
+      "pushed_at": "2026-11-05T00:11:57Z",
+      "archived": false
+    },
+    "PyCQA/bandit": {
+      "stars": 8378,
+      "forks": 879,
+      "pushed_at": "2026-11-02T10:34:20Z",
+      "archived": false
+    },
+    "DependencyTrack/dependency-track": {
+      "stars": 4429,
+      "forks": 853,
+      "pushed_at": "2026-11-05T23:08:11Z",
+      "archived": false
+    },
+    "step-security/harden-runner": {
+      "stars": 1298,
+      "forks": 126,
+      "pushed_at": "2026-11-06T16:28:38Z",
+      "archived": false
+    },
+    "astral-sh/uv": {
+      "stars": 91783,
+      "forks": 3780,
+      "pushed_at": "2026-11-09T02:57:06Z",
+      "archived": false
+    },
+    "junegunn/fzf": {
+      "stars": 84088,
+      "forks": 3847,
+      "pushed_at": "2026-11-07T12:06:19Z",
+      "archived": false
+    },
+    "jesseduffield/lazygit": {
+      "stars": 83744,
+      "forks": 3250,
+      "pushed_at": "2026-11-08T19:13:23Z",
+      "archived": false
+    },
+    "BurntSushi/ripgrep": {
+      "stars": 69919,
+      "forks": 3932,
+      "pushed_at": "2026-10-27T18:31:31Z",
+      "archived": false
+    },
+    "opentofu/opentofu": {
+      "stars": 30765,
+      "forks": 1419,
+      "pushed_at": "2026-11-09T01:35:51Z",
+      "archived": false
+    },
+    "penpot/penpot": {
+      "stars": 62201,
+      "forks": 4385,
+      "pushed_at": "2026-11-08T17:34:46Z",
+      "archived": false
+    },
+    "tldraw/tldraw": {
+      "stars": 51425,
+      "forks": 3622,
+      "pushed_at": "2026-11-07T22:32:28Z",
+      "archived": false
+    },
+    "astral-sh/ruff": {
+      "stars": 51120,
+      "forks": 2639,
+      "pushed_at": "2026-11-09T02:57:05Z",
+      "archived": false
+    },
+    "sharkdp/bat": {
+      "stars": 61248,
+      "forks": 2800,
+      "pushed_at": "2026-11-08T08:24:11Z",
+      "archived": false
+    },
+    "neovim/neovim": {
+      "stars": 103516,
+      "forks": 7385,
+      "pushed_at": "2026-11-09T03:18:29Z",
+      "archived": false
+    },
+    "zed-industries/zed": {
+      "stars": 94511,
+      "forks": 11581,
+      "pushed_at": "2026-11-09T04:24:49Z",
+      "archived": false
+    },
+    "jqlang/jq": {
+      "stars": 36081,
+      "forks": 2815,
+      "pushed_at": "2026-11-02T07:08:10Z",
+      "archived": false
+    },
+    "jdx/mise": {
+      "stars": 35957,
+      "forks": 1528,
+      "pushed_at": "2026-11-09T02:28:42Z",
+      "archived": false
+    },
+    "cli/cli": {
+      "stars": 46927,
+      "forks": 9267,
+      "pushed_at": "2026-11-07T01:48:49Z",
+      "archived": false
+    },
+    "excalidraw/excalidraw": {
+      "stars": 135356,
+      "forks": 16070,
+      "pushed_at": "2026-11-08T08:18:35Z",
+      "archived": false
+    },
+    "pre-commit/pre-commit": {
+      "stars": 15688,
+      "forks": 1021,
+      "pushed_at": "2026-11-04T20:54:57Z",
+      "archived": false
+    },
+    "dependency-check/DependencyCheck": {
+      "stars": 7763,
+      "forks": 1431,
+      "pushed_at": "2026-11-09T01:23:29Z",
+      "archived": false
+    }
+  }
+}

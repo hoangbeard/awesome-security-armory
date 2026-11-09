@@ -1,0 +1,68 @@
+# Candidates not admitted or removed at v0.1 (2026-11-09), with reason.
+removed:
+- repo: RooCodeInc/Roo-Code
+  category: ai-coding-agents
+  removed: '2026-11-09'
+  last_score: 76.5
+  reason: archived
+  source: v0.1-candidate
+- repo: Comfy-Org/ComfyUI
+  category: llm-agent-frameworks
+  removed: '2026-11-09'
+  last_score: 83.3
+  reason: out of scope (generative media, not cybersecurity or software/coding)
+  source: notion-seed
+- repo: AUTOMATIC1111/stable-diffusion-webui
+  category: llm-agent-frameworks
+  removed: '2026-11-09'
+  last_score: 45.2
+  reason: score 45.2 below 50 (not admitted)
+  source: notion-seed
+- repo: protectai/llm-guard
+  category: ai-security
+  removed: '2026-11-09'
+  last_score: 57.8
+  reason: archived
+  source: notion-seed
+- repo: meta-llama/PurpleLlama
+  category: ai-security
+  removed: '2026-11-09'
+  last_score: 47.7
+  reason: score 47.7 below 50 (not admitted)
+  source: v0.1-candidate
+- repo: GreyDGL/PentestGPT
+  category: offensive-security
+  removed: '2026-11-09'
+  last_score: 48.6
+  reason: score 48.6 below 50 (not admitted)
+  source: v0.1-candidate
+- repo: TheHive-Project/TheHive
+  category: defensive-security
+  removed: '2026-11-09'
+  last_score: 54.3
+  reason: archived
+  source: v0.1-candidate
+- repo: aquasecurity/kube-hunter
+  category: cloud-kubernetes-security
+  removed: '2026-11-09'
+  last_score: 55.8
+  reason: no push in 24 months
+  source: v0.1-candidate
+- repo: jeremylong/DependencyCheck
+  category: devsecops-appsec
+  removed: '2026-11-09'
+  last_score: 48.2
+  reason: archived
+  source: v0.1-candidate
+- repo: penpot/penpot
+  category: software-dev-tools
+  removed: '2026-11-09'
+  last_score: 89.3
+  reason: out of scope (drawing/design application, not a security or coding tool)
+  source: v0.1-candidate
+- repo: excalidraw/excalidraw
+  category: software-dev-tools
+  removed: '2026-11-09'
+  last_score: 66.7
+  reason: out of scope (drawing/design application, not a security or coding tool)
+  source: v0.1-candidate

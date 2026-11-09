@@ -1,0 +1,134 @@
+# License judgements for repos GitHub reported as NOASSERTION or none.
+# Read from the LICENSE file on 2026-11-09. Used only when the API still has
+# no OSI SPDX id. These notes are not legal advice.
+overrides:
+- repo: anthropics/claude-code
+  github_spdx: null
+  resolved: Proprietary (Anthropic Commercial Terms)
+  osi: false
+  note: LICENSE file read manually (GitHub reports None)
+- repo: BerriAI/litellm
+  github_spdx: NOASSERTION
+  resolved: MIT outside enterprise/
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: charmbracelet/crush
+  github_spdx: NOASSERTION
+  resolved: FSL-1.1-MIT
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: elastic/detection-rules
+  github_spdx: NOASSERTION
+  resolved: Elastic License 2.0
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: fortra/impacket
+  github_spdx: NOASSERTION
+  resolved: Modified Apache Software License (1.1-style)
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: jqlang/jq
+  github_spdx: NOASSERTION
+  resolved: MIT
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: meta-llama/PurpleLlama
+  github_spdx: NOASSERTION
+  resolved: Llama Community License
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: microsoft/autogen
+  github_spdx: CC-BY-4.0
+  resolved: MIT (code, LICENSE-CODE) + CC-BY-4.0 (docs)
+  osi: true
+  note: LICENSE file read manually (GitHub reports CC-BY-4.0)
+- repo: modelcontextprotocol/servers
+  github_spdx: NOASSERTION
+  resolved: MIT / Apache-2.0 (relicensing in progress)
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: neovim/neovim
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0 + Vim license
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: NVIDIA-NeMo/Guardrails
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: OpenCTI-Platform/opencti
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0 (Community Edition); EE separate
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: osquery/osquery
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0 OR GPL-2.0-only
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: owasp-amass/amass
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: peass-ng/PEASS-ng
+  github_spdx: NOASSERTION
+  resolved: GPL-2.0-or-later with clarifications
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: rapid7/metasploit-framework
+  github_spdx: NOASSERTION
+  resolved: BSD-3-Clause
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: Security-Onion-Solutions/securityonion
+  github_spdx: NOASSERTION
+  resolved: Elastic License 2.0
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: SigmaHQ/sigma
+  github_spdx: NOASSERTION
+  resolved: Detection Rule License 1.1
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: sqlmapproject/sqlmap
+  github_spdx: NOASSERTION
+  resolved: GPL-2.0-or-later with clarifications
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: TabbyML/tabby
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0 outside ee/ (per LICENSE header)
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: tldraw/tldraw
+  github_spdx: NOASSERTION
+  resolved: tldraw license (source-available)
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: Velocidex/velociraptor
+  github_spdx: NOASSERTION
+  resolved: AGPL-3.0
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: vercel/ai
+  github_spdx: NOASSERTION
+  resolved: Apache-2.0
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: wazuh/wazuh
+  github_spdx: NOASSERTION
+  resolved: AGPL-3.0 (engine) + GPL-2.0 (rest, per LICENSE)
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: zed-industries/zed
+  github_spdx: NOASSERTION
+  resolved: GPL-3.0 / Apache-2.0 (multiple license files)
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: zeek/zeek
+  github_spdx: NOASSERTION
+  resolved: BSD-3-Clause style
+  osi: true
+  note: LICENSE file read manually (GitHub reports NOASSERTION)
