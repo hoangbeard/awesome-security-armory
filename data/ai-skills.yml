@@ -1,0 +1,293 @@
+# AI Skills
+# Scored 2026-11-09 from public GitHub API metrics (scripts/collect.py). Tiers are proposals pending Rex review.
+# Skill packs, rules, and playbooks for coding agents. Placed immediately after AI Coding Agents & Harness.
+category: AI Skills
+slug: ai-skills
+items:
+- repo: sickn33/agentic-awesome-skills
+  name: agentic-awesome-skills
+  description: Large catalog of reusable skills for Claude Code, Codex, Cursor, and Gemini CLI, with a local index and plugin packaging.
+  tags:
+  - ai
+  subcategory: Skill Indexes
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: github/awesome-copilot
+  name: awesome-copilot
+  description: GitHub's community library of Copilot instructions, agents, skills, and hooks.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: NVIDIA/skills
+  name: nvidia-skills
+  description: NVIDIA's agent skills for CUDA, RAG, simulation, and other NVIDIA product workflows.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: addyosmani/agent-skills
+  name: agent-skills
+  description: Engineering skill pack for AI coding agents.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: VoltAgent/awesome-agent-skills
+  name: awesome-agent-skills
+  description: Curated index of agent skills from vendor teams and the community for Claude Code, Codex, Gemini CLI, and Cursor.
+  tags:
+  - ai
+  subcategory: Skill Indexes
+  tier: main
+  added: '2026-11-09'
+  notes: GitHub homepage field points at https://mobile-starterkit.getdesign.md/, which does not describe this repository.
+- repo: alirezarezvani/claude-skills
+  name: claude-skills
+  description: Broad skill pack for coding agents, including engineering skills and non-engineering workflows such as marketing and operations.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: wshobson/agents
+  name: agents
+  description: Markdown plugins, skills, and commands for several coding agents, generated per tool from one source.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: anthropics/claude-plugins-official
+  name: claude-plugins-official
+  description: Anthropic-managed directory of Claude Code plugins.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: google-gemini/gemini-skills
+  name: gemini-skills
+  description: Skills for the Gemini API, SDK, and agent integrations.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Jeffallan/claude-skills
+  name: fullstack-skills
+  description: Skill pack of full-stack development workflows for Claude Code.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: getsentry/skills
+  name: sentry-skills
+  description: Agent skills the Sentry team uses for development.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: prompt-security/clawsec
+  name: clawsec
+  description: Security skill suite that checks agent configuration drift, skill integrity, and local audit findings.
+  tags:
+  - ai
+  subcategory: Security Skills
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: davepoon/buildwithclaude
+  name: buildwithclaude
+  description: Directory of Claude skills, agents, commands, hooks, and plugins.
+  tags:
+  - ai
+  subcategory: Skill Indexes
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: affaan-m/ECC
+  name: ECC
+  description: Skill and harness pack for coding agents, covering memory, security checks, and research-first workflows.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: star velocity 1020 stars/day since creation. Canonical repository; affaan-m/everything-claude-code redirects here.'
+- repo: mattpocock/skills
+  name: engineer-skills
+  description: Personal engineering skills published from a coding agent's skills directory.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: star velocity 1147 stars/day since creation.'
+- repo: obra/superpowers
+  name: superpowers
+  description: Skills framework and software-development workflow pack for coding agents.
+  tags:
+  - ai
+  subcategory: Coding Workflows
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: SnailSploit/Claude-Red
+  name: claude-red
+  description: Curated offensive-security skills for coding agents, packaged as SKILL.md playbooks.
+  tags:
+  - ai
+  subcategory: Security Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: google/skills
+  name: google-skills
+  description: Agent skills for Google products and technologies.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: microsoft/skills
+  name: microsoft-skills
+  description: Microsoft skills, MCP servers, and Agents.md files that ground coding agents in SDK usage.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: trailofbits/skills
+  name: trailofbits-skills
+  description: Trail of Bits skills for security research, vulnerability detection, and audit workflows.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Security Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️); GitHub SPDX is CC-BY-SA-4.0, which is not in the OSI set used by scripts/score.py.'
+- repo: supabase/agent-skills
+  name: supabase-agent-skills
+  description: Agent skills for developers using Supabase from a coding agent.
+  tags:
+  - ai
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: vercel-labs/agent-skills
+  name: vercel-agent-skills
+  description: Vercel's official collection of agent skills.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: agentskills/agentskills
+  name: agentskills
+  description: Specification and documentation for the Agent Skills format used by coding agents.
+  tags:
+  - ai
+  subcategory: Skill Format
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: openai/plugins
+  name: openai-plugins
+  description: OpenAI's Codex plugins repository, which the deprecated skills catalog points to.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: cloudflare/security-audit-skill
+  name: security-audit-skill
+  description: Coding-agent skill for multi-phase security audits that emits machine-readable findings.
+  tags:
+  - ai
+  - new
+  subcategory: Security Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: BehiSecc/awesome-claude-skills
+  name: awesome-claude-skills
+  description: Curated list of Claude skills.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Skill Indexes
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: openai/skills
+  name: openai-skills
+  description: Deprecated skills catalog for Codex.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️); README marks this catalog deprecated in favor of openai/plugins.'
+- repo: anthropics/skills
+  name: anthropic-skills
+  description: Anthropic's public examples of Agent Skills for Claude.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️); Repository root has no LICENSE; sampled skill folders (skill-creator, pdf) are Apache-2.0.'
+- repo: cursor/plugins
+  name: cursor-plugins
+  description: Cursor's plugin specification and official plugins.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Vendor Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: PatrickJS/awesome-cursorrules
+  name: awesome-cursorrules
+  description: Curated Cursor rules files for project-specific agent behavior.
+  tags:
+  - ai
+  subcategory: Cursor Rules
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: UnitOneAI/SecuritySkills
+  name: SecuritySkills
+  description: Security skills for coding agents, mapped to OWASP, NIST, MITRE ATT&CK, and CIS.
+  tags:
+  - ai
+  subcategory: Security Skills
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

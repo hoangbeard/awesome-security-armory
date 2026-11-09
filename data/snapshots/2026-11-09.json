@@ -793,6 +793,330 @@
       "forks": 1431,
       "pushed_at": "2026-11-09T01:23:29Z",
       "archived": false
+    },
+    "anthropics/skills": {
+      "stars": 190002,
+      "forks": 22385,
+      "pushed_at": "2026-11-06T22:32:32Z",
+      "archived": false
+    },
+    "anthropics/claude-plugins-official": {
+      "stars": 46522,
+      "forks": 4850,
+      "pushed_at": "2026-11-08T07:28:26Z",
+      "archived": false
+    },
+    "openai/skills": {
+      "stars": 28606,
+      "forks": 1993,
+      "pushed_at": "2026-10-28T17:31:41Z",
+      "archived": false
+    },
+    "openai/plugins": {
+      "stars": 7831,
+      "forks": 1007,
+      "pushed_at": "2026-11-06T19:08:35Z",
+      "archived": false
+    },
+    "agentskills/agentskills": {
+      "stars": 27089,
+      "forks": 2013,
+      "pushed_at": "2026-11-04T19:47:27Z",
+      "archived": false
+    },
+    "github/awesome-copilot": {
+      "stars": 40954,
+      "forks": 5321,
+      "pushed_at": "2026-11-09T06:37:20Z",
+      "archived": false
+    },
+    "google/skills": {
+      "stars": 23733,
+      "forks": 1982,
+      "pushed_at": "2026-11-07T14:41:39Z",
+      "archived": false
+    },
+    "google-gemini/gemini-skills": {
+      "stars": 4441,
+      "forks": 492,
+      "pushed_at": "2026-11-05T17:44:48Z",
+      "archived": false
+    },
+    "microsoft/skills": {
+      "stars": 3188,
+      "forks": 364,
+      "pushed_at": "2026-11-06T17:55:10Z",
+      "archived": false
+    },
+    "cursor/plugins": {
+      "stars": 15805,
+      "forks": 1653,
+      "pushed_at": "2026-11-07T04:41:11Z",
+      "archived": false
+    },
+    "vercel-labs/agent-skills": {
+      "stars": 33746,
+      "forks": 2948,
+      "pushed_at": "2026-10-28T19:17:28Z",
+      "archived": false
+    },
+    "vercel-labs/skills": {
+      "stars": 38676,
+      "forks": 3370,
+      "pushed_at": "2026-11-06T02:37:48Z",
+      "archived": false
+    },
+    "NVIDIA/skills": {
+      "stars": 3907,
+      "forks": 505,
+      "pushed_at": "2026-11-06T22:04:08Z",
+      "archived": false
+    },
+    "supabase/agent-skills": {
+      "stars": 3036,
+      "forks": 266,
+      "pushed_at": "2026-11-07T21:49:27Z",
+      "archived": false
+    },
+    "getsentry/skills": {
+      "stars": 1135,
+      "forks": 68,
+      "pushed_at": "2026-11-05T22:43:13Z",
+      "archived": false
+    },
+    "obra/superpowers": {
+      "stars": 314753,
+      "forks": 28005,
+      "pushed_at": "2026-11-03T23:24:58Z",
+      "archived": false
+    },
+    "mattpocock/skills": {
+      "stars": 318984,
+      "forks": 26697,
+      "pushed_at": "2026-11-05T10:40:01Z",
+      "archived": false
+    },
+    "addyosmani/agent-skills": {
+      "stars": 114283,
+      "forks": 11943,
+      "pushed_at": "2026-11-01T19:24:49Z",
+      "archived": false
+    },
+    "affaan-m/ECC": {
+      "stars": 299849,
+      "forks": 44290,
+      "pushed_at": "2026-11-09T04:56:24Z",
+      "archived": false
+    },
+    "wshobson/agents": {
+      "stars": 42342,
+      "forks": 4473,
+      "pushed_at": "2026-11-09T01:08:33Z",
+      "archived": false
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "stars": 36991,
+      "forks": 4097,
+      "pushed_at": "2026-11-05T10:43:36Z",
+      "archived": false
+    },
+    "sickn33/agentic-awesome-skills": {
+      "stars": 49390,
+      "forks": 7167,
+      "pushed_at": "2026-11-08T14:10:48Z",
+      "archived": false
+    },
+    "alirezarezvani/claude-skills": {
+      "stars": 29500,
+      "forks": 4087,
+      "pushed_at": "2026-11-05T06:58:08Z",
+      "archived": false
+    },
+    "Jeffallan/claude-skills": {
+      "stars": 12283,
+      "forks": 1176,
+      "pushed_at": "2026-10-30T18:00:19Z",
+      "archived": false
+    },
+    "PatrickJS/awesome-cursorrules": {
+      "stars": 41138,
+      "forks": 3549,
+      "pushed_at": "2026-05-30T18:01:29Z",
+      "archived": false
+    },
+    "sanjeed5/awesome-cursor-rules-mdc": {
+      "stars": 3584,
+      "forks": 456,
+      "pushed_at": "2026-05-19T12:28:00Z",
+      "archived": false
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "stars": 79090,
+      "forks": 9615,
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "archived": false
+    },
+    "travisvn/awesome-claude-skills": {
+      "stars": 15747,
+      "forks": 2128,
+      "pushed_at": "2026-04-28T19:30:24Z",
+      "archived": false
+    },
+    "BehiSecc/awesome-claude-skills": {
+      "stars": 10380,
+      "forks": 2005,
+      "pushed_at": "2026-11-02T12:16:33Z",
+      "archived": false
+    },
+    "davepoon/buildwithclaude": {
+      "stars": 3733,
+      "forks": 703,
+      "pushed_at": "2026-11-08T06:05:38Z",
+      "archived": false
+    },
+    "instructa/ai-prompts": {
+      "stars": 1103,
+      "forks": 136,
+      "pushed_at": "2026-10-17T12:47:25Z",
+      "archived": false
+    },
+    "trailofbits/skills": {
+      "stars": 8084,
+      "forks": 687,
+      "pushed_at": "2026-11-06T15:20:09Z",
+      "archived": false
+    },
+    "cloudflare/security-audit-skill": {
+      "stars": 67279,
+      "forks": 4393,
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "archived": false
+    },
+    "semgrep/skills": {
+      "stars": 340,
+      "forks": 34,
+      "pushed_at": "2026-07-28T05:28:16Z",
+      "archived": false
+    },
+    "SnailSploit/Claude-Red": {
+      "stars": 10515,
+      "forks": 1411,
+      "pushed_at": "2026-10-12T15:02:40Z",
+      "archived": false
+    },
+    "slowmist/slowmist-agent-security": {
+      "stars": 513,
+      "forks": 31,
+      "pushed_at": "2026-04-17T02:12:58Z",
+      "archived": false
+    },
+    "Masriyan/Claude-Code-CyberSecurity-Skill": {
+      "stars": 560,
+      "forks": 105,
+      "pushed_at": "2026-10-20T02:54:51Z",
+      "archived": false
+    },
+    "prompt-security/clawsec": {
+      "stars": 1135,
+      "forks": 111,
+      "pushed_at": "2026-11-09T06:09:11Z",
+      "archived": false
+    },
+    "UnitOneAI/SecuritySkills": {
+      "stars": 104,
+      "forks": 138,
+      "pushed_at": "2026-06-18T20:00:00Z",
+      "archived": false
+    },
+    "raroque/vibe-security-skill": {
+      "stars": 1222,
+      "forks": 139,
+      "pushed_at": "2026-03-15T07:40:41Z",
+      "archived": false
+    },
+    "zero-lab-ai/skills": {
+      "stars": 152,
+      "forks": 9,
+      "pushed_at": "2026-10-15T15:45:42Z",
+      "archived": false
+    },
+    "mrhlaingbwardev/web-security-skill": {
+      "stars": 335,
+      "forks": 53,
+      "pushed_at": "2026-07-19T14:13:54Z",
+      "archived": false
+    },
+    "Hi-FullHouse/CyberSecurity-Skills": {
+      "stars": 783,
+      "forks": 186,
+      "pushed_at": "2026-05-16T02:05:35Z",
+      "archived": false
+    },
+    "Batman0506/openclaw-sec-skills": {
+      "stars": 348,
+      "forks": 43,
+      "pushed_at": "2026-06-25T03:27:54Z",
+      "archived": false
+    },
+    "Security-Phoenix-demo/security-skills-claude-code": {
+      "stars": 81,
+      "forks": 11,
+      "pushed_at": "2026-11-09T02:26:00Z",
+      "archived": false
+    },
+    "superagent-ai/skills": {
+      "stars": 80,
+      "forks": 13,
+      "pushed_at": "2026-08-15T12:47:01Z",
+      "archived": false
+    },
+    "instavm/security-skills": {
+      "stars": 88,
+      "forks": 13,
+      "pushed_at": "2026-07-29T06:20:43Z",
+      "archived": false
+    },
+    "EvanThomasLuke/Awesome-AI-Security-Skills": {
+      "stars": 118,
+      "forks": 31,
+      "pushed_at": "2026-10-29T23:54:16Z",
+      "archived": false
+    },
+    "NVIDIA/SkillSpector": {
+      "stars": 24964,
+      "forks": 2182,
+      "pushed_at": "2026-11-06T23:27:22Z",
+      "archived": false
+    },
+    "anthropics/claude-code-security-review": {
+      "stars": 6811,
+      "forks": 765,
+      "pushed_at": "2026-02-11T18:01:23Z",
+      "archived": false
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "stars": 56543,
+      "forks": 4970,
+      "pushed_at": "2026-11-02T09:23:27Z",
+      "archived": false
+    },
+    "OpenMontageInc/OpenMontage": {
+      "stars": 78835,
+      "forks": 10530,
+      "pushed_at": "2026-11-09T06:23:55Z",
+      "archived": false
+    },
+    "blader/humanizer": {
+      "stars": 66792,
+      "forks": 5253,
+      "pushed_at": "2026-10-28T07:17:33Z",
+      "archived": false
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "stars": 144244,
+      "forks": 21221,
+      "pushed_at": "2026-11-08T17:14:10Z",
+      "archived": false
     }
   }
 }

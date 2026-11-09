@@ -1,6 +1,6 @@
 # Scoring notes — v0.1 candidate data (2026-11-09, Asia/Saigon UTC+7)
 
-> The committed lists are the authority: 89 Main, 32 Watchlist, 11 removed. The table further down was the count before penpot and excalidraw were removed as out of scope (that table says 90 / 33 / 9). Production scripts live in `scripts/` and replace the one-off collectors this note calls `work/`.
+> The committed lists are the authority: 102 Main, 50 Watchlist, 34 removed. v0.1 was 89 / 32 / 11. The AI Skills group added 13 Main, 18 Watchlist, and 23 not admitted. The table further down was the count before penpot and excalidraw were removed as out of scope (that table says 90 / 33 / 9). Production scripts live in `scripts/` and replace the one-off collectors this note calls `work/`.
 
 Data collected 2026-11-09 11:40–13:10 (UTC+7) from public, read-only sources. No repo was cloned or run.
 
@@ -71,6 +71,30 @@ These are the plan's weights: Interest 15 (stars 8, forks 3, 90-day star growth 
 
 ## Reproduce
 Collection and scoring scripts are in `work/`: `scrape.py`, `graphs.py`, `issues.py`, `meta.py`, `fallback.py`, `score.py`, `build.py`, `manual.py`. Raw data is in `work/*.jsonl`.
+
+## AI Skills group (added 2026-11-09)
+
+Ninth group, slug `ai-skills`, file `data/ai-skills.yml`. It is placed immediately after AI Coding Agents & Harness in `scripts/common.py`. That is the list order README generation, validation, collection, and rescoring already share. Skill packs are the rules and playbooks those coding agents load, so they sit with the agents rather than with general LLM frameworks.
+
+54 candidates were read from the public GitHub API on 2026-11-09 with `scripts/collect.py` (GraphQL repository fields, contributors, contributor stats, community profile, OpenSSF Scorecard, deps.dev dependents, and issue/PR search). No candidate repository was cloned or executed. Stars, forks, and the other counts below are those API values. They were not estimated. Counts are log-normalized inside this group only. Missing metrics drop out of the average. The same hard gates as v0.1 were applied with `scripts/score.py`.
+
+The group 90th percentiles were stars 103725.1, forks 11519.1, commits in 90 days 543.7, contributors 164.0, dependents 0.0. Star growth is null because the only snapshot is from the same day. OpenSSF Scorecard was missing for 53 of 54 repositories (the one score belongs to `NVIDIA/SkillSpector`, which is out of scope). Dependents were missing for 41 of 54. First-response time was missing for 18 of 54 and was scored when at least five replied issues existed. That differs from the v0.1 rows, where first response was left null.
+
+| Result | Count |
+|---|---|
+| Main | 13 |
+| Watchlist | 18 |
+| Removed / not admitted | 23 |
+
+Main (score at least 70, age at least 90 days, OSI license, no anomaly, under the cap of 15): `sickn33/agentic-awesome-skills` 93.0, `github/awesome-copilot` 89.1, `NVIDIA/skills` 83.5, `addyosmani/agent-skills` 81.4, `VoltAgent/awesome-agent-skills` 81.4, `alirezarezvani/claude-skills` 81.1, `wshobson/agents` 76.8, `anthropics/claude-plugins-official` 75.2, `google-gemini/gemini-skills` 73.2, `Jeffallan/claude-skills` 72.0, `getsentry/skills` 71.2, `prompt-security/clawsec` 70.6, `davepoon/buildwithclaude` 70.5.
+
+Watchlist: `affaan-m/ECC` 89.4 and `mattpocock/skills` 75.9 (star velocity at least 1,000/day), `obra/superpowers` 69.5, `SnailSploit/Claude-Red` 68.5, `google/skills` 68.1, `microsoft/skills` 67.7, `trailofbits/skills` 66.9 (CC-BY-SA-4.0, not in the OSI set), `supabase/agent-skills` 66.1, `vercel-labs/agent-skills` 63.6 (no license file), `agentskills/agentskills` 62.4, `openai/plugins` 58.6 (no license file), `cloudflare/security-audit-skill` 56.2, `BehiSecc/awesome-claude-skills` 56.0 (no license file), `openai/skills` 54.2 (no license file; README marks it deprecated), `anthropics/skills` 54.0 (no root LICENSE; sampled skill folders are Apache-2.0), `cursor/plugins` 54.0 (no license file), `PatrickJS/awesome-cursorrules` 52.3, `UnitOneAI/SecuritySkills` 51.5.
+
+Not admitted: seven out-of-scope repositories (installer CLI, skill scanner, GitHub Action, scientific skills, video production, prose rewriting, LLM app demos), `zero-lab-ai/skills` (28 days old, score 59.4), and 15 repositories under a score of 50. Reasons and scores are in `data/removed.yml` and `HISTORY.md`. The 15-Main cap did not move anyone; 13 projects cleared Main.
+
+Hand-read licenses are in `data/license_overrides.yml`. A missing root LICENSE was not treated as OSI even when individual skill folders carry Apache-2.0. `VoltAgent/awesome-agent-skills` stays on Main by the rubric; its GitHub homepage field points at an unrelated marketing URL, noted on the row for Rex.
+
+Tiers are proposals until Rex merges the pull request.
 
 ## Ghi chú cho PR
 - Ngưỡng Main giữ **70** cho v0.1. Ngưỡng này sẽ được hiệu chỉnh khi đã có đủ dữ liệu tăng stars 90 ngày (cần ít nhất 2 snapshot tuần), Scorecard mới và dependents. Thay đổi ngưỡng sẽ nằm trong một PR riêng để Rex duyệt riêng, không gộp vào PR dữ liệu.

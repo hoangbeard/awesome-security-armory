@@ -7,7 +7,7 @@ Thanks for proposing a project. This list is a curated catalogue, not a dump of 
 Edit the YAML under `data/`, not `README.md`. CI runs `scripts/build.py --check` and rejects a pull request whose README was edited by hand.
 
 - One repository per pull request.
-- Add it to the group file that matches what it is for. The group titles and order are fixed in `scripts/common.py`.
+- Add it to the group file that matches what it is for. The group titles and order are fixed in `scripts/common.py`. AI Skills (skill packs, rules, and playbooks for coding agents) is listed immediately after AI Coding Agents & Harness.
 - Required fields: `repo` (`owner/name`), `name`, `description`, `tags`, `subcategory`, `tier`, `added` (`YYYY-MM-DD`), `notes`.
 - `description` is one objective English sentence and ends with a period. Describe what the project does. Do not claim it is the best, the fastest, or production-ready unless that is a plain fact.
 - `tier` is `main` or `watchlist`. It is a proposal until Rex merges the pull request.

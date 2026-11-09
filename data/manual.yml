@@ -12,3 +12,17 @@ remove:
     reason: out of scope (drawing/design application, not a security or coding tool)
   - repo: excalidraw/excalidraw
     reason: out of scope (drawing/design application, not a security or coding tool)
+  - repo: vercel-labs/skills
+    reason: out of scope (skill installer CLI, not a skill pack)
+  - repo: NVIDIA/SkillSpector
+    reason: out of scope (skill scanner, not a skill pack)
+  - repo: anthropics/claude-code-security-review
+    reason: out of scope (GitHub Action, not a skill pack)
+  - repo: K-Dense-AI/scientific-agent-skills
+    reason: out of scope (scientific research skills, not security or coding)
+  - repo: OpenMontageInc/OpenMontage
+    reason: out of scope (video production, not security or coding)
+  - repo: blader/humanizer
+    reason: out of scope (prose rewriting, not a coding or security skill)
+  - repo: Shubhamsaboo/awesome-llm-apps
+    reason: out of scope (LLM app examples, not agent skill packs)
