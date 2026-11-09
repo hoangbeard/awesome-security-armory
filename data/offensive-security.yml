@@ -1,0 +1,140 @@
+# Offensive / Red Team
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: Offensive / Red Team
+slug: offensive-security
+items:
+- repo: rapid7/metasploit-framework
+  name: metasploit-framework
+  description: Widely used penetration testing and exploitation framework.
+  tags: []
+  subcategory: Exploitation
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: projectdiscovery/nuclei
+  name: nuclei
+  description: Fast, template-based vulnerability scanner.
+  tags:
+  - open-core
+  subcategory: Vulnerability Scanning
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: fortra/impacket
+  name: impacket
+  description: Python classes for working with network protocols, widely used in AD attacks.
+  tags: []
+  subcategory: Active Directory
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: SpecterOps/BloodHound
+  name: BloodHound
+  description: Attack path analysis for Active Directory and Entra ID.
+  tags:
+  - open-core
+  subcategory: Active Directory
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: projectdiscovery/httpx
+  name: httpx
+  description: Multi-purpose HTTP toolkit for probing hosts at scale.
+  tags: []
+  subcategory: Recon
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: projectdiscovery/subfinder
+  name: subfinder
+  description: Fast passive subdomain enumeration tool.
+  tags: []
+  subcategory: Recon
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: BC-SECURITY/Empire
+  name: Empire
+  description: Post-exploitation and adversary emulation C2 framework.
+  tags: []
+  subcategory: C2 & Post-Exploitation
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: peass-ng/PEASS-ng
+  name: PEASS-ng
+  description: Privilege escalation enumeration scripts for Linux, Windows and macOS.
+  tags: []
+  subcategory: Privilege Escalation
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: usestrix/strix
+  name: strix
+  description: Autonomous AI agents that pentest applications and suggest fixes.
+  tags:
+  - ai
+  - open-core
+  subcategory: AI Pentest Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: vxcontrol/pentagi
+  name: pentagi
+  description: Autonomous AI agent system for penetration testing tasks.
+  tags:
+  - ai
+  subcategory: AI Pentest Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: AIPentest/CyberStrikeAI
+  name: CyberStrikeAI
+  description: AI-native penetration testing platform that orchestrates security tools.
+  tags:
+  - ai
+  subcategory: AI Pentest Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: sqlmapproject/sqlmap
+  name: sqlmap
+  description: Automatic SQL injection detection and database takeover tool.
+  tags: []
+  subcategory: Web
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: CyberStrikeus/CyberStrike
+  name: CyberStrike
+  description: AI-powered offensive security agent harness.
+  tags:
+  - ai
+  subcategory: AI Pentest Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: topics list identical to usestrix/strix (possible copied marketing); keep on Watchlist pending review.'
+- repo: ffuf/ffuf
+  name: ffuf
+  description: Fast web fuzzer written in Go.
+  tags: []
+  subcategory: Web
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: epi052/feroxbuster
+  name: feroxbuster
+  description: Fast recursive content discovery tool written in Rust.
+  tags: []
+  subcategory: Web
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: owasp-amass/amass
+  name: amass
+  description: In-depth attack surface mapping and asset discovery.
+  tags: []
+  subcategory: Recon
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

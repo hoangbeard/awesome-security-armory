@@ -1,0 +1,119 @@
+# Software & Dev Tools
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: Software & Dev Tools
+slug: software-dev-tools
+items:
+- repo: astral-sh/uv
+  name: uv
+  description: Extremely fast Python package and project manager written in Rust.
+  tags: []
+  subcategory: Package Managers
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: opentofu/opentofu
+  name: opentofu
+  description: Open-source infrastructure as code tool forked from Terraform.
+  tags: []
+  subcategory: Infrastructure as Code
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: zed-industries/zed
+  name: zed
+  description: High-performance multiplayer code editor with built-in AI.
+  tags:
+  - ai
+  subcategory: Editors
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: cli/cli
+  name: cli
+  description: GitHub's official command-line tool.
+  tags: []
+  subcategory: Git
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: astral-sh/ruff
+  name: ruff
+  description: Extremely fast Python linter and formatter written in Rust.
+  tags: []
+  subcategory: Linters
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: neovim/neovim
+  name: neovim
+  description: Hyperextensible Vim-based text editor.
+  tags: []
+  subcategory: Editors
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: jdx/mise
+  name: mise
+  description: Dev tools, env vars and task runner in one tool.
+  tags: []
+  subcategory: Environment
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: jqlang/jq
+  name: jq
+  description: Command-line JSON processor.
+  tags: []
+  subcategory: CLI
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: jesseduffield/lazygit
+  name: lazygit
+  description: Simple terminal UI for git commands.
+  tags: []
+  subcategory: Git
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: tldraw/tldraw
+  name: tldraw
+  description: SDK for building infinite canvas and whiteboard apps.
+  tags:
+  - non-osi
+  subcategory: Design & UI
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️). Design/UI tool from Notion seed; source-available license, check terms. From AI Repo Scout Notion seed.'
+- repo: junegunn/fzf
+  name: fzf
+  description: General-purpose command-line fuzzy finder.
+  tags: []
+  subcategory: CLI
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: pre-commit/pre-commit
+  name: pre-commit
+  description: Framework for managing multi-language git pre-commit hooks.
+  tags: []
+  subcategory: Git
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: sharkdp/bat
+  name: bat
+  description: cat clone with syntax highlighting and git integration.
+  tags: []
+  subcategory: CLI
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: BurntSushi/ripgrep
+  name: ripgrep
+  description: Recursive regex search that respects .gitignore, very fast.
+  tags: []
+  subcategory: CLI
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

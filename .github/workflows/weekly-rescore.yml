@@ -1,0 +1,52 @@
+name: Weekly rescore
+
+on:
+  schedule:
+    # Sunday 20:00 Asia/Saigon (UTC+7) = 13:00 UTC. The Monday review bot opens the pull request.
+    - cron: "0 13 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: armory-data-branch
+  cancel-in-progress: false
+
+jobs:
+  rescore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Select weekly branch
+        id: week
+        run: |
+          branch="weekly/$(date -u +%G-W%V)"
+          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
+          git fetch origin
+          if git rev-parse --verify "origin/${branch}" >/dev/null 2>&1; then
+            git checkout -B "$branch" "origin/${branch}"
+          else
+            git checkout -B "$branch" "origin/main"
+          fi
+      - name: Collect and rescore
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          day="$(python -c 'import sys; sys.path.insert(0, "scripts"); from common import saigon_today; print(saigon_today().isoformat())')"
+          python scripts/collect.py --mode full
+          python scripts/score.py --annotate --apply --metrics "data/metrics/${day}.json" --data data
+          python scripts/build.py
+          python scripts/validate.py
+      - name: Publish weekly branch
+        run: |
+          bash scripts/push_weekly.sh "${{ steps.week.outputs.branch }}" "Weekly rescore ${{ steps.week.outputs.branch }}" data README.md

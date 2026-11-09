@@ -1,0 +1,118 @@
+# Cloud & Kubernetes Security
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: Cloud & Kubernetes Security
+slug: cloud-kubernetes-security
+items:
+- repo: kubescape/kubescape
+  name: kubescape
+  description: Kubernetes security posture, misconfiguration and vulnerability scanner.
+  tags: []
+  subcategory: Kubernetes Posture
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: kyverno/kyverno
+  name: kyverno
+  description: Kubernetes-native policy engine for validation, mutation and generation.
+  tags: []
+  subcategory: Policy as Code
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: prowler-cloud/prowler
+  name: prowler
+  description: Cloud security posture and compliance scanner for AWS, Azure, GCP and Kubernetes.
+  tags:
+  - open-core
+  subcategory: Cloud Posture
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: cloud-custodian/cloud-custodian
+  name: cloud-custodian
+  description: Rules engine for cloud security, cost and governance policies as code.
+  tags: []
+  subcategory: Cloud Governance
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: cilium/tetragon
+  name: tetragon
+  description: eBPF-based security observability and runtime enforcement.
+  tags: []
+  subcategory: Runtime Security
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: falcosecurity/falco
+  name: falco
+  description: Cloud-native runtime security and threat detection.
+  tags: []
+  subcategory: Runtime Security
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: stackrox/stackrox
+  name: stackrox
+  description: Kubernetes-native security platform for vulnerability, config and runtime checks.
+  tags: []
+  subcategory: Kubernetes Posture
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: open-policy-agent/gatekeeper
+  name: gatekeeper
+  description: OPA-based policy controller for Kubernetes admission control.
+  tags: []
+  subcategory: Policy as Code
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: DataDog/stratus-red-team
+  name: stratus-red-team
+  description: Granular, actionable adversary emulation for the cloud.
+  tags: []
+  subcategory: Cloud Offensive
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: turbot/steampipe
+  name: steampipe
+  description: Query cloud APIs and services with SQL.
+  tags: []
+  subcategory: Cloud Governance
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: RhinoSecurityLabs/pacu
+  name: pacu
+  description: AWS exploitation framework for offensive security testing.
+  tags: []
+  subcategory: Cloud Offensive
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: BishopFox/cloudfox
+  name: cloudfox
+  description: Finds exploitable attack paths in cloud infrastructure.
+  tags: []
+  subcategory: Cloud Offensive
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: aquasecurity/kube-bench
+  name: kube-bench
+  description: Checks Kubernetes deployments against the CIS Benchmark.
+  tags: []
+  subcategory: Kubernetes Posture
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: nccgroup/ScoutSuite
+  name: ScoutSuite
+  description: Multi-cloud security auditing tool.
+  tags: []
+  subcategory: Cloud Posture
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

@@ -1,0 +1,133 @@
+# AI Security
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: AI Security
+slug: ai-security
+items:
+- repo: microsoft/PyRIT
+  name: PyRIT
+  description: Python Risk Identification Tool for red teaming generative AI systems.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: promptfoo/promptfoo
+  name: promptfoo
+  description: Test, evaluate and red-team LLM apps and agents from the CLI or CI.
+  tags:
+  - ai
+  - open-core
+  subcategory: LLM Red Teaming
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Giskard-AI/giskard-oss
+  name: giskard-oss
+  description: Open-source evaluation and testing library for LLM agents and ML models.
+  tags:
+  - ai
+  - open-core
+  subcategory: LLM Red Teaming
+  tier: main
+  added: '2026-11-09'
+  notes: Redirects from Giskard-AI/giskard.
+- repo: NVIDIA-NeMo/Guardrails
+  name: Guardrails
+  description: Toolkit for adding programmable guardrails to LLM-based conversational systems.
+  tags:
+  - ai
+  subcategory: Guardrails
+  tier: main
+  added: '2026-11-09'
+  notes: Redirects from NVIDIA/NeMo-Guardrails.
+- repo: NVIDIA/garak
+  name: garak
+  description: LLM vulnerability scanner that probes for jailbreaks, leaks and other failures.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: data-privacy-stack/presidio
+  name: presidio
+  description: SDK for detecting and anonymizing PII in text and images.
+  tags: []
+  subcategory: Data Protection
+  tier: main
+  added: '2026-11-09'
+  notes: Redirects from microsoft/presidio. From AI Repo Scout Notion seed.
+- repo: snyk/agent-scan
+  name: agent-scan
+  description: Scanner for security issues in AI agents and MCP server configurations.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Trusted-AI/adversarial-robustness-toolbox
+  name: adversarial-robustness-toolbox
+  description: 'Python library for ML security: evasion, poisoning, extraction and inference attacks and defenses.'
+  tags:
+  - ai
+  subcategory: Adversarial ML
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: cisco-ai-defense/mcp-scanner
+  name: mcp-scanner
+  description: Scanner for finding security risks in MCP servers and tools.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: msoedov/agentic_security
+  name: agentic_security
+  description: Vulnerability scanner and red-teaming kit for agentic LLM workflows.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: guardrails-ai/guardrails
+  name: guardrails
+  description: Framework for validating and structuring LLM inputs and outputs.
+  tags:
+  - ai
+  - open-core
+  subcategory: Guardrails
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: confident-ai/deepteam
+  name: deepteam
+  description: Framework for red teaming LLM systems with automated attacks.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: protectai/modelscan
+  name: modelscan
+  description: Scanner that detects unsafe code in serialized ML model files.
+  tags:
+  - ai
+  subcategory: Model Supply Chain
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: splx-ai/agentic-radar
+  name: agentic-radar
+  description: Security scanner that maps and analyzes agentic AI workflows.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null

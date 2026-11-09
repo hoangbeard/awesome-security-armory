@@ -1,0 +1,132 @@
+# Defensive / Blue Team
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: Defensive / Blue Team
+slug: defensive-security
+items:
+- repo: wazuh/wazuh
+  name: wazuh
+  description: Open-source XDR and SIEM platform for threat detection and compliance.
+  tags:
+  - open-core
+  subcategory: SIEM & XDR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: zeek/zeek
+  name: zeek
+  description: Network security monitoring and traffic analysis framework.
+  tags: []
+  subcategory: Network Security Monitoring
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: log2timeline/plaso
+  name: plaso
+  description: Super timeline generation for digital forensics.
+  tags: []
+  subcategory: Endpoint & DFIR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: OpenCTI-Platform/opencti
+  name: opencti
+  description: Open cyber threat intelligence platform.
+  tags:
+  - open-core
+  subcategory: Threat Intelligence
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: OISF/suricata
+  name: suricata
+  description: High-performance network IDS, IPS and security monitoring engine.
+  tags: []
+  subcategory: Network Security Monitoring
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: MISP/MISP
+  name: MISP
+  description: Threat intelligence sharing platform.
+  tags: []
+  subcategory: Threat Intelligence
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: osquery/osquery
+  name: osquery
+  description: SQL-powered endpoint visibility and monitoring framework.
+  tags: []
+  subcategory: Endpoint & DFIR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Velocidex/velociraptor
+  name: velociraptor
+  description: Endpoint visibility, collection and DFIR tool using VQL.
+  tags: []
+  subcategory: Endpoint & DFIR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Yamato-Security/hayabusa
+  name: hayabusa
+  description: Fast Windows event log forensics timeline generator and threat hunting tool.
+  tags: []
+  subcategory: Endpoint & DFIR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: VirusTotal/yara
+  name: yara
+  description: Pattern-matching tool for identifying and classifying malware.
+  tags: []
+  subcategory: Detection Engineering
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Shuffle/Shuffle
+  name: Shuffle
+  description: Open-source SOAR and security automation platform.
+  tags:
+  - open-core
+  subcategory: SOAR
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: mandiant/capa
+  name: capa
+  description: Identifies capabilities in executable files.
+  tags: []
+  subcategory: Malware Analysis
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: Security-Onion-Solutions/securityonion
+  name: securityonion
+  description: Free platform for threat hunting, network monitoring and log management.
+  tags:
+  - open-core
+  - non-osi
+  subcategory: SIEM & XDR
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: SigmaHQ/sigma
+  name: sigma
+  description: Generic signature format and rule repository for SIEM detections.
+  tags:
+  - non-osi
+  subcategory: Detection Engineering
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: elastic/detection-rules
+  name: detection-rules
+  description: Detection rules for Elastic Security.
+  tags:
+  - non-osi
+  subcategory: Detection Engineering
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'

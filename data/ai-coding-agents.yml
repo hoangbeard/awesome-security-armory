@@ -1,0 +1,167 @@
+# AI Coding Agents & Harness
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+category: AI Coding Agents & Harness
+slug: ai-coding-agents
+items:
+- repo: Kilo-Org/kilocode
+  name: kilocode
+  description: Open-source AI coding agent for VS Code and JetBrains.
+  tags:
+  - ai
+  - open-core
+  subcategory: IDE Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: anomalyco/opencode
+  name: opencode
+  description: Open-source terminal coding agent that works with many model providers.
+  tags:
+  - ai
+  subcategory: Terminal Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: cline/cline
+  name: cline
+  description: Autonomous coding agent extension for VS Code with human-in-the-loop approvals.
+  tags:
+  - ai
+  subcategory: IDE Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: google-gemini/gemini-cli
+  name: gemini-cli
+  description: Google's open-source AI agent that brings Gemini to the terminal.
+  tags:
+  - ai
+  subcategory: Terminal Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: openai/codex
+  name: codex
+  description: OpenAI's lightweight coding agent that runs in the terminal.
+  tags:
+  - ai
+  subcategory: Terminal Agents
+  tier: main
+  added: '2026-11-09'
+  notes: null
+- repo: aaif-goose/goose
+  name: goose
+  description: Extensible local AI agent that automates engineering tasks via MCP.
+  tags:
+  - ai
+  subcategory: Agent Harness
+  tier: main
+  added: '2026-11-09'
+  notes: Redirects from block/goose.
+- repo: OpenHands/OpenHands
+  name: OpenHands
+  description: Platform for autonomous software development agents.
+  tags:
+  - ai
+  - open-core
+  subcategory: Autonomous Agents
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: continuedev/continue
+  name: continue
+  description: Open-source AI code assistant and agent for IDEs and CI.
+  tags:
+  - ai
+  - open-core
+  subcategory: IDE Agents
+  tier: main
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: deepseek-ai/deepseek-harness
+  name: deepseek-harness
+  description: Plugin-based agent harness from DeepSeek for building and running coding agents.
+  tags:
+  - ai
+  - new
+  subcategory: Agent Harness
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: younger than 90 days; anomaly: star velocity 3181 stars/day since creation; anomaly: 13614 commits in 90 days (272.3 per contributor), likely automated/agent commits.'
+- repo: can1357/oh-my-pi
+  name: oh-my-pi
+  description: Coding agent with an integrated IDE, built by Stencil Labs.
+  tags:
+  - ai
+  subcategory: IDE Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: 15436 commits in 90 days (18.0 per contributor), likely automated/agent commits.'
+- repo: QwenLM/qwen-code
+  name: qwen-code
+  description: Terminal coding agent optimized for Qwen models.
+  tags:
+  - ai
+  subcategory: Terminal Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: 6119 commits in 90 days (9.6 per contributor), likely automated/agent commits.'
+- repo: anthropics/claude-code
+  name: claude-code
+  description: Anthropic's agentic coding tool for the terminal.
+  tags:
+  - ai
+  - open-core
+  - non-osi
+  subcategory: Terminal Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: charmbracelet/crush
+  name: crush
+  description: Glamorous terminal AI coding agent from Charm.
+  tags:
+  - ai
+  - non-osi
+  subcategory: Terminal Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: no OSI license (⚠️).'
+- repo: Aider-AI/aider
+  name: aider
+  description: AI pair programming in the terminal with git-aware edits.
+  tags:
+  - ai
+  subcategory: Terminal Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: From AI Repo Scout Notion seed.
+- repo: SWE-agent/SWE-agent
+  name: SWE-agent
+  description: Research agent that resolves GitHub issues autonomously using LLMs.
+  tags:
+  - ai
+  subcategory: Autonomous Agents
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: TabbyML/tabby
+  name: tabby
+  description: Self-hosted AI coding assistant and code completion server.
+  tags:
+  - ai
+  - open-core
+  subcategory: Self-hosted Assistants
+  tier: watchlist
+  added: '2026-11-09'
+  notes: null
+- repo: xai-org/grok-build
+  name: grok-build
+  description: xAI's coding agent harness and terminal UI.
+  tags:
+  - ai
+  - new
+  subcategory: Agent Harness
+  tier: watchlist
+  added: '2026-11-09'
+  notes: 'Watchlist: anomaly: ~27.7k stars in ~4 months but only 1 visible contributor and 28 commits in 90 days (likely mirror/squashed publish).'
