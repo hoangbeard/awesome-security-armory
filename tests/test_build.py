@@ -35,9 +35,10 @@ def test_rendered_readme_lists_groups_in_order():
     text = render(ROOT / "data")
     assert text.startswith("<!--lint disable awesome-github-->")
     assert "# Awesome Security Armory [" in text
-    assert "Curated, scored list of open-source cybersecurity, AI security, and AI-powered dev tools." in text
+    assert "Curated, scored list of open-source cybersecurity, AI security, AI agent skills, and AI-powered dev tools." in text
     positions = [text.index(f"## {title}") for title in (
         "AI Coding Agents & Harness",
+        "AI Skills",
         "LLM, Agent Framework & MCP",
         "AI Security",
         "Offensive / Red Team",

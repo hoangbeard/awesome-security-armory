@@ -66,3 +66,141 @@ removed:
   last_score: 66.7
   reason: out of scope (drawing/design application, not a security or coding tool)
   source: v0.1-candidate
+- repo: K-Dense-AI/scientific-agent-skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 86.4
+  reason: out of scope (scientific research skills, not security or coding)
+  source: ai-skills-candidate
+- repo: NVIDIA/SkillSpector
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 84.5
+  reason: out of scope (skill scanner, not a skill pack)
+  source: ai-skills-candidate
+- repo: vercel-labs/skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 83.4
+  reason: out of scope (skill installer CLI, not a skill pack)
+  source: ai-skills-candidate
+- repo: OpenMontageInc/OpenMontage
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 77.2
+  reason: out of scope (video production, not security or coding)
+  source: ai-skills-candidate
+- repo: Shubhamsaboo/awesome-llm-apps
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 74.6
+  reason: out of scope (LLM app examples, not agent skill packs)
+  source: ai-skills-candidate
+- repo: blader/humanizer
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 69.1
+  reason: out of scope (prose rewriting, not a coding or security skill)
+  source: ai-skills-candidate
+- repo: zero-lab-ai/skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 59.4
+  reason: repo younger than 30 days
+  source: ai-skills-candidate
+- repo: ComposioHQ/awesome-claude-skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 47.6
+  reason: score 47.6 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: instructa/ai-prompts
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 46.2
+  reason: score 46.2 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: Security-Phoenix-demo/security-skills-claude-code
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 44.7
+  reason: score 44.7 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: Masriyan/Claude-Code-CyberSecurity-Skill
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 42.6
+  reason: score 42.6 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: raroque/vibe-security-skill
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 39.8
+  reason: score 39.8 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: anthropics/claude-code-security-review
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 39.0
+  reason: out of scope (GitHub Action, not a skill pack)
+  source: ai-skills-candidate
+- repo: superagent-ai/skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 38.7
+  reason: score 38.7 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: Hi-FullHouse/CyberSecurity-Skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 38.3
+  reason: score 38.3 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: semgrep/skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 38.0
+  reason: score 38.0 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: sanjeed5/awesome-cursor-rules-mdc
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 36.8
+  reason: score 36.8 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: slowmist/slowmist-agent-security
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 33.1
+  reason: score 33.1 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: Batman0506/openclaw-sec-skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 31.5
+  reason: score 31.5 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: travisvn/awesome-claude-skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 30.6
+  reason: score 30.6 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: instavm/security-skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 26.6
+  reason: score 26.6 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: EvanThomasLuke/Awesome-AI-Security-Skills
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 23.7
+  reason: score 23.7 below 50 (not admitted)
+  source: ai-skills-candidate
+- repo: mrhlaingbwardev/web-security-skill
+  category: ai-skills
+  removed: '2026-11-09'
+  last_score: 19.5
+  reason: score 19.5 below 50 (not admitted)
+  source: ai-skills-candidate

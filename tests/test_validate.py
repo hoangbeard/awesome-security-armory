@@ -34,6 +34,7 @@ def test_v01_counts():
     counts = {}
     for name in (
         "ai-coding-agents.yml",
+        "ai-skills.yml",
         "llm-agent-frameworks.yml",
         "ai-security.yml",
         "offensive-security.yml",
@@ -48,6 +49,7 @@ def test_v01_counts():
             "watchlist": sum(item["tier"] == "watchlist" for item in document["items"]),
         }
     assert counts["ai-coding-agents.yml"] == {"main": 8, "watchlist": 9}
+    assert counts["ai-skills.yml"] == {"main": 13, "watchlist": 18}
     assert counts["llm-agent-frameworks.yml"] == {"main": 13, "watchlist": 2}
     assert counts["ai-security.yml"] == {"main": 10, "watchlist": 4}
     assert counts["offensive-security.yml"] == {"main": 12, "watchlist": 4}
@@ -56,6 +58,6 @@ def test_v01_counts():
     assert counts["devsecops-appsec.yml"] == {"main": 15, "watchlist": 1}
     assert counts["software-dev-tools.yml"] == {"main": 9, "watchlist": 5}
     removed = yaml.safe_load((ROOT / "data" / "removed.yml").read_text(encoding="utf-8"))
-    assert len(removed["removed"]) == 11
+    assert len(removed["removed"]) == 34
     listed = sum(value["main"] + value["watchlist"] for value in counts.values())
-    assert listed == 121
+    assert listed == 152

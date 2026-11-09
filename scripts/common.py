@@ -15,6 +15,7 @@ SNAPSHOTS = DATA / "snapshots"
 
 GROUPS = [
     {"slug": "ai-coding-agents", "title": "AI Coding Agents & Harness", "file": "ai-coding-agents.yml"},
+    {"slug": "ai-skills", "title": "AI Skills", "file": "ai-skills.yml"},
     {"slug": "llm-agent-frameworks", "title": "LLM, Agent Framework & MCP", "file": "llm-agent-frameworks.yml"},
     {"slug": "ai-security", "title": "AI Security", "file": "ai-security.yml"},
     {"slug": "offensive-security", "title": "Offensive / Red Team", "file": "offensive-security.yml"},

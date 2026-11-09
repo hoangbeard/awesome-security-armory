@@ -132,3 +132,68 @@ overrides:
   resolved: BSD-3-Clause style
   osi: true
   note: LICENSE file read manually (GitHub reports NOASSERTION)
+- repo: anthropics/skills
+  github_spdx: null
+  resolved: No root LICENSE; sampled skill folders are Apache-2.0
+  osi: false
+  note: Root listing has no LICENSE (GitHub /license is 404). skills/skill-creator/LICENSE.txt and skills/pdf/LICENSE.txt are Apache-2.0. Not treated as a repository-level OSI grant.
+- repo: openai/skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: Root listing has no LICENSE (GitHub /license is 404).
+- repo: openai/plugins
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: Root listing has no LICENSE (GitHub /license is 404).
+- repo: vercel-labs/agent-skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: Root listing has no LICENSE (GitHub /license is 404).
+- repo: cursor/plugins
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: Root listing has no LICENSE (GitHub /license is 404).
+- repo: semgrep/skills
+  github_spdx: NOASSERTION
+  resolved: Semgrep Rules License v1.0
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION). Custom rules license, not an OSI SPDX id.
+- repo: Masriyan/Claude-Code-CyberSecurity-Skill
+  github_spdx: NOASSERTION
+  resolved: MIT plus a NOTICE-file attribution requirement
+  osi: false
+  note: LICENSE file read manually (GitHub reports NOASSERTION). MIT grant with an extra NOTICE attribution condition, so it is not counted as an OSI SPDX license.
+- repo: mrhlaingbwardev/web-security-skill
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
+- repo: ComposioHQ/awesome-claude-skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
+- repo: travisvn/awesome-claude-skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
+- repo: BehiSecc/awesome-claude-skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
+- repo: instavm/security-skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
+- repo: EvanThomasLuke/Awesome-AI-Security-Skills
+  github_spdx: null
+  resolved: No license file
+  osi: false
+  note: GitHub /license is 404.
