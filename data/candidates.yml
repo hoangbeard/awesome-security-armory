@@ -1,2 +1,32 @@
-# Candidates not yet eligible for a tier (pending data/review). Empty at v0.1: every scored repo is Main, Watchlist or Removed.
-candidates: []
+# Candidates not yet eligible for a tier (pending data/review). Added by the daily candidate routine; scored and tiered in the weekly PR.
+candidates:
+- repo: trailofbits/buttercup
+  category: ai-security
+  name: Buttercup
+  description: Cyber reasoning system that uses fuzzing and LLMs to find and patch vulnerabilities in open-source code.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-10'
+  reason: Trail of Bits' AIxCC cyber reasoning system; maintained (push 2026-11-02), AGPL-3.0, documented setup. Fills an AI-driven vuln discovery and patching gap.
+  source: github-search (https://github.com/trailofbits/buttercup)
+- repo: google/oss-fuzz-gen
+  category: devsecops-appsec
+  name: oss-fuzz-gen
+  description: Framework that uses LLMs to generate and evaluate fuzz targets for OSS-Fuzz projects.
+  tags:
+  - ai
+  subcategory: Fuzzing
+  added: '2026-11-10'
+  reason: Google OSS-Fuzz project for LLM-generated fuzz harnesses; maintained (push 2026-10-26), Apache-2.0, docs in repo. Real AI use in AppSec testing.
+  source: github-search (https://github.com/google/oss-fuzz-gen)
+- repo: cyberark/FuzzyAI
+  category: ai-security
+  name: FuzzyAI
+  description: Automated fuzzing tool for finding jailbreaks in LLM APIs.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  added: '2026-11-10'
+  reason: CyberArk-maintained LLM jailbreak fuzzer, Apache-2.0, documented attack catalogue. Last push 2026-02-06, so check activity at scoring; likely Watchlist.
+  source: github-search (https://github.com/cyberark/FuzzyAI)
