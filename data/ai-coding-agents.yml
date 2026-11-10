@@ -1,5 +1,5 @@
 # AI Coding Agents & Harness
-# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending maintainer review.
 category: AI Coding Agents & Harness
 slug: ai-coding-agents
 items:
@@ -67,7 +67,7 @@ items:
   subcategory: Autonomous Agents
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: continuedev/continue
   name: continue
   description: Open-source AI code assistant and agent for IDEs and CI.
@@ -77,7 +77,7 @@ items:
   subcategory: IDE Agents
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: deepseek-ai/deepseek-harness
   name: deepseek-harness
   description: Plugin-based agent harness from DeepSeek for building and running coding agents.
@@ -135,7 +135,7 @@ items:
   subcategory: Terminal Agents
   tier: watchlist
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: SWE-agent/SWE-agent
   name: SWE-agent
   description: Research agent that resolves GitHub issues autonomously using LLMs.

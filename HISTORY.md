@@ -1,6 +1,6 @@
 # History
 
-Tier changes take effect when Rex merges the pull request that carries them. Weekly automation opens that work on `weekly/YYYY-Www` and does not push to `main`.
+Tier changes take effect when the maintainer merges the pull request that carries them. Weekly automation opens that work on `weekly/YYYY-Www` and does not push to `main`.
 
 ## 2026-11-09 — v0.1
 
@@ -35,7 +35,7 @@ Initial curated catalogue. 121 repositories are listed (89 Main, 32 Watchlist). 
 
 ## 2026-11-09 — AI Skills
 
-Ninth group, placed immediately after AI Coding Agents & Harness. Skill packs and rule collections are what those agents load, so the group sits there instead of among general LLM frameworks. 31 repositories are listed (13 Main, 18 Watchlist). 23 candidates were not admitted. Metrics were collected the same day from the public GitHub API with `scripts/collect.py`. Nothing in the group was cloned or executed. Scores use the v0.1 rubric, normalized inside this group. Tiers take effect when Rex merges the pull request.
+Ninth group, placed immediately after AI Coding Agents & Harness. Skill packs and rule collections are what those agents load, so the group sits there instead of among general LLM frameworks. 31 repositories are listed (13 Main, 18 Watchlist). 23 candidates were not admitted. Metrics were collected the same day from the public GitHub API with `scripts/collect.py`. Nothing in the group was cloned or executed. Scores use the v0.1 rubric, normalized inside this group. Tiers take effect when the maintainer merges the pull request.
 
 ### Counts
 

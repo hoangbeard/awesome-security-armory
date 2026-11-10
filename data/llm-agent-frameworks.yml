@@ -1,5 +1,5 @@
 # LLM, Agent Framework & MCP
-# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending maintainer review.
 category: LLM, Agent Framework & MCP
 slug: llm-agent-frameworks
 items:
@@ -11,7 +11,7 @@ items:
   subcategory: SDKs & Gateways
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: vllm-project/vllm
   name: vllm
   description: High-throughput, memory-efficient LLM inference and serving engine.
@@ -29,7 +29,7 @@ items:
   subcategory: MCP
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: ggml-org/llama.cpp
   name: llama.cpp
   description: LLM inference in C/C++ with broad hardware support.
@@ -57,7 +57,7 @@ items:
   subcategory: Agent Frameworks
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: crewAIInc/crewAI
   name: crewAI
   description: Framework for orchestrating role-playing, collaborative AI agents.
@@ -86,7 +86,7 @@ items:
   subcategory: Browser Agents
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: langchain-ai/langgraph
   name: langgraph
   description: Library for building stateful, multi-actor agent workflows as graphs.
@@ -115,7 +115,7 @@ items:
   subcategory: Local Inference
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: modelcontextprotocol/python-sdk
   name: python-sdk
   description: Official Python SDK for building MCP servers and clients.
@@ -134,7 +134,7 @@ items:
   subcategory: SDKs & Gateways
   tier: watchlist
   added: '2026-11-09'
-  notes: 'Watchlist: anomaly: 17411 commits in 90 days (8.3 per contributor), likely automated/agent commits. From AI Repo Scout Notion seed.'
+  notes: 'Watchlist: anomaly: 17411 commits in 90 days (8.3 per contributor), likely automated/agent commits.'
 - repo: microsoft/autogen
   name: autogen
   description: Microsoft framework for building multi-agent AI applications.

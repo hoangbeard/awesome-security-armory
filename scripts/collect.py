@@ -4,12 +4,23 @@ Daily mode records archived repos, missing repos, renames, and new releases.
 Full mode also collects the signals scripts/score.py reads and writes
 data/metrics/YYYY-MM-DD.json plus a star snapshot. Neither mode pushes git
 refs. Workflows call scripts/push_weekly.sh, which refuses to update main.
+
+Transient HTTP statuses (408, 500, 502, 503, 504) and connection errors are
+retried with exponential backoff (1s, 2s, 4s, ..., capped at 60s), as are
+202, 403, and 429. Five attempts, then that call is given up. A repository
+that still fails is logged and recorded with ``error``; the rest of the run
+continues. The process exits 1 when those errors are a strict majority of
+the repositories checked (more than half, which includes every repository).
+Exactly half does not fail the run. HTTP 404 is a missing repository, not
+a collection error. One bad repository therefore does not fail the job, and
+a dead token or a total outage does.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import logging
 import os
 import re
 import sys
@@ -33,6 +44,9 @@ USER_AGENT = "awesome-security-armory"
 API = "https://api.github.com"
 DEPS = "https://api.deps.dev/v3alpha"
 SCORECARD = "https://api.securityscorecards.dev/projects/github.com"
+# 0 is the sentinel _request returns for a connection error (no HTTP status).
+TRANSIENT_STATUSES = {0, 202, 403, 408, 429, 500, 502, 503, 504}
+logger = logging.getLogger(__name__)
 BOTS = {
     "copilot",
     "copilot-swe-agent",
@@ -81,14 +95,28 @@ def top_share(authors: list[dict], as_of: datetime) -> tuple[float | None, int |
     return round(max(totals.values()) / sum(totals.values()), 3), len(totals)
 
 
-def median_first_response_hours(nodes: list[dict]) -> float | None:
+def median_first_response_hours(nodes: list | None) -> float | None:
+    """Median hours from creation to the first comment.
+
+    GitHub leaves null entries in GraphQL ``nodes`` when an issue or pull
+    request is inaccessible. The collector asks for issues only; a null
+    pull-request node is skipped the same way. A null comment node is
+    skipped and the next real comment is used.
+    """
     hours = []
-    for node in nodes:
-        comments = ((node.get("comments") or {}).get("nodes")) or []
-        if not comments or not node.get("createdAt") or not comments[0].get("createdAt"):
+    for node in nodes or []:
+        if not isinstance(node, dict):
             continue
-        created = datetime.fromisoformat(node["createdAt"].replace("Z", "+00:00"))
-        replied = datetime.fromisoformat(comments[0]["createdAt"].replace("Z", "+00:00"))
+        comments = ((node.get("comments") or {}).get("nodes")) or []
+        comment = next((item for item in comments if isinstance(item, dict) and item.get("createdAt")), None)
+        created_at = node.get("createdAt")
+        if comment is None or not created_at:
+            continue
+        try:
+            created = datetime.fromisoformat(str(created_at).replace("Z", "+00:00"))
+            replied = datetime.fromisoformat(str(comment["createdAt"]).replace("Z", "+00:00"))
+        except (TypeError, ValueError):
+            continue
         hours.append((replied - created).total_seconds() / 3600)
     if len(hours) < 5:
         return None
@@ -234,12 +262,16 @@ class Client:
                 return response.status, dict(response.headers), response.read()
         except urllib.error.HTTPError as exc:
             return exc.code, dict(exc.headers), exc.read()
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            return 0, {}, b""
 
     def json_request(self, url: str, payload: dict | None = None, retries: int = 5) -> tuple[int, dict, dict]:
         for attempt in range(retries):
             status, headers, body = self._request(url, payload)
-            if status == 202 or status in {403, 429, 502, 503}:
-                time.sleep(self.pause or min(60, 5 * (attempt + 1)))
+            if status in TRANSIENT_STATUSES:
+                if attempt + 1 == retries:
+                    break
+                time.sleep(min(60, 2**attempt))
                 continue
             try:
                 parsed = json.loads(body.decode() or "null")
@@ -443,7 +475,11 @@ def fetch_core(client: Client, repos: list[str], since: str) -> list[dict]:
     for index, repo in enumerate(repos):
         alias = f"r{index}"
         related = [error for error in errors if error.get("path", [None])[0] == alias]
-        rows.append(parse_repository(data.get(alias), repo, related))
+        try:
+            rows.append(parse_repository(data.get(alias), repo, related))
+        except Exception as exc:
+            logger.error("skipping %s: %s", repo, exc)
+            rows.append({"input": repo, "full_name": repo, "http_status": 0, "error": str(exc)})
     return rows
 
 
@@ -476,18 +512,23 @@ def collect(data_dir: Path, mode: str, token: str, today: date | None = None, tr
         record = dict(by_input.get(row["repo"].lower()) or {"input": row["repo"], "full_name": row["repo"], "http_status": 0})
         record["category"] = row["category"]
         record["catalog_tier"] = row["tier"]
-        if record.get("http_status") == 200:
-            _apply_license(record, overrides)
-            record["days_since_push"] = None
-            pushed = record.get("pushed_at")
-            if pushed:
-                pushed_at = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-                record["days_since_push"] = (as_of - pushed_at).days
-            if mode == "full":
-                enrich_rest(client, record, as_of, full=True)
-                record["star_growth_90d"] = star_growth(
-                    record.get("stars"), growth_history.get(record["full_name"].lower(), []), today
-                )
+        if record.get("http_status") == 200 and not record.get("error"):
+            try:
+                _apply_license(record, overrides)
+                record["days_since_push"] = None
+                pushed = record.get("pushed_at")
+                if pushed:
+                    pushed_at = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
+                    record["days_since_push"] = (as_of - pushed_at).days
+                if mode == "full":
+                    enrich_rest(client, record, as_of, full=True)
+                    record["star_growth_90d"] = star_growth(
+                        record.get("stars"), growth_history.get(record["full_name"].lower(), []), today
+                    )
+            except Exception as exc:
+                name = record.get("full_name") or record.get("input")
+                logger.error("skipping %s: %s", name, exc)
+                record["error"] = str(exc)
         observed.append(record)
     generated = datetime.now(timezone.utc).isoformat()
     if mode == "daily":
@@ -522,6 +563,14 @@ def collect(data_dir: Path, mode: str, token: str, today: date | None = None, tr
     return metrics, snapshot
 
 
+def collection_should_fail(failed: int, total: int) -> bool:
+    """True when collection errors are a strict majority of ``total``.
+
+    See the module docstring. Exactly half does not fail the run.
+    """
+    return total > 0 and failed * 2 > total
+
+
 def _latest(directory: Path) -> Path | None:
     files = sorted(directory.glob("*.json"))
     return files[-1] if files else None
@@ -543,17 +592,28 @@ def main(argv: list[str] | None = None) -> int:
         destination = args.report or Path("daily-report.json")
         destination.write_text(json.dumps(first, indent=2) + "\n", encoding="utf-8")
         print(f"wrote {destination}")
-        return 0
-    metrics_dir = args.data / "metrics"
-    snapshot_dir = args.data / "snapshots"
-    metrics_dir.mkdir(parents=True, exist_ok=True)
-    snapshot_dir.mkdir(parents=True, exist_ok=True)
-    day = first["generated"]
-    metrics_path = metrics_dir / f"{day}.json"
-    snapshot_path = snapshot_dir / f"{day}.json"
-    metrics_path.write_text(json.dumps(first, indent=2) + "\n", encoding="utf-8")
-    snapshot_path.write_text(json.dumps(second, indent=2) + "\n", encoding="utf-8")
-    print(f"wrote {metrics_path} and {snapshot_path}")
+        failed = len(first.get("errors") or [])
+        total = int(first.get("checked") or 0)
+    else:
+        metrics_dir = args.data / "metrics"
+        snapshot_dir = args.data / "snapshots"
+        metrics_dir.mkdir(parents=True, exist_ok=True)
+        snapshot_dir.mkdir(parents=True, exist_ok=True)
+        day = first["generated"]
+        metrics_path = metrics_dir / f"{day}.json"
+        snapshot_path = snapshot_dir / f"{day}.json"
+        metrics_path.write_text(json.dumps(first, indent=2) + "\n", encoding="utf-8")
+        snapshot_path.write_text(json.dumps(second, indent=2) + "\n", encoding="utf-8")
+        print(f"wrote {metrics_path} and {snapshot_path}")
+        repos = first.get("repos") or []
+        failed = sum(1 for row in repos if row.get("error"))
+        total = len(repos)
+    if collection_should_fail(failed, total):
+        print(
+            f"collection failed for {failed} of {total} repositories",
+            file=sys.stderr,
+        )
+        return 1
     return 0
 
 
