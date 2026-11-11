@@ -30,3 +30,33 @@ candidates:
   added: '2026-11-10'
   reason: CyberArk-maintained LLM jailbreak fuzzer, Apache-2.0, documented attack catalogue. Last push 2026-02-06, so check activity at scoring; likely Watchlist.
   source: github-search (https://github.com/cyberark/FuzzyAI)
+- repo: mukul975/Anthropic-Cybersecurity-Skills
+  category: ai-skills
+  name: Anthropic-Cybersecurity-Skills
+  description: Large pack of structured cybersecurity skills for AI coding agents, mapped to MITRE ATT&CK, NIST CSF and ATLAS.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-11'
+  reason: Security-focused skill pack in agentskills.io format (priority for AI Skills); Apache-2.0, last push 2026-08-31, created 2026-02-25. Community repo, not by Anthropic despite the name; verify content quality and naming at scoring.
+  source: github-api (https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+- repo: LaurieWired/GhidraMCP
+  category: defensive-security
+  name: GhidraMCP
+  description: MCP server that lets LLM agents drive Ghidra for AI-assisted reverse engineering.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-11'
+  reason: Widely used bridge between Ghidra and LLM agents for reverse engineering/malware analysis; Apache-2.0, last push 2026-10-10. Real AI integration in a core RE tool.
+  source: github-api (https://github.com/LaurieWired/GhidraMCP)
+- repo: ethz-spylab/agentdojo
+  category: ai-security
+  name: AgentDojo
+  description: Benchmark environment to evaluate prompt-injection attacks and defenses for LLM agents.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  added: '2026-11-11'
+  reason: ETH Zurich SPY Lab benchmark used to evaluate agent prompt-injection defenses; MIT, last push 2026-06-02, documented. Fills an agent security evaluation gap.
+  source: github-api (https://github.com/ethz-spylab/agentdojo)
