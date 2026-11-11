@@ -1,5 +1,5 @@
 # Software & Dev Tools
-# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending maintainer review.
 category: Software & Dev Tools
 slug: software-dev-tools
 items:
@@ -84,7 +84,7 @@ items:
   subcategory: Design & UI
   tier: watchlist
   added: '2026-11-09'
-  notes: 'Watchlist: no OSI license (⚠️). Design/UI tool from Notion seed; source-available license, check terms. From AI Repo Scout Notion seed.'
+  notes: 'Watchlist: no OSI license (⚠️). Design/UI tool; source-available license, check terms.'
 - repo: junegunn/fzf
   name: fzf
   description: General-purpose command-line fuzzy finder.

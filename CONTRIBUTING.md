@@ -10,7 +10,7 @@ Edit the YAML under `data/`, not `README.md`. CI runs `scripts/build.py --check`
 - Add it to the group file that matches what it is for. The group titles and order are fixed in `scripts/common.py`. AI Skills (skill packs, rules, and playbooks for coding agents) is listed immediately after AI Coding Agents & Harness.
 - Required fields: `repo` (`owner/name`), `name`, `description`, `tags`, `subcategory`, `tier`, `added` (`YYYY-MM-DD`), `notes`.
 - `description` is one objective English sentence and ends with a period. Describe what the project does. Do not claim it is the best, the fastest, or production-ready unless that is a plain fact.
-- `tier` is `main` or `watchlist`. It is a proposal until Rex merges the pull request.
+- `tier` is `main` or `watchlist`. It is a proposal until the maintainer merges the pull request.
 - Tags currently used: `ai`, `open-core`, `non-osi`, `new`, `experimental`.
 
 ## What gets listed
@@ -26,7 +26,7 @@ Hard gates:
 - Watchlist: score 50–69, or a high score that a gate holds back.
 - A later move between Main and Watchlist waits for two consecutive weekly results (72 to move up, under 65 to move down) unless a hard gate trips.
 
-The Main cut-off stays at **70** for v0.1. Recalibration waits until star-growth, Scorecard, and dependents coverage improve. A change to the cut-off is its own pull request for Rex, not a line in a data pull request.
+The Main cut-off stays at **70** for v0.1. Recalibration waits until star-growth, Scorecard, and dependents coverage improve. A change to the cut-off is its own pull request for the maintainer, not a line in a data pull request.
 
 Do not submit cracks, leaked keys, typosquats, or repositories whose README is copied from another project. Out-of-scope work (image generation, drawing apps, and similar) stays out even when the score is high.
 
