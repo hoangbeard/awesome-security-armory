@@ -60,3 +60,33 @@ candidates:
   added: '2026-11-11'
   reason: ETH Zurich SPY Lab benchmark used to evaluate agent prompt-injection defenses; MIT, last push 2026-06-02, documented. Fills an agent security evaluation gap.
   source: github-api (https://github.com/ethz-spylab/agentdojo)
+- repo: mrexodia/ida-pro-mcp
+  category: defensive-security
+  name: ida-pro-mcp
+  description: MCP server that bridges IDA Pro with LLM agents for AI-assisted reverse engineering.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-12'
+  reason: Widely used IDA Pro counterpart to GhidraMCP for LLM-driven reverse engineering; MIT, last push 2026-09-26, created 2025-03-25, README docs. Note IDA Pro itself is commercial; check at scoring.
+  source: github-api (https://github.com/mrexodia/ida-pro-mcp)
+- repo: zinja-coder/jadx-ai-mcp
+  category: defensive-security
+  name: JADX-AI-MCP
+  description: JADX plugin and MCP server that lets LLM agents analyze Android APKs for reverse engineering and vulnerability review.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-12'
+  reason: Real AI integration into the JADX Android decompiler for APK/malware and mobile vuln analysis; Apache-2.0, last push 2026-10-19, created 2025-04-07. Fills a mobile RE gap.
+  source: github-api (https://github.com/zinja-coder/jadx-ai-mcp)
+- repo: GitHubSecurityLab/seclab-taskflow-agent
+  category: ai-security
+  name: seclab-taskflow-agent
+  description: GitHub Security Lab agent framework that runs YAML taskflows with LLMs and MCP tools for security research and code auditing.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-12'
+  reason: Maintained by GitHub Security Lab for AI-assisted vulnerability research; MIT, last push 2026-11-06, created 2025-09-08. Young project; verify docs and adoption at scoring, likely Watchlist.
+  source: github-api (https://github.com/GitHubSecurityLab/seclab-taskflow-agent)
