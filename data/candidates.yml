@@ -90,3 +90,33 @@ candidates:
   added: '2026-11-12'
   reason: Maintained by GitHub Security Lab for AI-assisted vulnerability research; MIT, last push 2026-11-06, created 2025-09-08. Young project; verify docs and adoption at scoring, likely Watchlist.
   source: github-api (https://github.com/GitHubSecurityLab/seclab-taskflow-agent)
+- repo: Tencent/AI-Infra-Guard
+  category: ai-security
+  name: AI-Infra-Guard
+  description: AI red teaming platform that scans AI infrastructure, agents, MCP servers and skills for vulnerabilities and risky configurations.
+  tags:
+  - ai
+  subcategory: AI Red Teaming
+  added: '2026-11-13'
+  reason: Tencent Zhuque Lab-maintained AI infra/MCP/agent security scanner; Apache-2.0, last push 2026-11-12, created 2024-12-25. Covers MCP and skill scanning alongside existing agent-scan tools; check docs language and overlap at scoring.
+  source: github-api (https://github.com/Tencent/AI-Infra-Guard)
+- repo: ipa-lab/hackingBuddyGPT
+  category: offensive-security
+  name: hackingBuddyGPT
+  description: Research framework for LLM-driven ethical hacking agents, including Linux privilege escalation and web testing use cases.
+  tags:
+  - ai
+  subcategory: AI Pentest Agents
+  added: '2026-11-13'
+  reason: TU Wien IPA lab research project for LLM-assisted pentesting with published papers; MIT, last push 2026-10-24, created 2023-08-02. Long-running academic AI pentest agent.
+  source: github-api (https://github.com/ipa-lab/hackingBuddyGPT)
+- repo: openai/codex-security
+  category: devsecops-appsec
+  name: Codex Security
+  description: OpenAI CLI, TypeScript SDK and GitHub Action for AI-driven vulnerability scanning, validation and patching of codebases.
+  tags:
+  - ai
+  subcategory: SAST
+  added: '2026-11-13'
+  reason: Official OpenAI AI-native code security scanner with CI/SARIF export; Apache-2.0, last push 2026-11-13, created 2026-07-13. Requires OpenAI models (cloud, paid usage); note privacy/cost at scoring, likely Watchlist until adoption is clear.
+  source: github-api (https://github.com/openai/codex-security)
