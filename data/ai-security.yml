@@ -1,5 +1,5 @@
 # AI Security
-# Generated 2026-11-09 from candidate scoring; tiers are proposals pending Rex review.
+# Generated 2026-11-09 from candidate scoring; tiers are proposals pending maintainer review.
 category: AI Security
 slug: ai-security
 items:
@@ -49,7 +49,7 @@ items:
   subcategory: LLM Red Teaming
   tier: main
   added: '2026-11-09'
-  notes: From AI Repo Scout Notion seed.
+  notes: null
 - repo: data-privacy-stack/presidio
   name: presidio
   description: SDK for detecting and anonymizing PII in text and images.
@@ -57,7 +57,7 @@ items:
   subcategory: Data Protection
   tier: main
   added: '2026-11-09'
-  notes: Redirects from microsoft/presidio. From AI Repo Scout Notion seed.
+  notes: Redirects from microsoft/presidio.
 - repo: snyk/agent-scan
   name: agent-scan
   description: Scanner for security issues in AI agents and MCP server configurations.

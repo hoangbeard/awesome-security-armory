@@ -2,12 +2,12 @@ name: Weekly rescore
 
 on:
   schedule:
-    # Sunday 20:00 Asia/Saigon (UTC+7) = 13:00 UTC. The Monday review bot opens the pull request.
+    # Sunday 20:00 Asia/Saigon (UTC+7) = 13:00 UTC. Publishes weekly/* only.
     - cron: "0 13 * * 0"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: armory-data-branch
@@ -15,6 +15,8 @@ concurrency:
 
 jobs:
   rescore:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
