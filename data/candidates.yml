@@ -120,3 +120,33 @@ candidates:
   added: '2026-11-13'
   reason: Official OpenAI AI-native code security scanner with CI/SARIF export; Apache-2.0, last push 2026-11-13, created 2026-07-13. Requires OpenAI models (cloud, paid usage); note privacy/cost at scoring, likely Watchlist until adoption is clear.
   source: github-api (https://github.com/openai/codex-security)
+- repo: gadievron/raptor
+  category: ai-skills
+  name: RAPTOR
+  description: Claude Code configuration (CLAUDE.md, rules, sub-agents and skills) that turns the agent into an offensive/defensive security research agent orchestrating security tools.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-14'
+  reason: Security skill/agent pack by Gadi Evron, Daniel Cuthbert, Thomas Dullien (Halvar Flake) and others; LICENSE file is MIT (GitHub API reports NOASSERTION, may need license_overrides), last push 2026-11-13, created 2025-10-17. Prioritized security skills for AI coding agents.
+  source: github-api (https://github.com/gadievron/raptor)
+- repo: cisco-ai-defense/skill-scanner
+  category: ai-security
+  name: Skill Scanner
+  description: Security scanner that inspects AI agent skills for prompt injection, malicious code and risky behaviors before use.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  added: '2026-11-14'
+  reason: Cisco AI Defense tool, sibling of mcp-scanner already listed; LICENSE file is Apache-2.0 (GitHub API reports NOASSERTION), last push 2026-11-10, created 2026-01-29, docs site. Covers agent skill supply-chain risk; compare with nvidia/skillspector at scoring.
+  source: github-search topic:agent-skills (https://github.com/cisco-ai-defense/skill-scanner)
+- repo: stacklok/toolhive
+  category: ai-security
+  name: ToolHive
+  description: Platform for running and managing MCP servers in isolated containers with secrets handling, permission profiles and registry.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-14'
+  reason: Stacklok-maintained MCP runtime that isolates agent tool servers; Apache-2.0, last push 2026-11-14, created 2025-03-12, documented. Infrastructure for AI agents rather than an AI tool itself; confirm category fit (ai-security vs llm-agent-frameworks) and subcategory at scoring.
+  source: github-search topic:mcp-security (https://github.com/stacklok/toolhive)
