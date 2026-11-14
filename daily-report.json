@@ -1,0 +1,467 @@
+{
+  "generated": "2026-11-14T03:08:01.396596+00:00",
+  "timezone": "Asia/Saigon (UTC+7)",
+  "mode": "daily",
+  "checked": 186,
+  "archived": [
+    {
+      "repo": "RooCodeInc/Roo-Code"
+    },
+    {
+      "repo": "protectai/llm-guard"
+    },
+    {
+      "repo": "TheHive-Project/TheHive"
+    },
+    {
+      "repo": "jeremylong/DependencyCheck"
+    }
+  ],
+  "missing": [],
+  "renamed": [],
+  "new_releases": [
+    {
+      "repo": "Kilo-Org/kilocode",
+      "tag": "v7.8.27",
+      "published_at": "2026-11-05T12:40:58Z"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "tag": "v1.19.5",
+      "published_at": "2026-10-28T06:17:49Z"
+    },
+    {
+      "repo": "cline/cline",
+      "tag": "v4.1.26",
+      "published_at": "2026-10-26T09:06:50Z"
+    },
+    {
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.68.0",
+      "published_at": "2026-11-10T21:17:07Z"
+    },
+    {
+      "repo": "openai/codex",
+      "tag": "rust-v0.169.0",
+      "published_at": "2026-11-13T08:37:05Z"
+    },
+    {
+      "repo": "aaif-goose/goose",
+      "tag": "v1.59.0",
+      "published_at": "2026-11-10T17:17:02Z"
+    },
+    {
+      "repo": "OpenHands/OpenHands",
+      "tag": "v1.40.0",
+      "published_at": "2026-11-12T14:22:00Z"
+    },
+    {
+      "repo": "continuedev/continue",
+      "tag": "v2.0.0-vscode",
+      "published_at": "2026-06-19T00:24:01Z"
+    },
+    {
+      "repo": "can1357/oh-my-pi",
+      "tag": "v18.20.0",
+      "published_at": "2026-11-12T23:40:30Z"
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "tag": "sdk-typescript-v0.1.33",
+      "published_at": "2026-11-13T01:14:28Z"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.325",
+      "published_at": "2026-11-13T20:40:01Z"
+    },
+    {
+      "repo": "charmbracelet/crush",
+      "tag": "v0.101.0",
+      "published_at": "2026-11-12T16:02:35Z"
+    },
+    {
+      "repo": "Aider-AI/aider",
+      "tag": "v0.86.0",
+      "published_at": "2025-08-09T17:42:19Z"
+    },
+    {
+      "repo": "SWE-agent/SWE-agent",
+      "tag": "v1.1.0",
+      "published_at": "2025-05-22T16:11:39Z"
+    },
+    {
+      "repo": "TabbyML/tabby",
+      "tag": "v0.32.0",
+      "published_at": "2026-01-25T17:07:44Z"
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "tag": "v20.8.0",
+      "published_at": "2026-11-12T17:55:31Z"
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "tag": "v2.14.11",
+      "published_at": "2026-11-11T06:17:51Z"
+    },
+    {
+      "repo": "vercel/ai",
+      "tag": "@ai-sdk/vue@3.0.332",
+      "published_at": "2026-11-13T23:44:35Z"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "tag": "v0.33.0rc3",
+      "published_at": "2026-11-02T10:10:05Z"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "tag": "v2.4.0",
+      "published_at": "2026-11-11T07:07:16Z"
+    },
+    {
+      "repo": "ggml-org/llama.cpp",
+      "tag": "v1.0.0",
+      "published_at": "2026-11-13T10:20:19Z"
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "tag": "v0.24.0",
+      "published_at": "2026-10-15T02:20:12Z"
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "tag": "langchain-core==1.8.0",
+      "published_at": "2026-11-11T15:22:07Z"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "tag": "1.15.41",
+      "published_at": "2026-11-12T18:42:07Z"
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "tag": "v2.68.0",
+      "published_at": "2026-11-12T01:56:19Z"
+    },
+    {
+      "repo": "browser-use/browser-use",
+      "tag": "1.0.4",
+      "published_at": "2026-11-13T20:50:13Z"
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "tag": "1.2.22",
+      "published_at": "2026-11-14T01:43:55Z"
+    },
+    {
+      "repo": "run-llama/llama_index",
+      "tag": "v0.14.26",
+      "published_at": "2026-11-13T22:38:15Z"
+    },
+    {
+      "repo": "ollama/ollama",
+      "tag": "v0.40.16",
+      "published_at": "2026-11-09T18:21:19Z"
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "tag": "v1.109.1",
+      "published_at": "2026-11-12T02:07:01Z"
+    },
+    {
+      "repo": "microsoft/PyRIT",
+      "tag": "v1.2.0",
+      "published_at": "2026-11-13T19:28:10Z"
+    },
+    {
+      "repo": "Giskard-AI/giskard-oss",
+      "tag": "giskard-agents/v1.0.6",
+      "published_at": "2026-10-25T07:34:52Z"
+    },
+    {
+      "repo": "data-privacy-stack/presidio",
+      "tag": "2.2.366",
+      "published_at": "2026-10-27T09:26:55Z"
+    },
+    {
+      "repo": "snyk/agent-scan",
+      "tag": "v0.6.11",
+      "published_at": "2026-11-06T07:52:17Z"
+    },
+    {
+      "repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "tag": "1.20.1",
+      "published_at": "2025-07-07T19:58:07Z"
+    },
+    {
+      "repo": "confident-ai/deepteam",
+      "tag": "v1.0.9",
+      "published_at": "2025-11-12T14:18:25Z"
+    },
+    {
+      "repo": "splx-ai/agentic-radar",
+      "tag": "v0.14.2",
+      "published_at": "2026-11-13T13:28:45Z"
+    },
+    {
+      "repo": "fortra/impacket",
+      "tag": "impacket_0_13_1",
+      "published_at": "2026-05-19T15:39:49Z"
+    },
+    {
+      "repo": "SpecterOps/BloodHound",
+      "tag": "v9.9.2",
+      "published_at": "2026-11-06T17:14:24Z"
+    },
+    {
+      "repo": "peass-ng/PEASS-ng",
+      "tag": "20261109-f4fdadd7",
+      "published_at": "2026-11-09T14:26:42Z"
+    },
+    {
+      "repo": "usestrix/strix",
+      "tag": "v1.7.1",
+      "published_at": "2026-11-10T21:24:38Z"
+    },
+    {
+      "repo": "vxcontrol/pentagi",
+      "tag": "v2.2.0",
+      "published_at": "2026-10-05T06:59:50Z"
+    },
+    {
+      "repo": "AIPentest/CyberStrikeAI",
+      "tag": "v1.8.0",
+      "published_at": "2026-11-13T11:43:32Z"
+    },
+    {
+      "repo": "sqlmapproject/sqlmap",
+      "tag": "1.10",
+      "published_at": "2026-01-01T18:27:27Z"
+    },
+    {
+      "repo": "epi052/feroxbuster",
+      "tag": "v2.14.0",
+      "published_at": "2026-11-12T19:32:19Z"
+    },
+    {
+      "repo": "log2timeline/plaso",
+      "tag": "20261027",
+      "published_at": "2026-10-27T10:23:33Z"
+    },
+    {
+      "repo": "OpenCTI-Platform/opencti",
+      "tag": "7.261109.0",
+      "published_at": "2026-11-09T20:39:15Z"
+    },
+    {
+      "repo": "OISF/suricata",
+      "tag": "suricata-8.0.8",
+      "published_at": "2026-10-29T21:12:24Z"
+    },
+    {
+      "repo": "Velocidex/velociraptor",
+      "tag": "v0.77.3",
+      "published_at": "2026-10-05T01:00:38Z"
+    },
+    {
+      "repo": "Yamato-Security/hayabusa",
+      "tag": "v4.4.0",
+      "published_at": "2026-11-10T10:39:02Z"
+    },
+    {
+      "repo": "VirusTotal/yara",
+      "tag": "v4.6.0",
+      "published_at": "2026-10-27T12:10:10Z"
+    },
+    {
+      "repo": "Shuffle/Shuffle",
+      "tag": "v2.3.0",
+      "published_at": "2026-09-28T13:57:49Z"
+    },
+    {
+      "repo": "SigmaHQ/sigma",
+      "tag": "r2026-07-01",
+      "published_at": "2026-07-09T14:51:34Z"
+    },
+    {
+      "repo": "elastic/detection-rules",
+      "tag": "dev-v3.0.0",
+      "published_at": "2026-09-25T21:06:52Z"
+    },
+    {
+      "repo": "kubescape/kubescape",
+      "tag": "v4.0.21",
+      "published_at": "2026-11-13T14:12:25Z"
+    },
+    {
+      "repo": "kyverno/kyverno",
+      "tag": "v1.20.0",
+      "published_at": "2026-11-12T09:32:42Z"
+    },
+    {
+      "repo": "prowler-cloud/prowler",
+      "tag": "5.49.0",
+      "published_at": "2026-11-12T13:27:58Z"
+    },
+    {
+      "repo": "cilium/tetragon",
+      "tag": "v1.8.0",
+      "published_at": "2026-10-30T17:18:17Z"
+    },
+    {
+      "repo": "stackrox/stackrox",
+      "tag": "5.0.0",
+      "published_at": "2026-11-04T19:03:38Z"
+    },
+    {
+      "repo": "turbot/steampipe",
+      "tag": "v2.5.0",
+      "published_at": "2026-11-13T14:24:50Z"
+    },
+    {
+      "repo": "RhinoSecurityLabs/pacu",
+      "tag": "v1.7.0",
+      "published_at": "2026-03-23T17:29:16Z"
+    },
+    {
+      "repo": "nccgroup/ScoutSuite",
+      "tag": "5.14.0",
+      "published_at": "2024-05-10T09:27:44Z"
+    },
+    {
+      "repo": "dependency-check/DependencyCheck",
+      "tag": "v13.0.0",
+      "published_at": "2026-08-03T10:43:02Z"
+    },
+    {
+      "repo": "trufflesecurity/trufflehog",
+      "tag": "v3.99.9",
+      "published_at": "2026-11-12T21:05:01Z"
+    },
+    {
+      "repo": "anchore/syft",
+      "tag": "v1.57.1",
+      "published_at": "2026-11-09T14:39:42Z"
+    },
+    {
+      "repo": "anchore/grype",
+      "tag": "v0.121.3",
+      "published_at": "2026-11-09T15:17:25Z"
+    },
+    {
+      "repo": "DefectDojo/django-DefectDojo",
+      "tag": "3.5.103",
+      "published_at": "2026-11-13T21:25:34Z"
+    },
+    {
+      "repo": "bridgecrewio/checkov",
+      "tag": "3.4.5",
+      "published_at": "2026-11-12T23:01:44Z"
+    },
+    {
+      "repo": "semgrep/semgrep",
+      "tag": "v1.185.0",
+      "published_at": "2026-11-10T09:32:54Z"
+    },
+    {
+      "repo": "zaproxy/zaproxy",
+      "tag": "v2.17.0",
+      "published_at": "2025-12-15T14:41:51Z"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "tag": "0.13.8",
+      "published_at": "2026-11-12T17:03:07Z"
+    },
+    {
+      "repo": "zed-industries/zed",
+      "tag": "v1.28.1",
+      "published_at": "2026-11-11T19:08:27Z"
+    },
+    {
+      "repo": "cli/cli",
+      "tag": "v2.104.0",
+      "published_at": "2026-11-12T19:03:51Z"
+    },
+    {
+      "repo": "astral-sh/ruff",
+      "tag": "0.17.5",
+      "published_at": "2026-11-12T17:55:55Z"
+    },
+    {
+      "repo": "neovim/neovim",
+      "tag": "v0.12.6",
+      "published_at": "2026-10-09T15:43:25Z"
+    },
+    {
+      "repo": "jdx/mise",
+      "tag": "v2026.11.8",
+      "published_at": "2026-11-13T13:07:07Z"
+    },
+    {
+      "repo": "jqlang/jq",
+      "tag": "jq-1.8.2",
+      "published_at": "2026-06-20T14:11:27Z"
+    },
+    {
+      "repo": "junegunn/fzf",
+      "tag": "v0.75.0",
+      "published_at": "2026-11-07T12:03:59Z"
+    },
+    {
+      "repo": "pre-commit/pre-commit",
+      "tag": "v4.7.0",
+      "published_at": "2026-10-13T15:35:39Z"
+    },
+    {
+      "repo": "BurntSushi/ripgrep",
+      "tag": "15.2.0",
+      "published_at": "2026-07-15T16:26:10Z"
+    },
+    {
+      "repo": "RooCodeInc/Roo-Code",
+      "tag": "v3.54.0",
+      "published_at": "2026-05-15T17:52:24Z"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "tag": "v0.45.0",
+      "published_at": "2026-11-10T21:42:42Z"
+    },
+    {
+      "repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "tag": "v1.10.1",
+      "published_at": "2025-02-09T08:00:10Z"
+    },
+    {
+      "repo": "jeremylong/DependencyCheck",
+      "tag": "v12.1.0",
+      "published_at": "2025-02-17T10:14:26Z"
+    },
+    {
+      "repo": "penpot/penpot",
+      "tag": "2.19.1",
+      "published_at": "2026-11-11T10:03:30Z"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "tag": "v1.8.1",
+      "published_at": "2026-11-10T23:59:25Z"
+    },
+    {
+      "repo": "blader/humanizer",
+      "tag": "v4.0.0",
+      "published_at": "2026-11-10T01:35:15Z"
+    }
+  ],
+  "stale_push": [
+    {
+      "repo": "aquasecurity/kube-hunter",
+      "pushed_at": "2024-03-19T12:30:55Z",
+      "days": 969
+    }
+  ],
+  "errors": []
+}
