@@ -1,0 +1,1122 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Saigon (UTC+7)",
+  "repos": {
+    "Kilo-Org/kilocode": {
+      "stars": 28001,
+      "forks": 3362,
+      "pushed_at": "2026-11-15T16:37:49Z",
+      "archived": false
+    },
+    "anomalyco/opencode": {
+      "stars": 227018,
+      "forks": 30750,
+      "pushed_at": "2026-11-15T19:20:50Z",
+      "archived": false
+    },
+    "cline/cline": {
+      "stars": 71657,
+      "forks": 7926,
+      "pushed_at": "2026-11-13T23:33:41Z",
+      "archived": false
+    },
+    "google-gemini/gemini-cli": {
+      "stars": 108848,
+      "forks": 14956,
+      "pushed_at": "2026-11-15T01:12:38Z",
+      "archived": false
+    },
+    "openai/codex": {
+      "stars": 135396,
+      "forks": 21474,
+      "pushed_at": "2026-11-15T19:11:51Z",
+      "archived": false
+    },
+    "aaif-goose/goose": {
+      "stars": 56658,
+      "forks": 6592,
+      "pushed_at": "2026-11-14T23:49:13Z",
+      "archived": false
+    },
+    "OpenHands/OpenHands": {
+      "stars": 93523,
+      "forks": 12526,
+      "pushed_at": "2026-11-15T17:37:45Z",
+      "archived": false
+    },
+    "continuedev/continue": {
+      "stars": 36485,
+      "forks": 5565,
+      "pushed_at": "2026-11-14T13:30:51Z",
+      "archived": false
+    },
+    "deepseek-ai/deepseek-harness": {
+      "stars": 281555,
+      "forks": 34816,
+      "pushed_at": "2026-11-13T07:56:25Z",
+      "archived": false
+    },
+    "can1357/oh-my-pi": {
+      "stars": 39107,
+      "forks": 4473,
+      "pushed_at": "2026-11-15T14:17:07Z",
+      "archived": false
+    },
+    "QwenLM/qwen-code": {
+      "stars": 30527,
+      "forks": 3534,
+      "pushed_at": "2026-11-15T19:05:41Z",
+      "archived": false
+    },
+    "anthropics/claude-code": {
+      "stars": 155768,
+      "forks": 25012,
+      "pushed_at": "2026-11-15T18:24:41Z",
+      "archived": false
+    },
+    "charmbracelet/crush": {
+      "stars": 29095,
+      "forks": 2367,
+      "pushed_at": "2026-11-15T19:19:47Z",
+      "archived": false
+    },
+    "Aider-AI/aider": {
+      "stars": 50129,
+      "forks": 5170,
+      "pushed_at": "2026-05-22T14:02:20Z",
+      "archived": false
+    },
+    "SWE-agent/SWE-agent": {
+      "stars": 20811,
+      "forks": 2270,
+      "pushed_at": "2026-11-09T22:24:38Z",
+      "archived": false
+    },
+    "TabbyML/tabby": {
+      "stars": 33938,
+      "forks": 1798,
+      "pushed_at": "2026-06-30T20:38:02Z",
+      "archived": false
+    },
+    "xai-org/grok-build": {
+      "stars": 27784,
+      "forks": 5246,
+      "pushed_at": "2026-09-29T16:57:13Z",
+      "archived": false
+    },
+    "sickn33/agentic-awesome-skills": {
+      "stars": 49756,
+      "forks": 7195,
+      "pushed_at": "2026-11-15T18:45:22Z",
+      "archived": false
+    },
+    "github/awesome-copilot": {
+      "stars": 41181,
+      "forks": 5363,
+      "pushed_at": "2026-11-14T20:42:30Z",
+      "archived": false
+    },
+    "NVIDIA/skills": {
+      "stars": 4004,
+      "forks": 526,
+      "pushed_at": "2026-11-14T00:20:26Z",
+      "archived": false
+    },
+    "addyosmani/agent-skills": {
+      "stars": 117862,
+      "forks": 12334,
+      "pushed_at": "2026-11-14T04:33:56Z",
+      "archived": false
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "stars": 37209,
+      "forks": 4134,
+      "pushed_at": "2026-11-15T18:23:24Z",
+      "archived": false
+    },
+    "alirezarezvani/claude-skills": {
+      "stars": 29850,
+      "forks": 4142,
+      "pushed_at": "2026-11-12T10:35:06Z",
+      "archived": false
+    },
+    "wshobson/agents": {
+      "stars": 42557,
+      "forks": 4497,
+      "pushed_at": "2026-11-09T01:08:33Z",
+      "archived": false
+    },
+    "anthropics/claude-plugins-official": {
+      "stars": 47379,
+      "forks": 4923,
+      "pushed_at": "2026-11-14T07:27:28Z",
+      "archived": false
+    },
+    "google-gemini/gemini-skills": {
+      "stars": 4496,
+      "forks": 498,
+      "pushed_at": "2026-11-12T18:08:59Z",
+      "archived": false
+    },
+    "Jeffallan/claude-skills": {
+      "stars": 12379,
+      "forks": 1188,
+      "pushed_at": "2026-11-15T12:48:35Z",
+      "archived": false
+    },
+    "getsentry/skills": {
+      "stars": 1172,
+      "forks": 70,
+      "pushed_at": "2026-11-14T19:39:01Z",
+      "archived": false
+    },
+    "prompt-security/clawsec": {
+      "stars": 1136,
+      "forks": 110,
+      "pushed_at": "2026-11-15T03:23:11Z",
+      "archived": false
+    },
+    "davepoon/buildwithclaude": {
+      "stars": 3749,
+      "forks": 730,
+      "pushed_at": "2026-11-15T11:50:07Z",
+      "archived": false
+    },
+    "affaan-m/ECC": {
+      "stars": 303723,
+      "forks": 44768,
+      "pushed_at": "2026-11-15T06:48:46Z",
+      "archived": false
+    },
+    "mattpocock/skills": {
+      "stars": 324995,
+      "forks": 27287,
+      "pushed_at": "2026-11-13T12:30:31Z",
+      "archived": false
+    },
+    "obra/superpowers": {
+      "stars": 317993,
+      "forks": 28333,
+      "pushed_at": "2026-11-03T23:24:58Z",
+      "archived": false
+    },
+    "SnailSploit/Claude-Red": {
+      "stars": 11006,
+      "forks": 1499,
+      "pushed_at": "2026-11-11T13:48:05Z",
+      "archived": false
+    },
+    "google/skills": {
+      "stars": 24328,
+      "forks": 2017,
+      "pushed_at": "2026-11-15T13:58:01Z",
+      "archived": false
+    },
+    "microsoft/skills": {
+      "stars": 3206,
+      "forks": 369,
+      "pushed_at": "2026-11-13T22:48:25Z",
+      "archived": false
+    },
+    "trailofbits/skills": {
+      "stars": 8205,
+      "forks": 708,
+      "pushed_at": "2026-11-12T17:48:51Z",
+      "archived": false
+    },
+    "supabase/agent-skills": {
+      "stars": 3088,
+      "forks": 269,
+      "pushed_at": "2026-11-12T15:32:31Z",
+      "archived": false
+    },
+    "vercel-labs/agent-skills": {
+      "stars": 34113,
+      "forks": 2976,
+      "pushed_at": "2026-11-12T14:09:10Z",
+      "archived": false
+    },
+    "agentskills/agentskills": {
+      "stars": 27313,
+      "forks": 2035,
+      "pushed_at": "2026-11-04T19:47:27Z",
+      "archived": false
+    },
+    "openai/plugins": {
+      "stars": 7962,
+      "forks": 1025,
+      "pushed_at": "2026-11-14T00:11:13Z",
+      "archived": false
+    },
+    "cloudflare/security-audit-skill": {
+      "stars": 73090,
+      "forks": 4894,
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "archived": false
+    },
+    "BehiSecc/awesome-claude-skills": {
+      "stars": 10431,
+      "forks": 2100,
+      "pushed_at": "2026-11-02T12:16:33Z",
+      "archived": false
+    },
+    "openai/skills": {
+      "stars": 28757,
+      "forks": 2013,
+      "pushed_at": "2026-10-28T17:31:41Z",
+      "archived": false
+    },
+    "anthropics/skills": {
+      "stars": 195260,
+      "forks": 22955,
+      "pushed_at": "2026-11-14T21:52:49Z",
+      "archived": false
+    },
+    "cursor/plugins": {
+      "stars": 16408,
+      "forks": 1742,
+      "pushed_at": "2026-11-15T03:36:21Z",
+      "archived": false
+    },
+    "PatrickJS/awesome-cursorrules": {
+      "stars": 41162,
+      "forks": 3543,
+      "pushed_at": "2026-05-30T18:01:29Z",
+      "archived": false
+    },
+    "UnitOneAI/SecuritySkills": {
+      "stars": 111,
+      "forks": 138,
+      "pushed_at": "2026-06-18T20:00:00Z",
+      "archived": false
+    },
+    "vercel/ai": {
+      "stars": 27986,
+      "forks": 5628,
+      "pushed_at": "2026-11-15T07:33:44Z",
+      "archived": false
+    },
+    "vllm-project/vllm": {
+      "stars": 96966,
+      "forks": 24859,
+      "pushed_at": "2026-11-15T17:20:48Z",
+      "archived": false
+    },
+    "modelcontextprotocol/servers": {
+      "stars": 92015,
+      "forks": 11967,
+      "pushed_at": "2026-11-12T05:37:52Z",
+      "archived": false
+    },
+    "ggml-org/llama.cpp": {
+      "stars": 135173,
+      "forks": 25641,
+      "pushed_at": "2026-11-15T18:48:50Z",
+      "archived": false
+    },
+    "openai/openai-agents-python": {
+      "stars": 30695,
+      "forks": 5062,
+      "pushed_at": "2026-11-15T18:33:06Z",
+      "archived": false
+    },
+    "langchain-ai/langchain": {
+      "stars": 149565,
+      "forks": 25138,
+      "pushed_at": "2026-11-15T19:24:48Z",
+      "archived": false
+    },
+    "crewAIInc/crewAI": {
+      "stars": 60953,
+      "forks": 9196,
+      "pushed_at": "2026-11-15T19:21:49Z",
+      "archived": false
+    },
+    "pydantic/pydantic-ai": {
+      "stars": 21224,
+      "forks": 3182,
+      "pushed_at": "2026-11-15T18:41:02Z",
+      "archived": false
+    },
+    "browser-use/browser-use": {
+      "stars": 121103,
+      "forks": 13542,
+      "pushed_at": "2026-11-15T03:39:17Z",
+      "archived": false
+    },
+    "langchain-ai/langgraph": {
+      "stars": 44992,
+      "forks": 7763,
+      "pushed_at": "2026-11-15T00:33:18Z",
+      "archived": false
+    },
+    "run-llama/llama_index": {
+      "stars": 52911,
+      "forks": 8562,
+      "pushed_at": "2026-11-14T02:26:05Z",
+      "archived": false
+    },
+    "ollama/ollama": {
+      "stars": 187075,
+      "forks": 19105,
+      "pushed_at": "2026-11-15T18:46:15Z",
+      "archived": false
+    },
+    "modelcontextprotocol/python-sdk": {
+      "stars": 24868,
+      "forks": 4135,
+      "pushed_at": "2026-11-05T13:38:56Z",
+      "archived": false
+    },
+    "BerriAI/litellm": {
+      "stars": 63301,
+      "forks": 13301,
+      "pushed_at": "2026-11-15T19:21:33Z",
+      "archived": false
+    },
+    "microsoft/autogen": {
+      "stars": 61854,
+      "forks": 9408,
+      "pushed_at": "2026-11-12T10:19:36Z",
+      "archived": false
+    },
+    "microsoft/PyRIT": {
+      "stars": 4859,
+      "forks": 1061,
+      "pushed_at": "2026-11-15T17:17:24Z",
+      "archived": false
+    },
+    "promptfoo/promptfoo": {
+      "stars": 27235,
+      "forks": 2751,
+      "pushed_at": "2026-11-15T17:42:41Z",
+      "archived": false
+    },
+    "Giskard-AI/giskard-oss": {
+      "stars": 5953,
+      "forks": 573,
+      "pushed_at": "2026-11-14T06:56:23Z",
+      "archived": false
+    },
+    "NVIDIA-NeMo/Guardrails": {
+      "stars": 7501,
+      "forks": 901,
+      "pushed_at": "2026-11-14T06:35:22Z",
+      "archived": false
+    },
+    "NVIDIA/garak": {
+      "stars": 10037,
+      "forks": 1481,
+      "pushed_at": "2026-11-06T23:26:29Z",
+      "archived": false
+    },
+    "data-privacy-stack/presidio": {
+      "stars": 11889,
+      "forks": 1436,
+      "pushed_at": "2026-11-14T13:31:58Z",
+      "archived": false
+    },
+    "snyk/agent-scan": {
+      "stars": 3243,
+      "forks": 296,
+      "pushed_at": "2026-11-13T12:21:32Z",
+      "archived": false
+    },
+    "Trusted-AI/adversarial-robustness-toolbox": {
+      "stars": 6311,
+      "forks": 1357,
+      "pushed_at": "2026-11-13T22:31:52Z",
+      "archived": false
+    },
+    "cisco-ai-defense/mcp-scanner": {
+      "stars": 1118,
+      "forks": 164,
+      "pushed_at": "2026-11-12T22:01:27Z",
+      "archived": false
+    },
+    "msoedov/agentic_security": {
+      "stars": 2046,
+      "forks": 312,
+      "pushed_at": "2026-11-15T16:15:21Z",
+      "archived": false
+    },
+    "guardrails-ai/guardrails": {
+      "stars": 7610,
+      "forks": 741,
+      "pushed_at": "2026-11-11T02:11:16Z",
+      "archived": false
+    },
+    "confident-ai/deepteam": {
+      "stars": 3103,
+      "forks": 508,
+      "pushed_at": "2026-10-23T11:32:04Z",
+      "archived": false
+    },
+    "protectai/modelscan": {
+      "stars": 797,
+      "forks": 176,
+      "pushed_at": "2026-09-28T23:10:13Z",
+      "archived": false
+    },
+    "splx-ai/agentic-radar": {
+      "stars": 1070,
+      "forks": 155,
+      "pushed_at": "2026-11-13T13:28:44Z",
+      "archived": false
+    },
+    "rapid7/metasploit-framework": {
+      "stars": 39581,
+      "forks": 15046,
+      "pushed_at": "2026-11-13T17:51:05Z",
+      "archived": false
+    },
+    "projectdiscovery/nuclei": {
+      "stars": 32950,
+      "forks": 4015,
+      "pushed_at": "2026-11-15T18:57:04Z",
+      "archived": false
+    },
+    "fortra/impacket": {
+      "stars": 16269,
+      "forks": 3989,
+      "pushed_at": "2026-11-11T12:57:09Z",
+      "archived": false
+    },
+    "SpecterOps/BloodHound": {
+      "stars": 3569,
+      "forks": 401,
+      "pushed_at": "2026-11-14T04:24:44Z",
+      "archived": false
+    },
+    "projectdiscovery/httpx": {
+      "stars": 10614,
+      "forks": 1124,
+      "pushed_at": "2026-11-13T22:11:55Z",
+      "archived": false
+    },
+    "projectdiscovery/subfinder": {
+      "stars": 14805,
+      "forks": 1652,
+      "pushed_at": "2026-11-09T10:29:33Z",
+      "archived": false
+    },
+    "BC-SECURITY/Empire": {
+      "stars": 5353,
+      "forks": 707,
+      "pushed_at": "2026-09-08T14:45:24Z",
+      "archived": false
+    },
+    "peass-ng/PEASS-ng": {
+      "stars": 20833,
+      "forks": 3413,
+      "pushed_at": "2026-11-15T11:51:45Z",
+      "archived": false
+    },
+    "usestrix/strix": {
+      "stars": 75728,
+      "forks": 8562,
+      "pushed_at": "2026-11-13T17:24:43Z",
+      "archived": false
+    },
+    "vxcontrol/pentagi": {
+      "stars": 34212,
+      "forks": 5397,
+      "pushed_at": "2026-11-13T23:40:49Z",
+      "archived": false
+    },
+    "AIPentest/CyberStrikeAI": {
+      "stars": 8658,
+      "forks": 1939,
+      "pushed_at": "2026-11-15T06:51:34Z",
+      "archived": false
+    },
+    "sqlmapproject/sqlmap": {
+      "stars": 38957,
+      "forks": 6445,
+      "pushed_at": "2026-11-12T19:53:44Z",
+      "archived": false
+    },
+    "CyberStrikeus/CyberStrike": {
+      "stars": 3583,
+      "forks": 619,
+      "pushed_at": "2026-11-15T18:19:16Z",
+      "archived": false
+    },
+    "ffuf/ffuf": {
+      "stars": 17059,
+      "forks": 1626,
+      "pushed_at": "2026-09-26T08:58:08Z",
+      "archived": false
+    },
+    "epi052/feroxbuster": {
+      "stars": 8176,
+      "forks": 638,
+      "pushed_at": "2026-11-12T19:32:18Z",
+      "archived": false
+    },
+    "owasp-amass/amass": {
+      "stars": 15516,
+      "forks": 2207,
+      "pushed_at": "2026-11-15T17:40:16Z",
+      "archived": false
+    },
+    "wazuh/wazuh": {
+      "stars": 17749,
+      "forks": 2610,
+      "pushed_at": "2026-11-15T19:03:13Z",
+      "archived": false
+    },
+    "zeek/zeek": {
+      "stars": 8241,
+      "forks": 1468,
+      "pushed_at": "2026-11-15T00:04:18Z",
+      "archived": false
+    },
+    "log2timeline/plaso": {
+      "stars": 2195,
+      "forks": 435,
+      "pushed_at": "2026-11-15T09:28:42Z",
+      "archived": false
+    },
+    "OpenCTI-Platform/opencti": {
+      "stars": 10372,
+      "forks": 1516,
+      "pushed_at": "2026-11-15T18:58:08Z",
+      "archived": false
+    },
+    "OISF/suricata": {
+      "stars": 6894,
+      "forks": 1791,
+      "pushed_at": "2026-11-15T18:42:15Z",
+      "archived": false
+    },
+    "MISP/MISP": {
+      "stars": 6667,
+      "forks": 1667,
+      "pushed_at": "2026-11-11T13:51:33Z",
+      "archived": false
+    },
+    "osquery/osquery": {
+      "stars": 23769,
+      "forks": 2650,
+      "pushed_at": "2026-11-12T21:17:43Z",
+      "archived": false
+    },
+    "Velocidex/velociraptor": {
+      "stars": 4466,
+      "forks": 803,
+      "pushed_at": "2026-11-15T05:44:35Z",
+      "archived": false
+    },
+    "Yamato-Security/hayabusa": {
+      "stars": 3488,
+      "forks": 307,
+      "pushed_at": "2026-11-10T12:24:39Z",
+      "archived": false
+    },
+    "VirusTotal/yara": {
+      "stars": 10040,
+      "forks": 1605,
+      "pushed_at": "2026-10-27T11:53:52Z",
+      "archived": false
+    },
+    "Shuffle/Shuffle": {
+      "stars": 2481,
+      "forks": 441,
+      "pushed_at": "2026-11-12T13:01:45Z",
+      "archived": false
+    },
+    "mandiant/capa": {
+      "stars": 6336,
+      "forks": 757,
+      "pushed_at": "2026-11-10T16:01:01Z",
+      "archived": false
+    },
+    "Security-Onion-Solutions/securityonion": {
+      "stars": 4992,
+      "forks": 685,
+      "pushed_at": "2026-11-13T21:07:56Z",
+      "archived": false
+    },
+    "SigmaHQ/sigma": {
+      "stars": 11513,
+      "forks": 2949,
+      "pushed_at": "2026-11-15T01:38:10Z",
+      "archived": false
+    },
+    "elastic/detection-rules": {
+      "stars": 2972,
+      "forks": 756,
+      "pushed_at": "2026-11-13T23:19:37Z",
+      "archived": false
+    },
+    "kubescape/kubescape": {
+      "stars": 11917,
+      "forks": 1109,
+      "pushed_at": "2026-11-15T16:31:17Z",
+      "archived": false
+    },
+    "kyverno/kyverno": {
+      "stars": 8347,
+      "forks": 1735,
+      "pushed_at": "2026-11-14T15:26:01Z",
+      "archived": false
+    },
+    "prowler-cloud/prowler": {
+      "stars": 15244,
+      "forks": 2504,
+      "pushed_at": "2026-11-13T18:34:24Z",
+      "archived": false
+    },
+    "cloud-custodian/cloud-custodian": {
+      "stars": 6115,
+      "forks": 1675,
+      "pushed_at": "2026-11-13T21:46:27Z",
+      "archived": false
+    },
+    "cilium/tetragon": {
+      "stars": 5185,
+      "forks": 641,
+      "pushed_at": "2026-11-15T03:43:46Z",
+      "archived": false
+    },
+    "falcosecurity/falco": {
+      "stars": 9579,
+      "forks": 1111,
+      "pushed_at": "2026-11-09T06:43:23Z",
+      "archived": false
+    },
+    "stackrox/stackrox": {
+      "stars": 1316,
+      "forks": 201,
+      "pushed_at": "2026-11-15T19:07:33Z",
+      "archived": false
+    },
+    "open-policy-agent/gatekeeper": {
+      "stars": 4303,
+      "forks": 889,
+      "pushed_at": "2026-11-14T09:44:08Z",
+      "archived": false
+    },
+    "DataDog/stratus-red-team": {
+      "stars": 2447,
+      "forks": 330,
+      "pushed_at": "2026-11-13T20:30:02Z",
+      "archived": false
+    },
+    "turbot/steampipe": {
+      "stars": 8008,
+      "forks": 348,
+      "pushed_at": "2026-11-13T18:05:48Z",
+      "archived": false
+    },
+    "RhinoSecurityLabs/pacu": {
+      "stars": 5398,
+      "forks": 802,
+      "pushed_at": "2026-05-19T22:31:37Z",
+      "archived": false
+    },
+    "BishopFox/cloudfox": {
+      "stars": 2624,
+      "forks": 262,
+      "pushed_at": "2026-11-02T13:30:53Z",
+      "archived": false
+    },
+    "aquasecurity/kube-bench": {
+      "stars": 8260,
+      "forks": 1350,
+      "pushed_at": "2026-10-26T19:32:45Z",
+      "archived": false
+    },
+    "nccgroup/ScoutSuite": {
+      "stars": 7879,
+      "forks": 1237,
+      "pushed_at": "2025-09-23T18:33:52Z",
+      "archived": false
+    },
+    "dependency-check/DependencyCheck": {
+      "stars": 7776,
+      "forks": 1432,
+      "pushed_at": "2026-11-15T15:21:31Z",
+      "archived": false
+    },
+    "google/osv-scanner": {
+      "stars": 11530,
+      "forks": 855,
+      "pushed_at": "2026-11-14T20:57:01Z",
+      "archived": false
+    },
+    "aquasecurity/trivy": {
+      "stars": 39374,
+      "forks": 887,
+      "pushed_at": "2026-11-14T05:39:21Z",
+      "archived": false
+    },
+    "sigstore/cosign": {
+      "stars": 6441,
+      "forks": 842,
+      "pushed_at": "2026-11-12T19:00:30Z",
+      "archived": false
+    },
+    "trufflesecurity/trufflehog": {
+      "stars": 29371,
+      "forks": 2754,
+      "pushed_at": "2026-11-14T11:07:54Z",
+      "archived": false
+    },
+    "anchore/syft": {
+      "stars": 9897,
+      "forks": 1057,
+      "pushed_at": "2026-11-14T10:48:26Z",
+      "archived": false
+    },
+    "anchore/grype": {
+      "stars": 13267,
+      "forks": 946,
+      "pushed_at": "2026-11-14T10:50:37Z",
+      "archived": false
+    },
+    "DependencyTrack/dependency-track": {
+      "stars": 4460,
+      "forks": 856,
+      "pushed_at": "2026-11-14T19:55:01Z",
+      "archived": false
+    },
+    "DefectDojo/django-DefectDojo": {
+      "stars": 5236,
+      "forks": 2021,
+      "pushed_at": "2026-11-15T19:26:50Z",
+      "archived": false
+    },
+    "bridgecrewio/checkov": {
+      "stars": 9162,
+      "forks": 1473,
+      "pushed_at": "2026-11-12T23:01:49Z",
+      "archived": false
+    },
+    "semgrep/semgrep": {
+      "stars": 17694,
+      "forks": 1181,
+      "pushed_at": "2026-11-13T00:03:04Z",
+      "archived": false
+    },
+    "zaproxy/zaproxy": {
+      "stars": 16196,
+      "forks": 2708,
+      "pushed_at": "2026-11-13T17:26:17Z",
+      "archived": false
+    },
+    "ossf/scorecard": {
+      "stars": 5839,
+      "forks": 773,
+      "pushed_at": "2026-11-14T00:09:17Z",
+      "archived": false
+    },
+    "PyCQA/bandit": {
+      "stars": 8389,
+      "forks": 890,
+      "pushed_at": "2026-11-09T15:00:39Z",
+      "archived": false
+    },
+    "step-security/harden-runner": {
+      "stars": 1300,
+      "forks": 125,
+      "pushed_at": "2026-11-14T04:51:38Z",
+      "archived": false
+    },
+    "gitleaks/gitleaks": {
+      "stars": 31052,
+      "forks": 2381,
+      "pushed_at": "2026-10-28T04:14:29Z",
+      "archived": false
+    },
+    "astral-sh/uv": {
+      "stars": 92028,
+      "forks": 3832,
+      "pushed_at": "2026-11-14T04:08:07Z",
+      "archived": false
+    },
+    "opentofu/opentofu": {
+      "stars": 30872,
+      "forks": 1429,
+      "pushed_at": "2026-11-13T15:18:19Z",
+      "archived": false
+    },
+    "zed-industries/zed": {
+      "stars": 95078,
+      "forks": 11721,
+      "pushed_at": "2026-11-15T18:39:18Z",
+      "archived": false
+    },
+    "cli/cli": {
+      "stars": 47033,
+      "forks": 9334,
+      "pushed_at": "2026-11-13T16:00:07Z",
+      "archived": false
+    },
+    "astral-sh/ruff": {
+      "stars": 51251,
+      "forks": 2702,
+      "pushed_at": "2026-11-15T15:36:20Z",
+      "archived": false
+    },
+    "neovim/neovim": {
+      "stars": 103647,
+      "forks": 7422,
+      "pushed_at": "2026-11-15T19:22:50Z",
+      "archived": false
+    },
+    "jdx/mise": {
+      "stars": 36185,
+      "forks": 1539,
+      "pushed_at": "2026-11-15T17:52:19Z",
+      "archived": false
+    },
+    "jqlang/jq": {
+      "stars": 36136,
+      "forks": 2343,
+      "pushed_at": "2026-11-02T07:08:10Z",
+      "archived": false
+    },
+    "jesseduffield/lazygit": {
+      "stars": 83910,
+      "forks": 3257,
+      "pushed_at": "2026-11-15T18:40:34Z",
+      "archived": false
+    },
+    "tldraw/tldraw": {
+      "stars": 51424,
+      "forks": 3608,
+      "pushed_at": "2026-11-15T03:31:33Z",
+      "archived": false
+    },
+    "junegunn/fzf": {
+      "stars": 84212,
+      "forks": 3470,
+      "pushed_at": "2026-11-12T01:51:46Z",
+      "archived": false
+    },
+    "pre-commit/pre-commit": {
+      "stars": 15696,
+      "forks": 1055,
+      "pushed_at": "2026-11-09T21:42:14Z",
+      "archived": false
+    },
+    "sharkdp/bat": {
+      "stars": 61267,
+      "forks": 2352,
+      "pushed_at": "2026-11-15T19:00:01Z",
+      "archived": false
+    },
+    "BurntSushi/ripgrep": {
+      "stars": 69962,
+      "forks": 3503,
+      "pushed_at": "2026-11-09T20:53:12Z",
+      "archived": false
+    },
+    "RooCodeInc/Roo-Code": {
+      "stars": 24238,
+      "forks": 3438,
+      "pushed_at": "2026-05-15T18:08:47Z",
+      "archived": true
+    },
+    "Comfy-Org/ComfyUI": {
+      "stars": 147006,
+      "forks": 17535,
+      "pushed_at": "2026-11-15T19:15:37Z",
+      "archived": false
+    },
+    "AUTOMATIC1111/stable-diffusion-webui": {
+      "stars": 165318,
+      "forks": 31126,
+      "pushed_at": "2026-03-02T07:00:53Z",
+      "archived": false
+    },
+    "protectai/llm-guard": {
+      "stars": 3216,
+      "forks": 476,
+      "pushed_at": "2026-07-08T23:58:40Z",
+      "archived": true
+    },
+    "meta-llama/PurpleLlama": {
+      "stars": 4480,
+      "forks": 788,
+      "pushed_at": "2026-11-13T06:47:17Z",
+      "archived": false
+    },
+    "GreyDGL/PentestGPT": {
+      "stars": 16429,
+      "forks": 2878,
+      "pushed_at": "2026-07-14T12:58:31Z",
+      "archived": false
+    },
+    "TheHive-Project/TheHive": {
+      "stars": 3950,
+      "forks": 708,
+      "pushed_at": "2025-07-25T13:57:27Z",
+      "archived": true
+    },
+    "aquasecurity/kube-hunter": {
+      "stars": 5090,
+      "forks": 613,
+      "pushed_at": "2024-03-19T12:30:55Z",
+      "archived": false
+    },
+    "jeremylong/DependencyCheck": {
+      "stars": 56,
+      "forks": 28,
+      "pushed_at": "2025-09-27T20:17:48Z",
+      "archived": true
+    },
+    "penpot/penpot": {
+      "stars": 62380,
+      "forks": 4419,
+      "pushed_at": "2026-11-15T13:35:50Z",
+      "archived": false
+    },
+    "excalidraw/excalidraw": {
+      "stars": 135729,
+      "forks": 16180,
+      "pushed_at": "2026-11-15T16:23:22Z",
+      "archived": false
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "stars": 57300,
+      "forks": 5033,
+      "pushed_at": "2026-11-09T09:17:48Z",
+      "archived": false
+    },
+    "NVIDIA/SkillSpector": {
+      "stars": 26197,
+      "forks": 2323,
+      "pushed_at": "2026-11-14T04:49:48Z",
+      "archived": false
+    },
+    "vercel-labs/skills": {
+      "stars": 39487,
+      "forks": 3475,
+      "pushed_at": "2026-11-12T23:25:25Z",
+      "archived": false
+    },
+    "OpenMontageInc/OpenMontage": {
+      "stars": 80670,
+      "forks": 10897,
+      "pushed_at": "2026-11-09T06:23:55Z",
+      "archived": false
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "stars": 144716,
+      "forks": 21299,
+      "pushed_at": "2026-11-15T04:29:49Z",
+      "archived": false
+    },
+    "blader/humanizer": {
+      "stars": 69425,
+      "forks": 5460,
+      "pushed_at": "2026-11-10T01:35:15Z",
+      "archived": false
+    },
+    "zero-lab-ai/skills": {
+      "stars": 152,
+      "forks": 9,
+      "pushed_at": "2026-10-15T15:45:42Z",
+      "archived": false
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "stars": 79571,
+      "forks": 9725,
+      "pushed_at": "2026-09-18T07:16:11Z",
+      "archived": false
+    },
+    "instructa/ai-prompts": {
+      "stars": 1102,
+      "forks": 136,
+      "pushed_at": "2026-10-17T12:47:25Z",
+      "archived": false
+    },
+    "Security-Phoenix-demo/security-skills-claude-code": {
+      "stars": 84,
+      "forks": 11,
+      "pushed_at": "2026-11-09T02:26:00Z",
+      "archived": false
+    },
+    "Masriyan/Claude-Code-CyberSecurity-Skill": {
+      "stars": 574,
+      "forks": 109,
+      "pushed_at": "2026-10-20T02:54:51Z",
+      "archived": false
+    },
+    "raroque/vibe-security-skill": {
+      "stars": 1234,
+      "forks": 140,
+      "pushed_at": "2026-03-15T07:40:41Z",
+      "archived": false
+    },
+    "anthropics/claude-code-security-review": {
+      "stars": 6920,
+      "forks": 782,
+      "pushed_at": "2026-02-11T18:01:23Z",
+      "archived": false
+    },
+    "superagent-ai/skills": {
+      "stars": 82,
+      "forks": 13,
+      "pushed_at": "2026-08-15T12:47:01Z",
+      "archived": false
+    },
+    "Hi-FullHouse/CyberSecurity-Skills": {
+      "stars": 809,
+      "forks": 196,
+      "pushed_at": "2026-05-16T02:05:35Z",
+      "archived": false
+    },
+    "semgrep/skills": {
+      "stars": 347,
+      "forks": 36,
+      "pushed_at": "2026-11-11T00:31:33Z",
+      "archived": false
+    },
+    "sanjeed5/awesome-cursor-rules-mdc": {
+      "stars": 3586,
+      "forks": 456,
+      "pushed_at": "2026-05-19T12:28:00Z",
+      "archived": false
+    },
+    "slowmist/slowmist-agent-security": {
+      "stars": 555,
+      "forks": 38,
+      "pushed_at": "2026-04-17T02:12:58Z",
+      "archived": false
+    },
+    "Batman0506/openclaw-sec-skills": {
+      "stars": 349,
+      "forks": 42,
+      "pushed_at": "2026-06-25T03:27:54Z",
+      "archived": false
+    },
+    "travisvn/awesome-claude-skills": {
+      "stars": 15829,
+      "forks": 2154,
+      "pushed_at": "2026-04-28T19:30:24Z",
+      "archived": false
+    },
+    "instavm/security-skills": {
+      "stars": 88,
+      "forks": 13,
+      "pushed_at": "2026-07-29T06:20:43Z",
+      "archived": false
+    },
+    "EvanThomasLuke/Awesome-AI-Security-Skills": {
+      "stars": 119,
+      "forks": 31,
+      "pushed_at": "2026-10-29T23:54:16Z",
+      "archived": false
+    },
+    "mrhlaingbwardev/web-security-skill": {
+      "stars": 321,
+      "forks": 45,
+      "pushed_at": "2026-07-19T14:13:54Z",
+      "archived": false
+    }
+  }
+}

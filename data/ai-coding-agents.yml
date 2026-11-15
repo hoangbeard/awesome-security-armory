@@ -19,9 +19,9 @@ items:
   tags:
   - ai
   subcategory: Terminal Agents
-  tier: main
+  tier: watchlist
   added: '2026-11-09'
-  notes: null
+  notes: 'anomaly: 5571 commits in 90 days (5.1 per contributor), likely automated/agent commits'
 - repo: cline/cline
   name: cline
   description: Autonomous coding agent extension for VS Code with human-in-the-loop approvals.
@@ -103,7 +103,7 @@ items:
   tags:
   - ai
   subcategory: Terminal Agents
-  tier: watchlist
+  tier: main
   added: '2026-11-09'
   notes: 'Watchlist: anomaly: 6119 commits in 90 days (9.6 per contributor), likely automated/agent commits.'
 - repo: anthropics/claude-code

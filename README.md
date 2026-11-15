@@ -31,26 +31,26 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (8)
 
-- [kilocode](https://github.com/Kilo-Org/kilocode) - Open-source AI coding agent for VS Code and JetBrains. 🤖 💰 · ⭐ 27.9k · 🕒 2026-11 · 🎯 92.9 · IDE Agents.
-- [opencode](https://github.com/anomalyco/opencode) - Open-source terminal coding agent that works with many model providers. 🤖 · ⭐ 225.6k · 🕒 2026-11 · 🎯 92.7 · Terminal Agents.
-- [cline](https://github.com/cline/cline) - Autonomous coding agent extension for VS Code with human-in-the-loop approvals. 🤖 · ⭐ 71.5k · 🕒 2026-11 · 🎯 87.8 · IDE Agents.
-- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent that brings Gemini to the terminal. 🤖 · ⭐ 108.8k · 🕒 2026-11 · 🎯 85.6 · Terminal Agents.
-- [codex](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in the terminal. 🤖 · ⭐ 133.9k · 🕒 2026-11 · 🎯 85.1 · Terminal Agents.
-- [goose](https://github.com/aaif-goose/goose) - Extensible local AI agent that automates engineering tasks via MCP. 🤖 · ⭐ 56.4k · 🕒 2026-11 · 🎯 78.8 · Agent Harness.
-- [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for autonomous software development agents. 🤖 💰 · ⭐ 93k · 🕒 2026-11 · 🎯 76.3 · Autonomous Agents.
-- [continue](https://github.com/continuedev/continue) - Open-source AI code assistant and agent for IDEs and CI. 🤖 💰 · ⭐ 36.4k · 🕒 2026-11 · 🎯 71.1 · IDE Agents.
+- [kilocode](https://github.com/Kilo-Org/kilocode) - Open-source AI coding agent for VS Code and JetBrains. 🤖 💰 · ⭐ 28k · 🕒 2026-11 · 🎯 85.7 · IDE Agents.
+- [cline](https://github.com/cline/cline) - Autonomous coding agent extension for VS Code with human-in-the-loop approvals. 🤖 · ⭐ 71.7k · 🕒 2026-11 · 🎯 87.2 · IDE Agents.
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Google's open-source AI agent that brings Gemini to the terminal. 🤖 · ⭐ 108.8k · 🕒 2026-11 · 🎯 85.2 · Terminal Agents.
+- [codex](https://github.com/openai/codex) - OpenAI's lightweight coding agent that runs in the terminal. 🤖 · ⭐ 135.4k · 🕒 2026-11 · 🎯 85.9 · Terminal Agents.
+- [goose](https://github.com/aaif-goose/goose) - Extensible local AI agent that automates engineering tasks via MCP. 🤖 · ⭐ 56.7k · 🕒 2026-11 · 🎯 83.7 · Agent Harness.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for autonomous software development agents. 🤖 💰 · ⭐ 93.5k · 🕒 2026-11 · 🎯 80.3 · Autonomous Agents.
+- [continue](https://github.com/continuedev/continue) - Open-source AI code assistant and agent for IDEs and CI. 🤖 💰 · ⭐ 36.5k · 🕒 2026-11 · 🎯 73.2 · IDE Agents.
+- [qwen-code](https://github.com/QwenLM/qwen-code) - Terminal coding agent optimized for Qwen models. 🤖 · ⭐ 30.5k · 🕒 2026-11 · 🎯 81.7 · Terminal Agents.
 
 ### Watchlist (9)
 
-- [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) - Plugin-based agent harness from DeepSeek for building and running coding agents. 🤖 🌱 · ⭐ 276.7k · 🕒 2026-11 · 🎯 84.8 · Agent Harness.
-- [oh-my-pi](https://github.com/can1357/oh-my-pi) - Coding agent with an integrated IDE, built by Stencil Labs. 🤖 · ⭐ 38.3k · 🕒 2026-11 · 🎯 84.7 · IDE Agents.
-- [qwen-code](https://github.com/QwenLM/qwen-code) - Terminal coding agent optimized for Qwen models. 🤖 · ⭐ 29.1k · 🕒 2026-11 · 🎯 80.7 · Terminal Agents.
-- [claude-code](https://github.com/anthropics/claude-code) - Anthropic's agentic coding tool for the terminal. 🤖 💰 ⚠️ · ⭐ 155k · 🕒 2026-11 · 🎯 71.7 · Terminal Agents.
-- [crush](https://github.com/charmbracelet/crush) - Glamorous terminal AI coding agent from Charm. 🤖 ⚠️ · ⭐ 29k · 🕒 2026-11 · 🎯 66.8 · Terminal Agents.
-- [aider](https://github.com/Aider-AI/aider) - AI pair programming in the terminal with git-aware edits. 🤖 · ⭐ 50k · 🕒 2026-05 · 🎯 65 · Terminal Agents.
-- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Research agent that resolves GitHub issues autonomously using LLMs. 🤖 · ⭐ 20.8k · 🕒 2026-11 · 🎯 61.8 · Autonomous Agents.
-- [tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant and code completion server. 🤖 💰 · ⭐ 33.9k · 🕒 2026-06 · 🎯 60.7 · Self-hosted Assistants.
-- [grok-build](https://github.com/xai-org/grok-build) - xAI's coding agent harness and terminal UI. 🤖 🌱 · ⭐ 27.7k · 🕒 2026-09 · 🎯 59.1 · Agent Harness.
+- [opencode](https://github.com/anomalyco/opencode) - Open-source terminal coding agent that works with many model providers. 🤖 · ⭐ 227k · 🕒 2026-11 · 🎯 92.9 · Terminal Agents.
+- [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) - Plugin-based agent harness from DeepSeek for building and running coding agents. 🤖 🌱 · ⭐ 281.6k · 🕒 2026-11 · 🎯 78.2 · Agent Harness.
+- [oh-my-pi](https://github.com/can1357/oh-my-pi) - Coding agent with an integrated IDE, built by Stencil Labs. 🤖 · ⭐ 39.1k · 🕒 2026-11 · 🎯 83.6 · IDE Agents.
+- [claude-code](https://github.com/anthropics/claude-code) - Anthropic's agentic coding tool for the terminal. 🤖 💰 ⚠️ · ⭐ 155.8k · 🕒 2026-11 · 🎯 72.9 · Terminal Agents.
+- [crush](https://github.com/charmbracelet/crush) - Glamorous terminal AI coding agent from Charm. 🤖 ⚠️ · ⭐ 29.1k · 🕒 2026-11 · 🎯 73.6 · Terminal Agents.
+- [aider](https://github.com/Aider-AI/aider) - AI pair programming in the terminal with git-aware edits. 🤖 · ⭐ 50.1k · 🕒 2026-05 · 🎯 59.4 · Terminal Agents.
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Research agent that resolves GitHub issues autonomously using LLMs. 🤖 · ⭐ 20.8k · 🕒 2026-11 · 🎯 64.4 · Autonomous Agents.
+- [tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant and code completion server. 🤖 💰 · ⭐ 33.9k · 🕒 2026-06 · 🎯 62.9 · Self-hosted Assistants.
+- [grok-build](https://github.com/xai-org/grok-build) - xAI's coding agent harness and terminal UI. 🤖 🌱 · ⭐ 27.8k · 🕒 2026-09 · 🎯 58.3 · Agent Harness.
 
 ## AI Skills
 
@@ -58,40 +58,40 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (13)
 
-- [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) - Large catalog of reusable skills for Claude Code, Codex, Cursor, and Gemini CLI, with a local index and plugin packaging. 🤖 · ⭐ 49.4k · 🕒 2026-11 · 🎯 93 · Skill Indexes.
-- [awesome-copilot](https://github.com/github/awesome-copilot) - GitHub's community library of Copilot instructions, agents, skills, and hooks. 🤖 · ⭐ 41k · 🕒 2026-11 · 🎯 89.1 · Vendor Skills.
-- [nvidia-skills](https://github.com/NVIDIA/skills) - NVIDIA's agent skills for CUDA, RAG, simulation, and other NVIDIA product workflows. 🤖 · ⭐ 3.9k · 🕒 2026-11 · 🎯 83.5 · Vendor Skills.
-- [agent-skills](https://github.com/addyosmani/agent-skills) - Engineering skill pack for AI coding agents. 🤖 · ⭐ 114.3k · 🕒 2026-11 · 🎯 81.4 · Coding Workflows.
-- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - Curated index of agent skills from vendor teams and the community for Claude Code, Codex, Gemini CLI, and Cursor. 🤖 · ⭐ 37k · 🕒 2026-11 · 🎯 81.4 · Skill Indexes.
-- [claude-skills](https://github.com/alirezarezvani/claude-skills) - Broad skill pack for coding agents, including engineering skills and non-engineering workflows such as marketing and operations. 🤖 · ⭐ 29.5k · 🕒 2026-11 · 🎯 81.1 · Coding Workflows.
-- [agents](https://github.com/wshobson/agents) - Markdown plugins, skills, and commands for several coding agents, generated per tool from one source. 🤖 · ⭐ 42.3k · 🕒 2026-11 · 🎯 76.8 · Coding Workflows.
-- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - Anthropic-managed directory of Claude Code plugins. 🤖 · ⭐ 46.5k · 🕒 2026-11 · 🎯 75.2 · Vendor Skills.
-- [gemini-skills](https://github.com/google-gemini/gemini-skills) - Skills for the Gemini API, SDK, and agent integrations. 🤖 · ⭐ 4.4k · 🕒 2026-11 · 🎯 73.2 · Vendor Skills.
-- [fullstack-skills](https://github.com/Jeffallan/claude-skills) - Skill pack of full-stack development workflows for Claude Code. 🤖 · ⭐ 12.3k · 🕒 2026-10 · 🎯 72 · Coding Workflows.
-- [sentry-skills](https://github.com/getsentry/skills) - Agent skills the Sentry team uses for development. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 71.2 · Vendor Skills.
-- [clawsec](https://github.com/prompt-security/clawsec) - Security skill suite that checks agent configuration drift, skill integrity, and local audit findings. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 70.6 · Security Skills.
-- [buildwithclaude](https://github.com/davepoon/buildwithclaude) - Directory of Claude skills, agents, commands, hooks, and plugins. 🤖 · ⭐ 3.7k · 🕒 2026-11 · 🎯 70.5 · Skill Indexes.
+- [agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) - Large catalog of reusable skills for Claude Code, Codex, Cursor, and Gemini CLI, with a local index and plugin packaging. 🤖 · ⭐ 49.8k · 🕒 2026-11 · 🎯 92.1 · Skill Indexes.
+- [awesome-copilot](https://github.com/github/awesome-copilot) - GitHub's community library of Copilot instructions, agents, skills, and hooks. 🤖 · ⭐ 41.2k · 🕒 2026-11 · 🎯 89.1 · Vendor Skills.
+- [nvidia-skills](https://github.com/NVIDIA/skills) - NVIDIA's agent skills for CUDA, RAG, simulation, and other NVIDIA product workflows. 🤖 · ⭐ 4k · 🕒 2026-11 · 🎯 83.5 · Vendor Skills.
+- [agent-skills](https://github.com/addyosmani/agent-skills) - Engineering skill pack for AI coding agents. 🤖 · ⭐ 117.9k · 🕒 2026-11 · 🎯 81.7 · Coding Workflows.
+- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - Curated index of agent skills from vendor teams and the community for Claude Code, Codex, Gemini CLI, and Cursor. 🤖 · ⭐ 37.2k · 🕒 2026-11 · 🎯 81.6 · Skill Indexes.
+- [claude-skills](https://github.com/alirezarezvani/claude-skills) - Broad skill pack for coding agents, including engineering skills and non-engineering workflows such as marketing and operations. 🤖 · ⭐ 29.9k · 🕒 2026-11 · 🎯 81.6 · Coding Workflows.
+- [agents](https://github.com/wshobson/agents) - Markdown plugins, skills, and commands for several coding agents, generated per tool from one source. 🤖 · ⭐ 42.6k · 🕒 2026-11 · 🎯 74.9 · Coding Workflows.
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - Anthropic-managed directory of Claude Code plugins. 🤖 · ⭐ 47.4k · 🕒 2026-11 · 🎯 72.6 · Vendor Skills.
+- [gemini-skills](https://github.com/google-gemini/gemini-skills) - Skills for the Gemini API, SDK, and agent integrations. 🤖 · ⭐ 4.5k · 🕒 2026-11 · 🎯 70.6 · Vendor Skills.
+- [fullstack-skills](https://github.com/Jeffallan/claude-skills) - Skill pack of full-stack development workflows for Claude Code. 🤖 · ⭐ 12.4k · 🕒 2026-11 · 🎯 71.4 · Coding Workflows.
+- [sentry-skills](https://github.com/getsentry/skills) - Agent skills the Sentry team uses for development. 🤖 · ⭐ 1.2k · 🕒 2026-11 · 🎯 70 · Vendor Skills.
+- [clawsec](https://github.com/prompt-security/clawsec) - Security skill suite that checks agent configuration drift, skill integrity, and local audit findings. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 67.5 · Security Skills.
+- [buildwithclaude](https://github.com/davepoon/buildwithclaude) - Directory of Claude skills, agents, commands, hooks, and plugins. 🤖 · ⭐ 3.7k · 🕒 2026-11 · 🎯 68 · Skill Indexes.
 
 ### Watchlist (18)
 
-- [ECC](https://github.com/affaan-m/ECC) - Skill and harness pack for coding agents, covering memory, security checks, and research-first workflows. 🤖 · ⭐ 299.8k · 🕒 2026-11 · 🎯 89.4 · Coding Workflows.
-- [engineer-skills](https://github.com/mattpocock/skills) - Personal engineering skills published from a coding agent's skills directory. 🤖 · ⭐ 319k · 🕒 2026-11 · 🎯 75.9 · Coding Workflows.
-- [superpowers](https://github.com/obra/superpowers) - Skills framework and software-development workflow pack for coding agents. 🤖 · ⭐ 314.8k · 🕒 2026-11 · 🎯 69.5 · Coding Workflows.
-- [claude-red](https://github.com/SnailSploit/Claude-Red) - Curated offensive-security skills for coding agents, packaged as SKILL.md playbooks. 🤖 · ⭐ 10.5k · 🕒 2026-10 · 🎯 68.5 · Security Skills.
-- [google-skills](https://github.com/google/skills) - Agent skills for Google products and technologies. 🤖 · ⭐ 23.7k · 🕒 2026-11 · 🎯 68.1 · Vendor Skills.
+- [ECC](https://github.com/affaan-m/ECC) - Skill and harness pack for coding agents, covering memory, security checks, and research-first workflows. 🤖 · ⭐ 303.7k · 🕒 2026-11 · 🎯 88.8 · Coding Workflows.
+- [engineer-skills](https://github.com/mattpocock/skills) - Personal engineering skills published from a coding agent's skills directory. 🤖 · ⭐ 325k · 🕒 2026-11 · 🎯 73.7 · Coding Workflows.
+- [superpowers](https://github.com/obra/superpowers) - Skills framework and software-development workflow pack for coding agents. 🤖 · ⭐ 318k · 🕒 2026-11 · 🎯 66.6 · Coding Workflows.
+- [claude-red](https://github.com/SnailSploit/Claude-Red) - Curated offensive-security skills for coding agents, packaged as SKILL.md playbooks. 🤖 · ⭐ 11k · 🕒 2026-11 · 🎯 68.3 · Security Skills.
+- [google-skills](https://github.com/google/skills) - Agent skills for Google products and technologies. 🤖 · ⭐ 24.3k · 🕒 2026-11 · 🎯 66.9 · Vendor Skills.
 - [microsoft-skills](https://github.com/microsoft/skills) - Microsoft skills, MCP servers, and Agents.md files that ground coding agents in SDK usage. 🤖 · ⭐ 3.2k · 🕒 2026-11 · 🎯 67.7 · Vendor Skills.
-- [trailofbits-skills](https://github.com/trailofbits/skills) - Trail of Bits skills for security research, vulnerability detection, and audit workflows. 🤖 ⚠️ · ⭐ 8.1k · 🕒 2026-11 · 🎯 66.9 · Security Skills.
-- [supabase-agent-skills](https://github.com/supabase/agent-skills) - Agent skills for developers using Supabase from a coding agent. 🤖 · ⭐ 3k · 🕒 2026-11 · 🎯 66.1 · Vendor Skills.
-- [vercel-agent-skills](https://github.com/vercel-labs/agent-skills) - Vercel's official collection of agent skills. 🤖 ⚠️ · ⭐ 33.7k · 🕒 2026-10 · 🎯 63.6 · Vendor Skills.
-- [agentskills](https://github.com/agentskills/agentskills) - Specification and documentation for the Agent Skills format used by coding agents. 🤖 · ⭐ 27.1k · 🕒 2026-11 · 🎯 62.4 · Skill Format.
-- [openai-plugins](https://github.com/openai/plugins) - OpenAI's Codex plugins repository, which the deprecated skills catalog points to. 🤖 ⚠️ · ⭐ 7.8k · 🕒 2026-11 · 🎯 58.6 · Vendor Skills.
-- [security-audit-skill](https://github.com/cloudflare/security-audit-skill) - Coding-agent skill for multi-phase security audits that emits machine-readable findings. 🤖 🌱 · ⭐ 67.3k · 🕒 2026-09 · 🎯 56.2 · Security Skills.
-- [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) - Curated list of Claude skills. 🤖 ⚠️ · ⭐ 10.4k · 🕒 2026-11 · 🎯 56 · Skill Indexes.
-- [openai-skills](https://github.com/openai/skills) - Deprecated skills catalog for Codex. 🤖 ⚠️ · ⭐ 28.6k · 🕒 2026-10 · 🎯 54.2 · Vendor Skills.
-- [anthropic-skills](https://github.com/anthropics/skills) - Anthropic's public examples of Agent Skills for Claude. 🤖 ⚠️ · ⭐ 190k · 🕒 2026-11 · 🎯 54 · Vendor Skills.
-- [cursor-plugins](https://github.com/cursor/plugins) - Cursor's plugin specification and official plugins. 🤖 ⚠️ · ⭐ 15.8k · 🕒 2026-11 · 🎯 54 · Vendor Skills.
-- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Curated Cursor rules files for project-specific agent behavior. 🤖 · ⭐ 41.1k · 🕒 2026-05 · 🎯 52.3 · Cursor Rules.
-- [SecuritySkills](https://github.com/UnitOneAI/SecuritySkills) - Security skills for coding agents, mapped to OWASP, NIST, MITRE ATT&CK, and CIS. 🤖 · ⭐ 104 · 🕒 2026-06 · 🎯 51.5 · Security Skills.
+- [trailofbits-skills](https://github.com/trailofbits/skills) - Trail of Bits skills for security research, vulnerability detection, and audit workflows. 🤖 ⚠️ · ⭐ 8.2k · 🕒 2026-11 · 🎯 63.8 · Security Skills.
+- [supabase-agent-skills](https://github.com/supabase/agent-skills) - Agent skills for developers using Supabase from a coding agent. 🤖 · ⭐ 3.1k · 🕒 2026-11 · 🎯 64 · Vendor Skills.
+- [vercel-agent-skills](https://github.com/vercel-labs/agent-skills) - Vercel's official collection of agent skills. 🤖 ⚠️ · ⭐ 34.1k · 🕒 2026-11 · 🎯 61 · Vendor Skills.
+- [agentskills](https://github.com/agentskills/agentskills) - Specification and documentation for the Agent Skills format used by coding agents. 🤖 · ⭐ 27.3k · 🕒 2026-11 · 🎯 58.9 · Skill Format.
+- [openai-plugins](https://github.com/openai/plugins) - OpenAI's Codex plugins repository, which the deprecated skills catalog points to. 🤖 ⚠️ · ⭐ 8k · 🕒 2026-11 · 🎯 58.6 · Vendor Skills.
+- [security-audit-skill](https://github.com/cloudflare/security-audit-skill) - Coding-agent skill for multi-phase security audits that emits machine-readable findings. 🤖 🌱 · ⭐ 73.1k · 🕒 2026-09 · 🎯 52.6 · Security Skills.
+- [awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) - Curated list of Claude skills. 🤖 ⚠️ · ⭐ 10.4k · 🕒 2026-11 · 🎯 54.2 · Skill Indexes.
+- [openai-skills](https://github.com/openai/skills) - Deprecated skills catalog for Codex. 🤖 ⚠️ · ⭐ 28.8k · 🕒 2026-10 · 🎯 50.7 · Vendor Skills.
+- [anthropic-skills](https://github.com/anthropics/skills) - Anthropic's public examples of Agent Skills for Claude. 🤖 ⚠️ · ⭐ 195.3k · 🕒 2026-11 · 🎯 50.3 · Vendor Skills.
+- [cursor-plugins](https://github.com/cursor/plugins) - Cursor's plugin specification and official plugins. 🤖 ⚠️ · ⭐ 16.4k · 🕒 2026-11 · 🎯 58.2 · Vendor Skills.
+- [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Curated Cursor rules files for project-specific agent behavior. 🤖 · ⭐ 41.2k · 🕒 2026-05 · 🎯 52.1 · Cursor Rules.
+- [SecuritySkills](https://github.com/UnitOneAI/SecuritySkills) - Security skills for coding agents, mapped to OWASP, NIST, MITRE ATT&CK, and CIS. 🤖 · ⭐ 111 · 🕒 2026-06 · 🎯 51.4 · Security Skills.
 
 ## LLM, Agent Framework & MCP
 
@@ -99,24 +99,24 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (13)
 
-- [ai](https://github.com/vercel/ai) - TypeScript toolkit for building AI applications and agents. 🤖 · ⭐ 27.8k · 🕒 2026-11 · 🎯 91.8 · SDKs & Gateways.
-- [vllm](https://github.com/vllm-project/vllm) - High-throughput, memory-efficient LLM inference and serving engine. 🤖 · ⭐ 96.6k · 🕒 2026-11 · 🎯 90.6 · Inference Serving.
-- [servers](https://github.com/modelcontextprotocol/servers) - Reference Model Context Protocol (MCP) server implementations. 🤖 · ⭐ 91.9k · 🕒 2026-11 · 🎯 88.6 · MCP.
-- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with broad hardware support. 🤖 · ⭐ 133.8k · 🕒 2026-11 · 🎯 86.9 · Local Inference.
-- [openai-agents-python](https://github.com/openai/openai-agents-python) - Lightweight Python framework for multi-agent workflows from OpenAI. 🤖 · ⭐ 30.6k · 🕒 2026-11 · 🎯 86.5 · Agent Frameworks.
-- [LangChain](https://github.com/langchain-ai/langchain) - Framework for building LLM-powered applications and agents. 🤖 💰 · ⭐ 149.2k · 🕒 2026-11 · 🎯 86.3 · Agent Frameworks.
-- [crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, collaborative AI agents. 🤖 💰 · ⭐ 60.7k · 🕒 2026-11 · 🎯 86.3 · Agent Frameworks.
-- [pydantic-ai](https://github.com/pydantic/pydantic-ai) - Type-safe Python agent framework from the Pydantic team. 🤖 · ⭐ 21.1k · 🕒 2026-11 · 🎯 85.8 · Agent Frameworks.
-- [browser-use](https://github.com/browser-use/browser-use) - Library that lets AI agents control a web browser. 🤖 💰 · ⭐ 120.4k · 🕒 2026-11 · 🎯 82.5 · Browser Agents.
-- [langgraph](https://github.com/langchain-ai/langgraph) - Library for building stateful, multi-actor agent workflows as graphs. 🤖 💰 · ⭐ 44.7k · 🕒 2026-11 · 🎯 81.5 · Agent Frameworks.
-- [llama_index](https://github.com/run-llama/llama_index) - Data framework for building RAG and agent applications over your data. 🤖 💰 · ⭐ 52.9k · 🕒 2026-11 · 🎯 80.4 · RAG & Data.
-- [ollama](https://github.com/ollama/ollama) - Run and manage open LLMs locally with a simple CLI and API. 🤖 · ⭐ 186.4k · 🕒 2026-11 · 🎯 80.3 · Local Inference.
-- [python-sdk](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers and clients. 🤖 · ⭐ 24.8k · 🕒 2026-11 · 🎯 78.7 · MCP.
+- [ai](https://github.com/vercel/ai) - TypeScript toolkit for building AI applications and agents. 🤖 · ⭐ 28k · 🕒 2026-11 · 🎯 91 · SDKs & Gateways.
+- [vllm](https://github.com/vllm-project/vllm) - High-throughput, memory-efficient LLM inference and serving engine. 🤖 · ⭐ 97k · 🕒 2026-11 · 🎯 83.7 · Inference Serving.
+- [servers](https://github.com/modelcontextprotocol/servers) - Reference Model Context Protocol (MCP) server implementations. 🤖 · ⭐ 92k · 🕒 2026-11 · 🎯 92.5 · MCP.
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ with broad hardware support. 🤖 · ⭐ 135.2k · 🕒 2026-11 · 🎯 92.6 · Local Inference.
+- [openai-agents-python](https://github.com/openai/openai-agents-python) - Lightweight Python framework for multi-agent workflows from OpenAI. 🤖 · ⭐ 30.7k · 🕒 2026-11 · 🎯 85 · Agent Frameworks.
+- [LangChain](https://github.com/langchain-ai/langchain) - Framework for building LLM-powered applications and agents. 🤖 💰 · ⭐ 149.6k · 🕒 2026-11 · 🎯 83 · Agent Frameworks.
+- [crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, collaborative AI agents. 🤖 💰 · ⭐ 61k · 🕒 2026-11 · 🎯 85.2 · Agent Frameworks.
+- [pydantic-ai](https://github.com/pydantic/pydantic-ai) - Type-safe Python agent framework from the Pydantic team. 🤖 · ⭐ 21.2k · 🕒 2026-11 · 🎯 89 · Agent Frameworks.
+- [browser-use](https://github.com/browser-use/browser-use) - Library that lets AI agents control a web browser. 🤖 💰 · ⭐ 121.1k · 🕒 2026-11 · 🎯 82.9 · Browser Agents.
+- [langgraph](https://github.com/langchain-ai/langgraph) - Library for building stateful, multi-actor agent workflows as graphs. 🤖 💰 · ⭐ 45k · 🕒 2026-11 · 🎯 83 · Agent Frameworks.
+- [llama_index](https://github.com/run-llama/llama_index) - Data framework for building RAG and agent applications over your data. 🤖 💰 · ⭐ 52.9k · 🕒 2026-11 · 🎯 81.2 · RAG & Data.
+- [ollama](https://github.com/ollama/ollama) - Run and manage open LLMs locally with a simple CLI and API. 🤖 · ⭐ 187.1k · 🕒 2026-11 · 🎯 82.1 · Local Inference.
+- [python-sdk](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers and clients. 🤖 · ⭐ 24.9k · 🕒 2026-11 · 🎯 74.9 · MCP.
 
 ### Watchlist (2)
 
-- [litellm](https://github.com/BerriAI/litellm) - Python SDK and proxy gateway to call 100+ LLM APIs in OpenAI format. 🤖 💰 · ⭐ 62.9k · 🕒 2026-11 · 🎯 85.6 · SDKs & Gateways.
-- [autogen](https://github.com/microsoft/autogen) - Microsoft framework for building multi-agent AI applications. 🤖 · ⭐ 61.8k · 🕒 2026-10 · 🎯 59.4 · Agent Frameworks.
+- [litellm](https://github.com/BerriAI/litellm) - Python SDK and proxy gateway to call 100+ LLM APIs in OpenAI format. 🤖 💰 · ⭐ 63.3k · 🕒 2026-11 · 🎯 90.1 · SDKs & Gateways.
+- [autogen](https://github.com/microsoft/autogen) - Microsoft framework for building multi-agent AI applications. 🤖 · ⭐ 61.9k · 🕒 2026-11 · 🎯 55 · Agent Frameworks.
 
 ## AI Security
 
@@ -124,23 +124,23 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (10)
 
-- [PyRIT](https://github.com/microsoft/PyRIT) - Python Risk Identification Tool for red teaming generative AI systems. 🤖 · ⭐ 4.8k · 🕒 2026-11 · 🎯 95.7 · LLM Red Teaming.
-- [promptfoo](https://github.com/promptfoo/promptfoo) - Test, evaluate and red-team LLM apps and agents from the CLI or CI. 🤖 💰 · ⭐ 27k · 🕒 2026-11 · 🎯 95.3 · LLM Red Teaming.
-- [giskard-oss](https://github.com/Giskard-AI/giskard-oss) - Open-source evaluation and testing library for LLM agents and ML models. 🤖 💰 · ⭐ 5.9k · 🕒 2026-11 · 🎯 92.4 · LLM Red Teaming.
-- [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable guardrails to LLM-based conversational systems. 🤖 · ⭐ 7.5k · 🕒 2026-11 · 🎯 87.5 · Guardrails.
-- [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner that probes for jailbreaks, leaks and other failures. 🤖 · ⭐ 10k · 🕒 2026-11 · 🎯 86.6 · LLM Red Teaming.
-- [presidio](https://github.com/data-privacy-stack/presidio) - SDK for detecting and anonymizing PII in text and images. ⭐ 11.8k · 🕒 2026-11 · 🎯 84.4 · Data Protection.
-- [agent-scan](https://github.com/snyk/agent-scan) - Scanner for security issues in AI agents and MCP server configurations. 🤖 · ⭐ 3.2k · 🕒 2026-11 · 🎯 81.2 · Agent & MCP Scanning.
+- [PyRIT](https://github.com/microsoft/PyRIT) - Python Risk Identification Tool for red teaming generative AI systems. 🤖 · ⭐ 4.9k · 🕒 2026-11 · 🎯 95.9 · LLM Red Teaming.
+- [promptfoo](https://github.com/promptfoo/promptfoo) - Test, evaluate and red-team LLM apps and agents from the CLI or CI. 🤖 💰 · ⭐ 27.2k · 🕒 2026-11 · 🎯 95 · LLM Red Teaming.
+- [giskard-oss](https://github.com/Giskard-AI/giskard-oss) - Open-source evaluation and testing library for LLM agents and ML models. 🤖 💰 · ⭐ 6k · 🕒 2026-11 · 🎯 86.8 · LLM Red Teaming.
+- [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable guardrails to LLM-based conversational systems. 🤖 · ⭐ 7.5k · 🕒 2026-11 · 🎯 87.1 · Guardrails.
+- [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner that probes for jailbreaks, leaks and other failures. 🤖 · ⭐ 10k · 🕒 2026-11 · 🎯 82 · LLM Red Teaming.
+- [presidio](https://github.com/data-privacy-stack/presidio) - SDK for detecting and anonymizing PII in text and images. ⭐ 11.9k · 🕒 2026-11 · 🎯 77.5 · Data Protection.
+- [agent-scan](https://github.com/snyk/agent-scan) - Scanner for security issues in AI agents and MCP server configurations. 🤖 · ⭐ 3.2k · 🕒 2026-11 · 🎯 81 · Agent & MCP Scanning.
 - [adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) - Python library for ML security: evasion, poisoning, extraction and inference attacks and defenses. 🤖 · ⭐ 6.3k · 🕒 2026-11 · 🎯 80.1 · Adversarial ML.
-- [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner) - Scanner for finding security risks in MCP servers and tools. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 79.8 · Agent & MCP Scanning.
-- [agentic_security](https://github.com/msoedov/agentic_security) - Vulnerability scanner and red-teaming kit for agentic LLM workflows. 🤖 · ⭐ 2k · 🕒 2026-11 · 🎯 70.1 · LLM Red Teaming.
+- [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner) - Scanner for finding security risks in MCP servers and tools. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 73.6 · Agent & MCP Scanning.
+- [agentic_security](https://github.com/msoedov/agentic_security) - Vulnerability scanner and red-teaming kit for agentic LLM workflows. 🤖 · ⭐ 2k · 🕒 2026-11 · 🎯 80.3 · LLM Red Teaming.
 
 ### Watchlist (4)
 
-- [guardrails](https://github.com/guardrails-ai/guardrails) - Framework for validating and structuring LLM inputs and outputs. 🤖 💰 · ⭐ 7.6k · 🕒 2026-11 · 🎯 69.9 · Guardrails.
-- [deepteam](https://github.com/confident-ai/deepteam) - Framework for red teaming LLM systems with automated attacks. 🤖 · ⭐ 3.1k · 🕒 2026-10 · 🎯 61.7 · LLM Red Teaming.
-- [modelscan](https://github.com/protectai/modelscan) - Scanner that detects unsafe code in serialized ML model files. 🤖 · ⭐ 793 · 🕒 2026-09 · 🎯 59.4 · Model Supply Chain.
-- [agentic-radar](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic AI workflows. 🤖 · ⭐ 1.1k · 🕒 2025-11 · 🎯 51.1 · Agent & MCP Scanning.
+- [guardrails](https://github.com/guardrails-ai/guardrails) - Framework for validating and structuring LLM inputs and outputs. 🤖 💰 · ⭐ 7.6k · 🕒 2026-11 · 🎯 74.7 · Guardrails.
+- [deepteam](https://github.com/confident-ai/deepteam) - Framework for red teaming LLM systems with automated attacks. 🤖 · ⭐ 3.1k · 🕒 2026-10 · 🎯 56 · LLM Red Teaming.
+- [modelscan](https://github.com/protectai/modelscan) - Scanner that detects unsafe code in serialized ML model files. 🤖 · ⭐ 797 · 🕒 2026-09 · 🎯 55.5 · Model Supply Chain.
+- [agentic-radar](https://github.com/splx-ai/agentic-radar) - Security scanner that maps and analyzes agentic AI workflows. 🤖 · ⭐ 1.1k · 🕒 2026-11 · 🎯 62.6 · Agent & MCP Scanning.
 
 ## Offensive / Red Team
 
@@ -148,24 +148,24 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (12)
 
-- [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Widely used penetration testing and exploitation framework. ⭐ 39.3k · 🕒 2026-11 · 🎯 88.8 · Exploitation.
-- [nuclei](https://github.com/projectdiscovery/nuclei) - Fast, template-based vulnerability scanner. 💰 · ⭐ 32.7k · 🕒 2026-11 · 🎯 86.6 · Vulnerability Scanning.
-- [impacket](https://github.com/fortra/impacket) - Python classes for working with network protocols, widely used in AD attacks. ⭐ 16.2k · 🕒 2026-11 · 🎯 84.8 · Active Directory.
-- [BloodHound](https://github.com/SpecterOps/BloodHound) - Attack path analysis for Active Directory and Entra ID. 💰 · ⭐ 3.5k · 🕒 2026-11 · 🎯 84.2 · Active Directory.
-- [httpx](https://github.com/projectdiscovery/httpx) - Multi-purpose HTTP toolkit for probing hosts at scale. ⭐ 10.6k · 🕒 2026-11 · 🎯 79.7 · Recon.
-- [subfinder](https://github.com/projectdiscovery/subfinder) - Fast passive subdomain enumeration tool. ⭐ 14.7k · 🕒 2026-11 · 🎯 79.6 · Recon.
-- [Empire](https://github.com/BC-SECURITY/Empire) - Post-exploitation and adversary emulation C2 framework. ⭐ 5.3k · 🕒 2026-09 · 🎯 79.1 · C2 & Post-Exploitation.
-- [PEASS-ng](https://github.com/peass-ng/PEASS-ng) - Privilege escalation enumeration scripts for Linux, Windows and macOS. ⭐ 20.8k · 🕒 2026-11 · 🎯 78.7 · Privilege Escalation.
-- [strix](https://github.com/usestrix/strix) - Autonomous AI agents that pentest applications and suggest fixes. 🤖 💰 · ⭐ 74.5k · 🕒 2026-11 · 🎯 74.3 · AI Pentest Agents.
-- [pentagi](https://github.com/vxcontrol/pentagi) - Autonomous AI agent system for penetration testing tasks. 🤖 · ⭐ 33.7k · 🕒 2026-10 · 🎯 73 · AI Pentest Agents.
-- [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) - AI-native penetration testing platform that orchestrates security tools. 🤖 · ⭐ 8.5k · 🕒 2026-11 · 🎯 72.1 · AI Pentest Agents.
-- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection detection and database takeover tool. ⭐ 38.9k · 🕒 2026-11 · 🎯 72 · Web.
+- [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Widely used penetration testing and exploitation framework. ⭐ 39.6k · 🕒 2026-11 · 🎯 81.6 · Exploitation.
+- [nuclei](https://github.com/projectdiscovery/nuclei) - Fast, template-based vulnerability scanner. 💰 · ⭐ 33k · 🕒 2026-11 · 🎯 88.6 · Vulnerability Scanning.
+- [impacket](https://github.com/fortra/impacket) - Python classes for working with network protocols, widely used in AD attacks. ⭐ 16.3k · 🕒 2026-11 · 🎯 81.7 · Active Directory.
+- [BloodHound](https://github.com/SpecterOps/BloodHound) - Attack path analysis for Active Directory and Entra ID. 💰 · ⭐ 3.6k · 🕒 2026-11 · 🎯 83.3 · Active Directory.
+- [httpx](https://github.com/projectdiscovery/httpx) - Multi-purpose HTTP toolkit for probing hosts at scale. ⭐ 10.6k · 🕒 2026-11 · 🎯 79.8 · Recon.
+- [subfinder](https://github.com/projectdiscovery/subfinder) - Fast passive subdomain enumeration tool. ⭐ 14.8k · 🕒 2026-11 · 🎯 79.9 · Recon.
+- [Empire](https://github.com/BC-SECURITY/Empire) - Post-exploitation and adversary emulation C2 framework. ⭐ 5.4k · 🕒 2026-09 · 🎯 79.1 · C2 & Post-Exploitation.
+- [PEASS-ng](https://github.com/peass-ng/PEASS-ng) - Privilege escalation enumeration scripts for Linux, Windows and macOS. ⭐ 20.8k · 🕒 2026-11 · 🎯 79 · Privilege Escalation.
+- [strix](https://github.com/usestrix/strix) - Autonomous AI agents that pentest applications and suggest fixes. 🤖 💰 · ⭐ 75.7k · 🕒 2026-11 · 🎯 75.2 · AI Pentest Agents.
+- [pentagi](https://github.com/vxcontrol/pentagi) - Autonomous AI agent system for penetration testing tasks. 🤖 · ⭐ 34.2k · 🕒 2026-11 · 🎯 70.2 · AI Pentest Agents.
+- [CyberStrikeAI](https://github.com/AIPentest/CyberStrikeAI) - AI-native penetration testing platform that orchestrates security tools. 🤖 · ⭐ 8.7k · 🕒 2026-11 · 🎯 72.7 · AI Pentest Agents.
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection detection and database takeover tool. ⭐ 39k · 🕒 2026-11 · 🎯 77.2 · Web.
 
 ### Watchlist (4)
 
-- [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) - AI-powered offensive security agent harness. 🤖 · ⭐ 3.5k · 🕒 2026-11 · 🎯 86.4 · AI Pentest Agents.
-- [ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go. ⭐ 17k · 🕒 2026-09 · 🎯 67.1 · Web.
-- [feroxbuster](https://github.com/epi052/feroxbuster) - Fast recursive content discovery tool written in Rust. ⭐ 8.2k · 🕒 2026-11 · 🎯 61.9 · Web.
+- [CyberStrike](https://github.com/CyberStrikeus/CyberStrike) - AI-powered offensive security agent harness. 🤖 · ⭐ 3.6k · 🕒 2026-11 · 🎯 86.7 · AI Pentest Agents.
+- [ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go. ⭐ 17.1k · 🕒 2026-09 · 🎯 69.3 · Web.
+- [feroxbuster](https://github.com/epi052/feroxbuster) - Fast recursive content discovery tool written in Rust. ⭐ 8.2k · 🕒 2026-11 · 🎯 66.4 · Web.
 - [amass](https://github.com/owasp-amass/amass) - In-depth attack surface mapping and asset discovery. ⭐ 15.5k · 🕒 2026-11 · 🎯 56.6 · Recon.
 
 ## Defensive / Blue Team
@@ -174,24 +174,24 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (12)
 
-- [wazuh](https://github.com/wazuh/wazuh) - Open-source XDR and SIEM platform for threat detection and compliance. 💰 · ⭐ 17.6k · 🕒 2026-11 · 🎯 89.2 · SIEM & XDR.
-- [zeek](https://github.com/zeek/zeek) - Network security monitoring and traffic analysis framework. ⭐ 8.2k · 🕒 2026-11 · 🎯 88.6 · Network Security Monitoring.
-- [plaso](https://github.com/log2timeline/plaso) - Super timeline generation for digital forensics. ⭐ 2.2k · 🕒 2026-11 · 🎯 88 · Endpoint & DFIR.
-- [opencti](https://github.com/OpenCTI-Platform/opencti) - Open cyber threat intelligence platform. 💰 · ⭐ 10.3k · 🕒 2026-11 · 🎯 87.4 · Threat Intelligence.
-- [suricata](https://github.com/OISF/suricata) - High-performance network IDS, IPS and security monitoring engine. ⭐ 6.8k · 🕒 2026-11 · 🎯 87.3 · Network Security Monitoring.
-- [MISP](https://github.com/MISP/MISP) - Threat intelligence sharing platform. ⭐ 6.7k · 🕒 2026-11 · 🎯 86.1 · Threat Intelligence.
-- [osquery](https://github.com/osquery/osquery) - SQL-powered endpoint visibility and monitoring framework. ⭐ 23.7k · 🕒 2026-11 · 🎯 84.9 · Endpoint & DFIR.
-- [velociraptor](https://github.com/Velocidex/velociraptor) - Endpoint visibility, collection and DFIR tool using VQL. ⭐ 4.4k · 🕒 2026-11 · 🎯 84 · Endpoint & DFIR.
-- [hayabusa](https://github.com/Yamato-Security/hayabusa) - Fast Windows event log forensics timeline generator and threat hunting tool. ⭐ 3.4k · 🕒 2026-11 · 🎯 81.4 · Endpoint & DFIR.
-- [yara](https://github.com/VirusTotal/yara) - Pattern-matching tool for identifying and classifying malware. ⭐ 10k · 🕒 2026-10 · 🎯 78.8 · Detection Engineering.
-- [Shuffle](https://github.com/Shuffle/Shuffle) - Open-source SOAR and security automation platform. 💰 · ⭐ 2.5k · 🕒 2026-11 · 🎯 78.5 · SOAR.
-- [capa](https://github.com/mandiant/capa) - Identifies capabilities in executable files. ⭐ 6.3k · 🕒 2026-11 · 🎯 73.9 · Malware Analysis.
+- [wazuh](https://github.com/wazuh/wazuh) - Open-source XDR and SIEM platform for threat detection and compliance. 💰 · ⭐ 17.7k · 🕒 2026-11 · 🎯 91.1 · SIEM & XDR.
+- [zeek](https://github.com/zeek/zeek) - Network security monitoring and traffic analysis framework. ⭐ 8.2k · 🕒 2026-11 · 🎯 88.8 · Network Security Monitoring.
+- [plaso](https://github.com/log2timeline/plaso) - Super timeline generation for digital forensics. ⭐ 2.2k · 🕒 2026-11 · 🎯 86.7 · Endpoint & DFIR.
+- [opencti](https://github.com/OpenCTI-Platform/opencti) - Open cyber threat intelligence platform. 💰 · ⭐ 10.4k · 🕒 2026-11 · 🎯 87.6 · Threat Intelligence.
+- [suricata](https://github.com/OISF/suricata) - High-performance network IDS, IPS and security monitoring engine. ⭐ 6.9k · 🕒 2026-11 · 🎯 88 · Network Security Monitoring.
+- [MISP](https://github.com/MISP/MISP) - Threat intelligence sharing platform. ⭐ 6.7k · 🕒 2026-11 · 🎯 83.6 · Threat Intelligence.
+- [osquery](https://github.com/osquery/osquery) - SQL-powered endpoint visibility and monitoring framework. ⭐ 23.8k · 🕒 2026-11 · 🎯 86.7 · Endpoint & DFIR.
+- [velociraptor](https://github.com/Velocidex/velociraptor) - Endpoint visibility, collection and DFIR tool using VQL. ⭐ 4.5k · 🕒 2026-11 · 🎯 84.2 · Endpoint & DFIR.
+- [hayabusa](https://github.com/Yamato-Security/hayabusa) - Fast Windows event log forensics timeline generator and threat hunting tool. ⭐ 3.5k · 🕒 2026-11 · 🎯 82.2 · Endpoint & DFIR.
+- [yara](https://github.com/VirusTotal/yara) - Pattern-matching tool for identifying and classifying malware. ⭐ 10k · 🕒 2026-10 · 🎯 78.6 · Detection Engineering.
+- [Shuffle](https://github.com/Shuffle/Shuffle) - Open-source SOAR and security automation platform. 💰 · ⭐ 2.5k · 🕒 2026-11 · 🎯 84.4 · SOAR.
+- [capa](https://github.com/mandiant/capa) - Identifies capabilities in executable files. ⭐ 6.3k · 🕒 2026-11 · 🎯 75.9 · Malware Analysis.
 
 ### Watchlist (3)
 
-- [securityonion](https://github.com/Security-Onion-Solutions/securityonion) - Free platform for threat hunting, network monitoring and log management. 💰 ⚠️ · ⭐ 5k · 🕒 2026-11 · 🎯 78.1 · SIEM & XDR.
-- [sigma](https://github.com/SigmaHQ/sigma) - Generic signature format and rule repository for SIEM detections. ⚠️ · ⭐ 11.4k · 🕒 2026-11 · 🎯 76.7 · Detection Engineering.
-- [detection-rules](https://github.com/elastic/detection-rules) - Detection rules for Elastic Security. ⚠️ · ⭐ 3k · 🕒 2026-11 · 🎯 75.9 · Detection Engineering.
+- [securityonion](https://github.com/Security-Onion-Solutions/securityonion) - Free platform for threat hunting, network monitoring and log management. 💰 ⚠️ · ⭐ 5k · 🕒 2026-11 · 🎯 76.6 · SIEM & XDR.
+- [sigma](https://github.com/SigmaHQ/sigma) - Generic signature format and rule repository for SIEM detections. ⚠️ · ⭐ 11.5k · 🕒 2026-11 · 🎯 75 · Detection Engineering.
+- [detection-rules](https://github.com/elastic/detection-rules) - Detection rules for Elastic Security. ⚠️ · ⭐ 3k · 🕒 2026-11 · 🎯 75 · Detection Engineering.
 
 ## Cloud & Kubernetes Security
 
@@ -199,23 +199,23 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (10)
 
-- [kubescape](https://github.com/kubescape/kubescape) - Kubernetes security posture, misconfiguration and vulnerability scanner. ⭐ 11.9k · 🕒 2026-11 · 🎯 95.6 · Kubernetes Posture.
-- [kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for validation, mutation and generation. ⭐ 8.3k · 🕒 2026-11 · 🎯 91.6 · Policy as Code.
-- [prowler](https://github.com/prowler-cloud/prowler) - Cloud security posture and compliance scanner for AWS, Azure, GCP and Kubernetes. 💰 · ⭐ 15.2k · 🕒 2026-11 · 🎯 89.4 · Cloud Posture.
+- [kubescape](https://github.com/kubescape/kubescape) - Kubernetes security posture, misconfiguration and vulnerability scanner. ⭐ 11.9k · 🕒 2026-11 · 🎯 95.2 · Kubernetes Posture.
+- [kyverno](https://github.com/kyverno/kyverno) - Kubernetes-native policy engine for validation, mutation and generation. ⭐ 8.3k · 🕒 2026-11 · 🎯 91.1 · Policy as Code.
+- [prowler](https://github.com/prowler-cloud/prowler) - Cloud security posture and compliance scanner for AWS, Azure, GCP and Kubernetes. 💰 · ⭐ 15.2k · 🕒 2026-11 · 🎯 89 · Cloud Posture.
 - [cloud-custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for cloud security, cost and governance policies as code. ⭐ 6.1k · 🕒 2026-11 · 🎯 87.9 · Cloud Governance.
-- [tetragon](https://github.com/cilium/tetragon) - eBPF-based security observability and runtime enforcement. ⭐ 5.2k · 🕒 2026-11 · 🎯 86.6 · Runtime Security.
-- [falco](https://github.com/falcosecurity/falco) - Cloud-native runtime security and threat detection. ⭐ 9.6k · 🕒 2026-11 · 🎯 85.8 · Runtime Security.
-- [stackrox](https://github.com/stackrox/stackrox) - Kubernetes-native security platform for vulnerability, config and runtime checks. ⭐ 1.3k · 🕒 2026-11 · 🎯 84.9 · Kubernetes Posture.
-- [gatekeeper](https://github.com/open-policy-agent/gatekeeper) - OPA-based policy controller for Kubernetes admission control. ⭐ 4.3k · 🕒 2026-11 · 🎯 83.1 · Policy as Code.
-- [stratus-red-team](https://github.com/DataDog/stratus-red-team) - Granular, actionable adversary emulation for the cloud. ⭐ 2.4k · 🕒 2026-11 · 🎯 79.4 · Cloud Offensive.
-- [steampipe](https://github.com/turbot/steampipe) - Query cloud APIs and services with SQL. ⭐ 8k · 🕒 2026-11 · 🎯 73.8 · Cloud Governance.
+- [tetragon](https://github.com/cilium/tetragon) - eBPF-based security observability and runtime enforcement. ⭐ 5.2k · 🕒 2026-11 · 🎯 91.8 · Runtime Security.
+- [falco](https://github.com/falcosecurity/falco) - Cloud-native runtime security and threat detection. ⭐ 9.6k · 🕒 2026-11 · 🎯 86 · Runtime Security.
+- [stackrox](https://github.com/stackrox/stackrox) - Kubernetes-native security platform for vulnerability, config and runtime checks. ⭐ 1.3k · 🕒 2026-11 · 🎯 89.5 · Kubernetes Posture.
+- [gatekeeper](https://github.com/open-policy-agent/gatekeeper) - OPA-based policy controller for Kubernetes admission control. ⭐ 4.3k · 🕒 2026-11 · 🎯 80.6 · Policy as Code.
+- [stratus-red-team](https://github.com/DataDog/stratus-red-team) - Granular, actionable adversary emulation for the cloud. ⭐ 2.4k · 🕒 2026-11 · 🎯 82 · Cloud Offensive.
+- [steampipe](https://github.com/turbot/steampipe) - Query cloud APIs and services with SQL. ⭐ 8k · 🕒 2026-11 · 🎯 80.5 · Cloud Governance.
 
 ### Watchlist (4)
 
-- [pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation framework for offensive security testing. ⭐ 5.4k · 🕒 2026-05 · 🎯 66.3 · Cloud Offensive.
-- [cloudfox](https://github.com/BishopFox/cloudfox) - Finds exploitable attack paths in cloud infrastructure. ⭐ 2.6k · 🕒 2026-11 · 🎯 65 · Cloud Offensive.
-- [kube-bench](https://github.com/aquasecurity/kube-bench) - Checks Kubernetes deployments against the CIS Benchmark. ⭐ 8.3k · 🕒 2026-10 · 🎯 62.4 · Kubernetes Posture.
-- [ScoutSuite](https://github.com/nccgroup/ScoutSuite) - Multi-cloud security auditing tool. ⭐ 7.9k · 🕒 2025-09 · 🎯 57.8 · Cloud Posture.
+- [pacu](https://github.com/RhinoSecurityLabs/pacu) - AWS exploitation framework for offensive security testing. ⭐ 5.4k · 🕒 2026-05 · 🎯 65.7 · Cloud Offensive.
+- [cloudfox](https://github.com/BishopFox/cloudfox) - Finds exploitable attack paths in cloud infrastructure. ⭐ 2.6k · 🕒 2026-11 · 🎯 65.6 · Cloud Offensive.
+- [kube-bench](https://github.com/aquasecurity/kube-bench) - Checks Kubernetes deployments against the CIS Benchmark. ⭐ 8.3k · 🕒 2026-10 · 🎯 65.1 · Kubernetes Posture.
+- [ScoutSuite](https://github.com/nccgroup/ScoutSuite) - Multi-cloud security auditing tool. ⭐ 7.9k · 🕒 2025-09 · 🎯 54.8 · Cloud Posture.
 
 ## DevSecOps / AppSec
 
@@ -223,25 +223,25 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (15)
 
-- [DependencyCheck](https://github.com/dependency-check/DependencyCheck) - OWASP software composition analysis tool that detects known-vulnerable dependencies. ⭐ 7.8k · 🕒 2026-11 · 🎯 88.8 · SCA.
-- [osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner using the OSV.dev database. ⭐ 11.5k · 🕒 2026-11 · 🎯 88.4 · SCA.
-- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities, misconfigurations, secrets and SBOM across containers, code and clouds. ⭐ 39.1k · 🕒 2026-11 · 🎯 86 · Container & SCA.
+- [DependencyCheck](https://github.com/dependency-check/DependencyCheck) - OWASP software composition analysis tool that detects known-vulnerable dependencies. ⭐ 7.8k · 🕒 2026-11 · 🎯 90 · SCA.
+- [osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner using the OSV.dev database. ⭐ 11.5k · 🕒 2026-11 · 🎯 90.8 · SCA.
+- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities, misconfigurations, secrets and SBOM across containers, code and clouds. ⭐ 39.4k · 🕒 2026-11 · 🎯 86.4 · Container & SCA.
 - [cosign](https://github.com/sigstore/cosign) - Signing and verification for containers and other artifacts. ⭐ 6.4k · 🕒 2026-11 · 🎯 85.7 · Supply Chain.
-- [trufflehog](https://github.com/trufflesecurity/trufflehog) - Finds, verifies and analyzes leaked credentials. 💰 · ⭐ 29k · 🕒 2026-11 · 🎯 85.5 · Secrets.
-- [syft](https://github.com/anchore/syft) - Generates SBOMs from container images and filesystems. ⭐ 9.9k · 🕒 2026-11 · 🎯 85 · SBOM.
-- [grype](https://github.com/anchore/grype) - Vulnerability scanner for container images and filesystems. ⭐ 13.2k · 🕒 2026-11 · 🎯 84.9 · Container & SCA.
-- [dependency-track](https://github.com/DependencyTrack/dependency-track) - SBOM-based component analysis and supply chain risk platform. ⭐ 4.4k · 🕒 2026-11 · 🎯 84.7 · SBOM.
-- [django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - DevSecOps vulnerability management and ASPM platform. 💰 · ⭐ 5.2k · 🕒 2026-11 · 🎯 83.8 · ASPM.
-- [checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure as code misconfigurations. 💰 · ⭐ 9.1k · 🕒 2026-11 · 🎯 81.9 · IaC.
-- [semgrep](https://github.com/semgrep/semgrep) - Lightweight static analysis for many languages with custom rules. 💰 · ⭐ 17.6k · 🕒 2026-11 · 🎯 80.2 · SAST.
-- [zaproxy](https://github.com/zaproxy/zaproxy) - OWASP ZAP web application security scanner. ⭐ 16.1k · 🕒 2026-11 · 🎯 79.9 · DAST.
-- [scorecard](https://github.com/ossf/scorecard) - Automated security health checks for open-source projects. ⭐ 5.8k · 🕒 2026-11 · 🎯 79.8 · Supply Chain.
-- [bandit](https://github.com/PyCQA/bandit) - Finds common security issues in Python code. ⭐ 8.4k · 🕒 2026-11 · 🎯 79.6 · SAST.
-- [harden-runner](https://github.com/step-security/harden-runner) - Network egress filtering and runtime security for GitHub Actions runners. 💰 · ⭐ 1.3k · 🕒 2026-11 · 🎯 76.8 · CI/CD Security.
+- [trufflehog](https://github.com/trufflesecurity/trufflehog) - Finds, verifies and analyzes leaked credentials. 💰 · ⭐ 29.4k · 🕒 2026-11 · 🎯 86.7 · Secrets.
+- [syft](https://github.com/anchore/syft) - Generates SBOMs from container images and filesystems. ⭐ 9.9k · 🕒 2026-11 · 🎯 80.9 · SBOM.
+- [grype](https://github.com/anchore/grype) - Vulnerability scanner for container images and filesystems. ⭐ 13.3k · 🕒 2026-11 · 🎯 86.4 · Container & SCA.
+- [dependency-track](https://github.com/DependencyTrack/dependency-track) - SBOM-based component analysis and supply chain risk platform. ⭐ 4.5k · 🕒 2026-11 · 🎯 84.2 · SBOM.
+- [django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - DevSecOps vulnerability management and ASPM platform. 💰 · ⭐ 5.2k · 🕒 2026-11 · 🎯 84.2 · ASPM.
+- [checkov](https://github.com/bridgecrewio/checkov) - Static analysis for infrastructure as code misconfigurations. 💰 · ⭐ 9.2k · 🕒 2026-11 · 🎯 81.6 · IaC.
+- [semgrep](https://github.com/semgrep/semgrep) - Lightweight static analysis for many languages with custom rules. 💰 · ⭐ 17.7k · 🕒 2026-11 · 🎯 83.9 · SAST.
+- [zaproxy](https://github.com/zaproxy/zaproxy) - OWASP ZAP web application security scanner. ⭐ 16.2k · 🕒 2026-11 · 🎯 78.6 · DAST.
+- [scorecard](https://github.com/ossf/scorecard) - Automated security health checks for open-source projects. ⭐ 5.8k · 🕒 2026-11 · 🎯 81.8 · Supply Chain.
+- [bandit](https://github.com/PyCQA/bandit) - Finds common security issues in Python code. ⭐ 8.4k · 🕒 2026-11 · 🎯 80.6 · SAST.
+- [harden-runner](https://github.com/step-security/harden-runner) - Network egress filtering and runtime security for GitHub Actions runners. 💰 · ⭐ 1.3k · 🕒 2026-11 · 🎯 75.1 · CI/CD Security.
 
 ### Watchlist (1)
 
-- [gitleaks](https://github.com/gitleaks/gitleaks) - Detects secrets like passwords and API keys in Git repos and files. ⭐ 30.8k · 🕒 2026-10 · 🎯 74 · Secrets.
+- [gitleaks](https://github.com/gitleaks/gitleaks) - Detects secrets like passwords and API keys in Git repos and files. ⭐ 31.1k · 🕒 2026-10 · 🎯 75 · Secrets.
 
 ## Software & Dev Tools
 
@@ -249,23 +249,23 @@ Tags: 🤖 uses AI · 💰 open-core or a paid edition · ⚠️ license is not 
 
 ### Main (9)
 
-- [uv](https://github.com/astral-sh/uv) - Extremely fast Python package and project manager written in Rust. ⭐ 91.8k · 🕒 2026-11 · 🎯 96 · Package Managers.
-- [opentofu](https://github.com/opentofu/opentofu) - Open-source infrastructure as code tool forked from Terraform. ⭐ 30.8k · 🕒 2026-11 · 🎯 90.8 · Infrastructure as Code.
-- [zed](https://github.com/zed-industries/zed) - High-performance multiplayer code editor with built-in AI. 🤖 · ⭐ 94.5k · 🕒 2026-11 · 🎯 87.2 · Editors.
-- [cli](https://github.com/cli/cli) - GitHub's official command-line tool. ⭐ 46.9k · 🕒 2026-11 · 🎯 86.6 · Git.
-- [ruff](https://github.com/astral-sh/ruff) - Extremely fast Python linter and formatter written in Rust. ⭐ 51.1k · 🕒 2026-11 · 🎯 83.9 · Linters.
-- [Neovim](https://github.com/neovim/neovim) - Hyperextensible Vim-based text editor. ⭐ 103.5k · 🕒 2026-11 · 🎯 82.6 · Editors.
-- [mise](https://github.com/jdx/mise) - Dev tools, env vars and task runner in one tool. ⭐ 36k · 🕒 2026-11 · 🎯 81.6 · Environment.
-- [jq](https://github.com/jqlang/jq) - Command-line JSON processor. ⭐ 36.1k · 🕒 2026-11 · 🎯 79.9 · CLI.
-- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git commands. ⭐ 83.7k · 🕒 2026-11 · 🎯 72.1 · Git.
+- [uv](https://github.com/astral-sh/uv) - Extremely fast Python package and project manager written in Rust. ⭐ 92k · 🕒 2026-11 · 🎯 92.4 · Package Managers.
+- [opentofu](https://github.com/opentofu/opentofu) - Open-source infrastructure as code tool forked from Terraform. ⭐ 30.9k · 🕒 2026-11 · 🎯 90 · Infrastructure as Code.
+- [zed](https://github.com/zed-industries/zed) - High-performance multiplayer code editor with built-in AI. 🤖 · ⭐ 95.1k · 🕒 2026-11 · 🎯 88.6 · Editors.
+- [cli](https://github.com/cli/cli) - GitHub's official command-line tool. ⭐ 47k · 🕒 2026-11 · 🎯 86.9 · Git.
+- [ruff](https://github.com/astral-sh/ruff) - Extremely fast Python linter and formatter written in Rust. ⭐ 51.3k · 🕒 2026-11 · 🎯 91.8 · Linters.
+- [Neovim](https://github.com/neovim/neovim) - Hyperextensible Vim-based text editor. ⭐ 103.6k · 🕒 2026-11 · 🎯 83.6 · Editors.
+- [mise](https://github.com/jdx/mise) - Dev tools, env vars and task runner in one tool. ⭐ 36.2k · 🕒 2026-11 · 🎯 89.8 · Environment.
+- [jq](https://github.com/jqlang/jq) - Command-line JSON processor. ⭐ 36.1k · 🕒 2026-11 · 🎯 80.3 · CLI.
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git commands. ⭐ 83.9k · 🕒 2026-11 · 🎯 73.1 · Git.
 
 ### Watchlist (5)
 
-- [tldraw](https://github.com/tldraw/tldraw) - SDK for building infinite canvas and whiteboard apps. ⚠️ · ⭐ 51.4k · 🕒 2026-11 · 🎯 81.3 · Design & UI.
-- [fzf](https://github.com/junegunn/fzf) - General-purpose command-line fuzzy finder. ⭐ 84.1k · 🕒 2026-11 · 🎯 69.9 · CLI.
-- [pre-commit](https://github.com/pre-commit/pre-commit) - Framework for managing multi-language Git pre-commit hooks. ⭐ 15.7k · 🕒 2026-11 · 🎯 67.3 · Git.
-- [bat](https://github.com/sharkdp/bat) - Cat clone with syntax highlighting and Git integration. ⭐ 61.2k · 🕒 2026-11 · 🎯 64.5 · CLI.
-- [ripgrep](https://github.com/BurntSushi/ripgrep) - Recursive regex search that respects .gitignore, very fast. ⭐ 69.9k · 🕒 2026-10 · 🎯 61.9 · CLI.
+- [tldraw](https://github.com/tldraw/tldraw) - SDK for building infinite canvas and whiteboard apps. ⚠️ · ⭐ 51.4k · 🕒 2026-11 · 🎯 81.7 · Design & UI.
+- [fzf](https://github.com/junegunn/fzf) - General-purpose command-line fuzzy finder. ⭐ 84.2k · 🕒 2026-11 · 🎯 69.9 · CLI.
+- [pre-commit](https://github.com/pre-commit/pre-commit) - Framework for managing multi-language Git pre-commit hooks. ⭐ 15.7k · 🕒 2026-11 · 🎯 67.7 · Git.
+- [bat](https://github.com/sharkdp/bat) - Cat clone with syntax highlighting and Git integration. ⭐ 61.3k · 🕒 2026-11 · 🎯 70.3 · CLI.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Recursive regex search that respects .gitignore, very fast. ⭐ 70k · 🕒 2026-11 · 🎯 64.1 · CLI.
 
 ## Appendix
 
