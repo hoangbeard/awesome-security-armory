@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T03:08:01.396596+00:00",
+  "generated": "2026-11-15T02:36:19.731495+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -47,8 +47,8 @@
     },
     {
       "repo": "aaif-goose/goose",
-      "tag": "v1.59.0",
-      "published_at": "2026-11-10T17:17:02Z"
+      "tag": "v1.59.1",
+      "published_at": "2026-11-14T06:50:12Z"
     },
     {
       "repo": "OpenHands/OpenHands",
@@ -62,8 +62,8 @@
     },
     {
       "repo": "can1357/oh-my-pi",
-      "tag": "v18.20.0",
-      "published_at": "2026-11-12T23:40:30Z"
+      "tag": "v18.20.2",
+      "published_at": "2026-11-14T20:08:51Z"
     },
     {
       "repo": "QwenLM/qwen-code",
@@ -99,6 +99,11 @@
       "repo": "sickn33/agentic-awesome-skills",
       "tag": "v20.8.0",
       "published_at": "2026-11-12T17:55:31Z"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "tag": "0.6.16",
+      "published_at": "2026-11-14T04:33:58Z"
     },
     {
       "repo": "alirezarezvani/claude-skills",
@@ -147,8 +152,8 @@
     },
     {
       "repo": "browser-use/browser-use",
-      "tag": "1.0.4",
-      "published_at": "2026-11-13T20:50:13Z"
+      "tag": "1.0.5",
+      "published_at": "2026-11-14T08:24:22Z"
     },
     {
       "repo": "langchain-ai/langgraph",
@@ -217,8 +222,8 @@
     },
     {
       "repo": "peass-ng/PEASS-ng",
-      "tag": "20261109-f4fdadd7",
-      "published_at": "2026-11-09T14:26:42Z"
+      "tag": "20261114-5ac9329e",
+      "published_at": "2026-11-14T13:35:46Z"
     },
     {
       "repo": "usestrix/strix",
@@ -460,7 +465,7 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 969
+      "days": 970
     }
   ],
   "errors": []
