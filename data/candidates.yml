@@ -150,3 +150,33 @@ candidates:
   added: '2026-11-14'
   reason: Stacklok-maintained MCP runtime that isolates agent tool servers; Apache-2.0, last push 2026-11-14, created 2025-03-12, documented. Infrastructure for AI agents rather than an AI tool itself; confirm category fit (ai-security vs llm-agent-frameworks) and subcategory at scoring.
   source: github-search topic:mcp-security (https://github.com/stacklok/toolhive)
+- repo: uber/ADR
+  category: ai-security
+  name: ADR
+  description: Observability, security benchmarking and threat detection for enterprise AI coding agents (Claude Code, Codex, Cursor) and MCP, deployed at Uber.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  added: '2026-11-15'
+  reason: Uber-maintained agent security tool with accompanying arXiv paper; Apache-2.0, last push 2026-11-13, created 2026-04-19, ~22 contributors. Covers prompt-injection and threat detection for coding agents; confirm subcategory (detection vs scanning) at scoring.
+  source: github-search topic:llm-security (https://github.com/uber/ADR)
+- repo: nolabs-ai/nono
+  category: ai-security
+  name: nono
+  description: Zero-trust sandbox for AI agents that restricts filesystem, network and secret access at runtime.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-15'
+  reason: Agent runtime sandbox with docs site (nono.sh) and active community (~119 contributors, 300+ open issues); Apache-2.0, last push 2026-11-14, created 2026-01-31. Compare with stacklok/toolhive at scoring.
+  source: github-search topic:mcp-security (https://github.com/nolabs-ai/nono)
+- repo: ljagiello/ctf-skills
+  category: ai-skills
+  name: CTF Skills
+  description: Agent skills for solving CTF challenges (web, pwn, crypto, reversing, forensics, OSINT) for Claude Code, Codex, Gemini CLI and OpenCode.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-15'
+  reason: Security-focused skill pack with docs site, multi-harness support; MIT, last push 2026-11-13, created 2026-02-01, ~6 contributors. Offensive/education use; check content quality at scoring.
+  source: github-search topic:agent-skills+security (https://github.com/ljagiello/ctf-skills)
