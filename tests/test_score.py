@@ -184,10 +184,24 @@ def test_manual_watch_is_not_promoted():
 def test_v01_tiers_do_not_move_without_history():
     from score import load_metrics
 
+    # Compare against the tiers stored in the v0.1 metrics snapshot, not the
+    # live catalogue. A later weekly rescore may legitimately move a repo
+    # (for example after a commit-volume anomaly clears), and re-scoring the
+    # v0.1 metrics against those new tiers is not a regression.
     document = load_metrics(ROOT / "data" / "metrics" / "2026-11-09.json")
     scored = score_records(document["repos"], AS_OF)
-    current, added, _groups = catalog_state(ROOT / "data")
+    current = {
+        row["full_name"].lower(): row["tier"].lower()
+        for row in document["repos"]
+        if row.get("tier")
+    }
+    _, added, _groups = catalog_state(ROOT / "data")
     watch, remove = __import__("score").load_manual(ROOT / "data" / "manual.yml")
+    # manual.yml removals landed after the v0.1 metrics file was written
+    # (penpot, excalidraw); treat them as already removed in the baseline.
+    for name in remove:
+        if name in current:
+            current[name] = "removed"
     grouped = {}
     for record in scored:
         grouped.setdefault(record["category"], []).append(record)
@@ -211,12 +225,13 @@ def test_anomaly_rules():
 
 
 def test_annotate_does_not_rewrite_matching_snapshot(tmp_path):
-    source = ROOT / "data" / "metrics" / "2026-11-09.json"
-    target = tmp_path / "2026-11-09.json"
-    target.write_bytes(source.read_bytes())
-    data = tmp_path / "data"
-    # annotate compares tiers against the real catalogue; point it at a copy of data via the real tree
-    # and a throwaway metrics file so the snapshot bytes stay put when scores already match.
+    # annotate() compares the chosen metrics file to the live catalogue and
+    # to earlier metrics in the same directory (score history). After a weekly
+    # rescore the latest metrics file is the one that must already match.
+    metrics_dir = ROOT / "data" / "metrics"
+    for path in metrics_dir.glob("*.json"):
+        (tmp_path / path.name).write_bytes(path.read_bytes())
+    target = max(tmp_path.glob("*.json"), key=lambda path: path.name)
     before = target.read_bytes()
     changes = annotate(target, ROOT / "data", apply=False)
     assert changes == []

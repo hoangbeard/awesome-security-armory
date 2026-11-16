@@ -1,2 +1,182 @@
-# Candidates not yet eligible for a tier (pending data/review). Empty at v0.1: every scored repo is Main, Watchlist or Removed.
-candidates: []
+# Candidates not yet eligible for a tier (pending data/review). Added by the daily candidate routine; scored and tiered in the weekly PR.
+candidates:
+- repo: trailofbits/buttercup
+  category: ai-security
+  name: Buttercup
+  description: Cyber reasoning system that uses fuzzing and LLMs to find and patch vulnerabilities in open-source code.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-10'
+  reason: Trail of Bits' AIxCC cyber reasoning system; maintained (push 2026-11-02), AGPL-3.0, documented setup. Fills an AI-driven vuln discovery and patching gap.
+  source: github-search (https://github.com/trailofbits/buttercup)
+- repo: google/oss-fuzz-gen
+  category: devsecops-appsec
+  name: oss-fuzz-gen
+  description: Framework that uses LLMs to generate and evaluate fuzz targets for OSS-Fuzz projects.
+  tags:
+  - ai
+  subcategory: Fuzzing
+  added: '2026-11-10'
+  reason: Google OSS-Fuzz project for LLM-generated fuzz harnesses; maintained (push 2026-10-26), Apache-2.0, docs in repo. Real AI use in AppSec testing.
+  source: github-search (https://github.com/google/oss-fuzz-gen)
+- repo: cyberark/FuzzyAI
+  category: ai-security
+  name: FuzzyAI
+  description: Automated fuzzing tool for finding jailbreaks in LLM APIs.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  added: '2026-11-10'
+  reason: CyberArk-maintained LLM jailbreak fuzzer, Apache-2.0, documented attack catalogue. Last push 2026-02-06, so check activity at scoring; likely Watchlist.
+  source: github-search (https://github.com/cyberark/FuzzyAI)
+- repo: mukul975/Anthropic-Cybersecurity-Skills
+  category: ai-skills
+  name: Anthropic-Cybersecurity-Skills
+  description: Large pack of structured cybersecurity skills for AI coding agents, mapped to MITRE ATT&CK, NIST CSF and ATLAS.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-11'
+  reason: Security-focused skill pack in agentskills.io format (priority for AI Skills); Apache-2.0, last push 2026-08-31, created 2026-02-25. Community repo, not by Anthropic despite the name; verify content quality and naming at scoring.
+  source: github-api (https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+- repo: LaurieWired/GhidraMCP
+  category: defensive-security
+  name: GhidraMCP
+  description: MCP server that lets LLM agents drive Ghidra for AI-assisted reverse engineering.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-11'
+  reason: Widely used bridge between Ghidra and LLM agents for reverse engineering/malware analysis; Apache-2.0, last push 2026-10-10. Real AI integration in a core RE tool.
+  source: github-api (https://github.com/LaurieWired/GhidraMCP)
+- repo: ethz-spylab/agentdojo
+  category: ai-security
+  name: AgentDojo
+  description: Benchmark environment to evaluate prompt-injection attacks and defenses for LLM agents.
+  tags:
+  - ai
+  subcategory: LLM Red Teaming
+  added: '2026-11-11'
+  reason: ETH Zurich SPY Lab benchmark used to evaluate agent prompt-injection defenses; MIT, last push 2026-06-02, documented. Fills an agent security evaluation gap.
+  source: github-api (https://github.com/ethz-spylab/agentdojo)
+- repo: mrexodia/ida-pro-mcp
+  category: defensive-security
+  name: ida-pro-mcp
+  description: MCP server that bridges IDA Pro with LLM agents for AI-assisted reverse engineering.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-12'
+  reason: Widely used IDA Pro counterpart to GhidraMCP for LLM-driven reverse engineering; MIT, last push 2026-09-26, created 2025-03-25, README docs. Note IDA Pro itself is commercial; check at scoring.
+  source: github-api (https://github.com/mrexodia/ida-pro-mcp)
+- repo: zinja-coder/jadx-ai-mcp
+  category: defensive-security
+  name: JADX-AI-MCP
+  description: JADX plugin and MCP server that lets LLM agents analyze Android APKs for reverse engineering and vulnerability review.
+  tags:
+  - ai
+  subcategory: Malware Analysis
+  added: '2026-11-12'
+  reason: Real AI integration into the JADX Android decompiler for APK/malware and mobile vuln analysis; Apache-2.0, last push 2026-10-19, created 2025-04-07. Fills a mobile RE gap.
+  source: github-api (https://github.com/zinja-coder/jadx-ai-mcp)
+- repo: GitHubSecurityLab/seclab-taskflow-agent
+  category: ai-security
+  name: seclab-taskflow-agent
+  description: GitHub Security Lab agent framework that runs YAML taskflows with LLMs and MCP tools for security research and code auditing.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-12'
+  reason: Maintained by GitHub Security Lab for AI-assisted vulnerability research; MIT, last push 2026-11-06, created 2025-09-08. Young project; verify docs and adoption at scoring, likely Watchlist.
+  source: github-api (https://github.com/GitHubSecurityLab/seclab-taskflow-agent)
+- repo: Tencent/AI-Infra-Guard
+  category: ai-security
+  name: AI-Infra-Guard
+  description: AI red teaming platform that scans AI infrastructure, agents, MCP servers and skills for vulnerabilities and risky configurations.
+  tags:
+  - ai
+  subcategory: AI Red Teaming
+  added: '2026-11-13'
+  reason: Tencent Zhuque Lab-maintained AI infra/MCP/agent security scanner; Apache-2.0, last push 2026-11-12, created 2024-12-25. Covers MCP and skill scanning alongside existing agent-scan tools; check docs language and overlap at scoring.
+  source: github-api (https://github.com/Tencent/AI-Infra-Guard)
+- repo: ipa-lab/hackingBuddyGPT
+  category: offensive-security
+  name: hackingBuddyGPT
+  description: Research framework for LLM-driven ethical hacking agents, including Linux privilege escalation and web testing use cases.
+  tags:
+  - ai
+  subcategory: AI Pentest Agents
+  added: '2026-11-13'
+  reason: TU Wien IPA lab research project for LLM-assisted pentesting with published papers; MIT, last push 2026-10-24, created 2023-08-02. Long-running academic AI pentest agent.
+  source: github-api (https://github.com/ipa-lab/hackingBuddyGPT)
+- repo: openai/codex-security
+  category: devsecops-appsec
+  name: Codex Security
+  description: OpenAI CLI, TypeScript SDK and GitHub Action for AI-driven vulnerability scanning, validation and patching of codebases.
+  tags:
+  - ai
+  subcategory: SAST
+  added: '2026-11-13'
+  reason: Official OpenAI AI-native code security scanner with CI/SARIF export; Apache-2.0, last push 2026-11-13, created 2026-07-13. Requires OpenAI models (cloud, paid usage); note privacy/cost at scoring, likely Watchlist until adoption is clear.
+  source: github-api (https://github.com/openai/codex-security)
+- repo: gadievron/raptor
+  category: ai-skills
+  name: RAPTOR
+  description: Claude Code configuration (CLAUDE.md, rules, sub-agents and skills) that turns the agent into an offensive/defensive security research agent orchestrating security tools.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-14'
+  reason: Security skill/agent pack by Gadi Evron, Daniel Cuthbert, Thomas Dullien (Halvar Flake) and others; LICENSE file is MIT (GitHub API reports NOASSERTION, may need license_overrides), last push 2026-11-13, created 2025-10-17. Prioritized security skills for AI coding agents.
+  source: github-api (https://github.com/gadievron/raptor)
+- repo: cisco-ai-defense/skill-scanner
+  category: ai-security
+  name: Skill Scanner
+  description: Security scanner that inspects AI agent skills for prompt injection, malicious code and risky behaviors before use.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  added: '2026-11-14'
+  reason: Cisco AI Defense tool, sibling of mcp-scanner already listed; LICENSE file is Apache-2.0 (GitHub API reports NOASSERTION), last push 2026-11-10, created 2026-01-29, docs site. Covers agent skill supply-chain risk; compare with nvidia/skillspector at scoring.
+  source: github-search topic:agent-skills (https://github.com/cisco-ai-defense/skill-scanner)
+- repo: stacklok/toolhive
+  category: ai-security
+  name: ToolHive
+  description: Platform for running and managing MCP servers in isolated containers with secrets handling, permission profiles and registry.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-14'
+  reason: Stacklok-maintained MCP runtime that isolates agent tool servers; Apache-2.0, last push 2026-11-14, created 2025-03-12, documented. Infrastructure for AI agents rather than an AI tool itself; confirm category fit (ai-security vs llm-agent-frameworks) and subcategory at scoring.
+  source: github-search topic:mcp-security (https://github.com/stacklok/toolhive)
+- repo: uber/ADR
+  category: ai-security
+  name: ADR
+  description: Observability, security benchmarking and threat detection for enterprise AI coding agents (Claude Code, Codex, Cursor) and MCP, deployed at Uber.
+  tags:
+  - ai
+  subcategory: Agent & MCP Scanning
+  added: '2026-11-15'
+  reason: Uber-maintained agent security tool with accompanying arXiv paper; Apache-2.0, last push 2026-11-13, created 2026-04-19, ~22 contributors. Covers prompt-injection and threat detection for coding agents; confirm subcategory (detection vs scanning) at scoring.
+  source: github-search topic:llm-security (https://github.com/uber/ADR)
+- repo: nolabs-ai/nono
+  category: ai-security
+  name: nono
+  description: Zero-trust sandbox for AI agents that restricts filesystem, network and secret access at runtime.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-15'
+  reason: Agent runtime sandbox with docs site (nono.sh) and active community (~119 contributors, 300+ open issues); Apache-2.0, last push 2026-11-14, created 2026-01-31. Compare with stacklok/toolhive at scoring.
+  source: github-search topic:mcp-security (https://github.com/nolabs-ai/nono)
+- repo: ljagiello/ctf-skills
+  category: ai-skills
+  name: CTF Skills
+  description: Agent skills for solving CTF challenges (web, pwn, crypto, reversing, forensics, OSINT) for Claude Code, Codex, Gemini CLI and OpenCode.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-15'
+  reason: Security-focused skill pack with docs site, multi-harness support; MIT, last push 2026-11-13, created 2026-02-01, ~6 contributors. Offensive/education use; check content quality at scoring.
+  source: github-search topic:agent-skills+security (https://github.com/ljagiello/ctf-skills)
