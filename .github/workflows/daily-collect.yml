@@ -27,8 +27,6 @@ jobs:
         uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
-      - name: Install
-        run: pip install -r requirements.txt
       - name: Select weekly branch
         id: week
         run: |
@@ -40,6 +38,13 @@ jobs:
           else
             git checkout -B "$branch" "origin/main"
           fi
+          # Data comes from the weekly branch, but code always comes from main, so a
+          # weekly branch cut before a script fix never runs stale code. The restored
+          # files are unstaged again; push_weekly.sh only commits the paths it is given.
+          git checkout origin/main -- scripts requirements.txt
+          git reset -q -- scripts requirements.txt
+      - name: Install
+        run: pip install -r requirements.txt
       - name: Collect daily report
         env:
           GITHUB_TOKEN: ${{ github.token }}
