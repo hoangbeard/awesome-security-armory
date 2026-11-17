@@ -180,3 +180,33 @@ candidates:
   added: '2026-11-15'
   reason: Security-focused skill pack with docs site, multi-harness support; MIT, last push 2026-11-13, created 2026-02-01, ~6 contributors. Offensive/education use; check content quality at scoring.
   source: github-search topic:agent-skills+security (https://github.com/ljagiello/ctf-skills)
+- repo: google/mantis
+  category: ai-security
+  name: Mantis
+  description: Modular toolkit for AI coding agents to autonomously find, reproduce and patch vulnerabilities.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-17'
+  reason: Google-maintained AI vuln discovery and patching toolkit built on ADK; Apache-2.0, last push 2026-11-16, created 2026-06-15, ~5 pages of contributors. Compare with trailofbits/buttercup at scoring; young, may start on Watchlist.
+  source: github-search topic:vulnerability-detection (https://github.com/google/mantis)
+- repo: beelzebub-labs/beelzebub
+  category: defensive-security
+  name: Beelzebub
+  description: Low-code deception and honeypot framework that uses LLMs to emulate realistic systems, including MCP honeypots.
+  tags:
+  - ai
+  subcategory: Deception
+  added: '2026-11-17'
+  reason: Long-running AI-backed honeypot (created 2022-05-08, last push 2026-11-14), GPL-3.0, docs site, ~21 contributors. Fills a deception gap; new subcategory Deception, confirm at scoring.
+  source: github-search topic:mcp+security (https://github.com/beelzebub-labs/beelzebub)
+- repo: pipelab-org/pipelock
+  category: ai-security
+  name: Pipelock
+  description: AI agent firewall that scans MCP, HTTP, A2A and WebSocket traffic for exfiltration, SSRF and prompt injection, with signed audit receipts.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-17'
+  reason: Agent egress firewall with docs site and GitHub Action; Apache-2.0, last push 2026-11-17, created 2026-02-08, ~12 contributors. Compare with stacklok/toolhive and nolabs-ai/nono at scoring.
+  source: github-search topic:prompt-injection (https://github.com/pipelab-org/pipelock)
