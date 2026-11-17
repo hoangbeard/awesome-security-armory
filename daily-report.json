@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T02:46:06.368717+00:00",
+  "generated": "2026-11-17T05:11:13.252480+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -21,21 +21,126 @@
   "renamed": [],
   "new_releases": [
     {
+      "repo": "aaif-goose/goose",
+      "tag": "v1.59.2",
+      "published_at": "2026-11-16T05:26:30Z"
+    },
+    {
+      "repo": "OpenHands/OpenHands",
+      "tag": "v1.41.0",
+      "published_at": "2026-11-16T20:46:02Z"
+    },
+    {
       "repo": "can1357/oh-my-pi",
-      "tag": "v18.20.3",
-      "published_at": "2026-11-16T01:38:21Z"
+      "tag": "v18.22.0",
+      "published_at": "2026-11-16T21:54:22Z"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.326",
+      "published_at": "2026-11-16T22:11:05Z"
+    },
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "tag": "v20.10.0",
+      "published_at": "2026-11-16T16:57:47Z"
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "tag": "v2.14.12",
+      "published_at": "2026-11-16T08:02:53Z"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "tag": "v0.34.0",
+      "published_at": "2026-11-16T23:22:00Z"
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "tag": "v2.69.0",
+      "published_at": "2026-11-17T01:03:25Z"
     },
     {
       "repo": "browser-use/browser-use",
       "tag": "1.0.6",
       "published_at": "2026-11-16T00:51:24Z"
+    },
+    {
+      "repo": "Giskard-AI/giskard-oss",
+      "tag": "giskard-scan/v1.0.2",
+      "published_at": "2026-11-16T05:50:08Z"
+    },
+    {
+      "repo": "SpecterOps/BloodHound",
+      "tag": "v9.10.0",
+      "published_at": "2026-11-16T19:47:15Z"
+    },
+    {
+      "repo": "peass-ng/PEASS-ng",
+      "tag": "20261116-7dd73e1d",
+      "published_at": "2026-11-16T14:18:30Z"
+    },
+    {
+      "repo": "OpenCTI-Platform/opencti",
+      "tag": "7.261116.0",
+      "published_at": "2026-11-16T09:27:04Z"
+    },
+    {
+      "repo": "prowler-cloud/prowler",
+      "tag": "5.50.0",
+      "published_at": "2026-11-16T16:29:19Z"
+    },
+    {
+      "repo": "DataDog/stratus-red-team",
+      "tag": "v2.38.1",
+      "published_at": "2026-11-16T16:10:21Z"
+    },
+    {
+      "repo": "anchore/syft",
+      "tag": "v1.57.2",
+      "published_at": "2026-11-16T20:05:41Z"
+    },
+    {
+      "repo": "anchore/grype",
+      "tag": "v0.122.0",
+      "published_at": "2026-11-16T20:41:59Z"
+    },
+    {
+      "repo": "DefectDojo/django-DefectDojo",
+      "tag": "3.5.200",
+      "published_at": "2026-11-16T22:16:59Z"
+    },
+    {
+      "repo": "jdx/mise",
+      "tag": "v2026.11.9",
+      "published_at": "2026-11-16T11:14:16Z"
+    },
+    {
+      "repo": "tldraw/tldraw",
+      "tag": "v5.6.1",
+      "published_at": "2026-11-16T18:57:39Z"
+    },
+    {
+      "repo": "penpot/penpot",
+      "tag": "2.19.2",
+      "published_at": "2026-11-16T11:59:19Z"
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "tag": "v2.13.6",
+      "published_at": "2026-11-16T21:16:12Z"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "tag": "v1.9.0",
+      "published_at": "2026-11-16T10:28:13Z"
     }
   ],
   "stale_push": [
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 971
+      "days": 972
     }
   ],
   "errors": []
