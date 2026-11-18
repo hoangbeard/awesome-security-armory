@@ -210,3 +210,32 @@ candidates:
   added: '2026-11-17'
   reason: Agent egress firewall with docs site and GitHub Action; Apache-2.0, last push 2026-11-17, created 2026-02-08, ~12 contributors. Compare with stacklok/toolhive and nolabs-ai/nono at scoring.
   source: github-search topic:prompt-injection (https://github.com/pipelab-org/pipelock)
+- repo: cdxgen/cdxgen
+  category: devsecops-appsec
+  name: cdxgen
+  description: Generates CycloneDX SBOMs (plus CBOM, SaaSBOM and OBOM) from source code, container images and VMs across many ecosystems.
+  tags: []
+  subcategory: SBOM
+  added: '2026-11-18'
+  reason: Long-running CycloneDX generator with docs site (created 2019-12-30, last push 2026-11-18), Apache-2.0, ~144 contributors. Compare with anchore/syft at scoring.
+  source: github-search topic:sbom (https://github.com/cdxgen/cdxgen)
+- repo: ghostsecurity/skills
+  category: ai-skills
+  name: Ghost Security Skills
+  description: AppSec skills for AI coding agents from Ghost Security.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-18'
+  reason: Vendor-maintained AppSec skill pack; Apache-2.0, created 2026-02-05, last push 2026-09-28, ~4 contributors. Young and slower cadence; check content depth at scoring, may start on Watchlist.
+  source: github-search topic:agent-skills+security (https://github.com/ghostsecurity/skills)
+- repo: thalesgroup-cert/Watcher
+  category: defensive-security
+  name: Watcher
+  description: AI-assisted cyber threat intelligence and hunting platform (trend detection, data leak, certificate-transparency and malicious-domain monitoring).
+  tags:
+  - ai
+  subcategory: Threat Intelligence
+  added: '2026-11-18'
+  reason: CTI platform developed by Thales CERT with docs site (created 2020-09-01, last push 2026-11-17), AGPL-3.0, ~16 contributors. Complements OpenCTI/MISP at scoring.
+  source: github-search topic:threat-detection+ai (https://github.com/thalesgroup-cert/Watcher)
