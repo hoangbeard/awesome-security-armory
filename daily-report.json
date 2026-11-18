@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T05:11:13.252480+00:00",
+  "generated": "2026-11-18T04:17:14.858284+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -21,9 +21,19 @@
   "renamed": [],
   "new_releases": [
     {
+      "repo": "anomalyco/opencode",
+      "tag": "v1.19.6",
+      "published_at": "2026-11-17T07:21:32Z"
+    },
+    {
+      "repo": "openai/codex",
+      "tag": "rust-v0.170.0",
+      "published_at": "2026-11-18T03:40:48Z"
+    },
+    {
       "repo": "aaif-goose/goose",
-      "tag": "v1.59.2",
-      "published_at": "2026-11-16T05:26:30Z"
+      "tag": "v1.60.1",
+      "published_at": "2026-11-18T01:21:19Z"
     },
     {
       "repo": "OpenHands/OpenHands",
@@ -32,23 +42,33 @@
     },
     {
       "repo": "can1357/oh-my-pi",
-      "tag": "v18.22.0",
-      "published_at": "2026-11-16T21:54:22Z"
+      "tag": "v18.22.2",
+      "published_at": "2026-11-18T01:19:59Z"
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "tag": "sdk-typescript-v0.1.35",
+      "published_at": "2026-11-17T12:07:45Z"
     },
     {
       "repo": "anthropics/claude-code",
-      "tag": "v2.1.326",
-      "published_at": "2026-11-16T22:11:05Z"
+      "tag": "v2.1.327",
+      "published_at": "2026-11-17T23:17:45Z"
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "tag": "v20.10.0",
-      "published_at": "2026-11-16T16:57:47Z"
+      "tag": "v20.11.0",
+      "published_at": "2026-11-17T21:28:14Z"
     },
     {
       "repo": "alirezarezvani/claude-skills",
-      "tag": "v2.14.12",
-      "published_at": "2026-11-16T08:02:53Z"
+      "tag": "v2.14.14",
+      "published_at": "2026-11-17T08:35:28Z"
+    },
+    {
+      "repo": "vercel/ai",
+      "tag": "@ai-sdk/workflow-harness@1.0.187",
+      "published_at": "2026-11-17T20:56:21Z"
     },
     {
       "repo": "vllm-project/vllm",
@@ -56,14 +76,29 @@
       "published_at": "2026-11-16T23:22:00Z"
     },
     {
+      "repo": "openai/openai-agents-python",
+      "tag": "v0.25.0",
+      "published_at": "2026-11-18T00:22:25Z"
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "tag": "langchain-core==1.8.2",
+      "published_at": "2026-11-17T22:42:53Z"
+    },
+    {
       "repo": "pydantic/pydantic-ai",
-      "tag": "v2.69.0",
-      "published_at": "2026-11-17T01:03:25Z"
+      "tag": "v2.70.0",
+      "published_at": "2026-11-17T22:44:30Z"
     },
     {
       "repo": "browser-use/browser-use",
       "tag": "1.0.6",
       "published_at": "2026-11-16T00:51:24Z"
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "tag": "v1.110.0",
+      "published_at": "2026-11-18T01:36:48Z"
     },
     {
       "repo": "Giskard-AI/giskard-oss",
@@ -77,13 +112,13 @@
     },
     {
       "repo": "peass-ng/PEASS-ng",
-      "tag": "20261116-7dd73e1d",
-      "published_at": "2026-11-16T14:18:30Z"
+      "tag": "20261117-8bfcfa5c",
+      "published_at": "2026-11-17T05:25:31Z"
     },
     {
       "repo": "OpenCTI-Platform/opencti",
-      "tag": "7.261116.0",
-      "published_at": "2026-11-16T09:27:04Z"
+      "tag": "7.261117.0",
+      "published_at": "2026-11-17T11:08:54Z"
     },
     {
       "repo": "prowler-cloud/prowler",
@@ -94,6 +129,11 @@
       "repo": "DataDog/stratus-red-team",
       "tag": "v2.38.1",
       "published_at": "2026-11-16T16:10:21Z"
+    },
+    {
+      "repo": "turbot/steampipe",
+      "tag": "v2.5.1",
+      "published_at": "2026-11-17T15:44:54Z"
     },
     {
       "repo": "anchore/syft",
@@ -109,6 +149,21 @@
       "repo": "DefectDojo/django-DefectDojo",
       "tag": "3.5.200",
       "published_at": "2026-11-16T22:16:59Z"
+    },
+    {
+      "repo": "semgrep/semgrep",
+      "tag": "v1.186.0",
+      "published_at": "2026-11-18T00:22:26Z"
+    },
+    {
+      "repo": "astral-sh/uv",
+      "tag": "0.13.9",
+      "published_at": "2026-11-17T09:57:55Z"
+    },
+    {
+      "repo": "cli/cli",
+      "tag": "v2.105.0",
+      "published_at": "2026-11-18T00:18:35Z"
     },
     {
       "repo": "jdx/mise",
@@ -140,7 +195,7 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 972
+      "days": 973
     }
   ],
   "errors": []
