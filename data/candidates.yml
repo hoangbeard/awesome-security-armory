@@ -239,3 +239,30 @@ candidates:
   added: '2026-11-18'
   reason: CTI platform developed by Thales CERT with docs site (created 2020-09-01, last push 2026-11-17), AGPL-3.0, ~16 contributors. Complements OpenCTI/MISP at scoring.
   source: github-search topic:threat-detection+ai (https://github.com/thalesgroup-cert/Watcher)
+- repo: mongodb/kingfisher
+  category: devsecops-appsec
+  name: Kingfisher
+  description: Secret scanner from MongoDB that detects secrets, validates them live, maps blast radius and supports revocation; CLI plus Rust, Python and Node.js embedding.
+  tags: []
+  subcategory: Secrets
+  added: '2026-11-19'
+  reason: MongoDB-maintained secret scanner with docs site; Apache-2.0, created 2025-05-08, last push 2026-11-17, release v2.19.1 on 2026-11-17, ~21 contributors. Compare with trufflesecurity/trufflehog and gitleaks/gitleaks at scoring.
+  source: github-search topic:secret-scanning (https://github.com/mongodb/kingfisher)
+- repo: salesforce/cloudsplaining
+  category: cloud-kubernetes-security
+  name: Cloudsplaining
+  description: AWS IAM security assessment that finds least-privilege violations and produces a risk-prioritized report.
+  tags: []
+  subcategory: Cloud Posture
+  added: '2026-11-19'
+  reason: Salesforce-maintained AWS IAM analyzer with docs site; BSD-3-Clause, created 2020-04-18, last push 2026-11-13, last release 0.9.1 on 2026-06-14, ~30 contributors.
+  source: github-search topic:cloud-security (https://github.com/salesforce/cloudsplaining)
+- repo: DataDog/KubeHound
+  category: cloud-kubernetes-security
+  name: KubeHound
+  description: Builds Kubernetes attack-path graphs to show how an attacker could move from a foothold to cluster compromise.
+  tags: []
+  subcategory: Cloud Offensive
+  added: '2026-11-19'
+  reason: Datadog-maintained attack-path tool with docs site; Apache-2.0, created 2023-05-15, last push 2026-11-18, last release v1.6.7 on 2025-11-14, ~26 contributors. Release cadence slower; check at scoring.
+  source: github-search topic:kubernetes-security (https://github.com/DataDog/KubeHound)
