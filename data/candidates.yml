@@ -266,3 +266,30 @@ candidates:
   added: '2026-11-19'
   reason: Datadog-maintained attack-path tool with docs site; Apache-2.0, created 2023-05-15, last push 2026-11-18, last release v1.6.7 on 2025-11-14, ~26 contributors. Release cadence slower; check at scoring.
   source: github-search topic:kubernetes-security (https://github.com/DataDog/KubeHound)
+- repo: Pennyw0rth/NetExec
+  category: offensive-security
+  name: NetExec
+  description: Network execution and Active Directory assessment tool (SMB, LDAP, WinRM, MSSQL, SSH and more); community successor to CrackMapExec.
+  tags: []
+  subcategory: Active Directory
+  added: '2026-11-20'
+  reason: Community-maintained CrackMapExec successor with wiki (netexec.wiki); BSD-2-Clause, created 2023-09-08, last push 2026-11-20, last release v1.5.1 on 2026-02-23, 250+ contributors. Complements impacket and BloodHound at scoring.
+  source: gap-check offensive-security Active Directory (https://github.com/Pennyw0rth/NetExec)
+- repo: crowdsecurity/crowdsec
+  category: defensive-security
+  name: CrowdSec
+  description: Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.
+  tags: []
+  subcategory: Intrusion Prevention
+  added: '2026-11-20'
+  reason: Vendor-backed open-source IPS with docs site (docs.crowdsec.net); MIT, created 2020-05-15, last push 2026-11-19, release v1.8.2 on 2026-10-26, ~97 contributors. Crowdsourced blocklist is a cloud service, note privacy at scoring; new subcategory Intrusion Prevention (or Network Security Monitoring), confirm at scoring.
+  source: gap-check defensive-security (https://github.com/crowdsecurity/crowdsec)
+- repo: projectdiscovery/katana
+  category: offensive-security
+  name: Katana
+  description: Fast web crawling and spidering framework with headless and standard modes, built for recon pipelines.
+  tags: []
+  subcategory: Recon
+  added: '2026-11-20'
+  reason: ProjectDiscovery-maintained crawler alongside httpx/subfinder/nuclei; MIT, created 2021-01-02, last push 2026-11-19, release v1.8.0 on 2026-10-05, ~80 contributors.
+  source: gap-check offensive-security Recon (https://github.com/projectdiscovery/katana)
