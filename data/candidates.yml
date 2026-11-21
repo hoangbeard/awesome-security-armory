@@ -293,3 +293,31 @@ candidates:
   added: '2026-11-20'
   reason: ProjectDiscovery-maintained crawler alongside httpx/subfinder/nuclei; MIT, created 2021-01-02, last push 2026-11-19, release v1.8.0 on 2026-10-05, ~80 contributors.
   source: gap-check offensive-security Recon (https://github.com/projectdiscovery/katana)
+- repo: zizmorcore/zizmor
+  category: devsecops-appsec
+  name: zizmor
+  description: Static analysis for GitHub Actions workflows that finds template injection, excessive permissions, credential persistence and other CI/CD risks.
+  tags: []
+  subcategory: CI/CD Security
+  added: '2026-11-21'
+  reason: Widely used GitHub Actions auditor with docs site (docs.zizmor.sh) and SARIF output; MIT, created 2024-08-19, last push 2026-11-19, release v1.32.0 on 2026-11-02. Fills CI/CD Security next to existing entries; compare overlap with actionlint at scoring.
+  source: gap-check devsecops-appsec CI/CD Security (https://github.com/zizmorcore/zizmor)
+- repo: redcanaryco/atomic-red-team
+  category: defensive-security
+  name: Atomic Red Team
+  description: Library of small, portable detection tests mapped to MITRE ATT&CK for validating security controls and detections.
+  tags: []
+  subcategory: Detection Engineering
+  added: '2026-11-21'
+  reason: Red Canary-maintained ATT&CK test library widely used by detection teams; MIT, created 2017-10-11, last push 2026-11-16. Tests execute real adversary techniques, so note lab-only use at scoring; no GitHub releases, judge maintenance by commits.
+  source: gap-check defensive-security Detection Engineering (https://github.com/redcanaryco/atomic-red-team)
+- repo: DataDog/guarddog
+  category: devsecops-appsec
+  name: GuardDog
+  description: CLI that detects malicious PyPI, npm and other packages using Semgrep rules and package metadata heuristics.
+  tags: []
+  subcategory: Supply Chain
+  added: '2026-11-21'
+  reason: Datadog Security Labs tool for malicious-package detection, complements SCA entries; Apache-2.0, created 2022-06-14, last push 2026-11-16, release v3.2.0 on 2026-08-12.
+  source: gap-check devsecops-appsec Supply Chain (https://github.com/DataDog/guarddog)
+
