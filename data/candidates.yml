@@ -320,4 +320,30 @@ candidates:
   added: '2026-11-21'
   reason: Datadog Security Labs tool for malicious-package detection, complements SCA entries; Apache-2.0, created 2022-06-14, last push 2026-11-16, release v3.2.0 on 2026-08-12.
   source: gap-check devsecops-appsec Supply Chain (https://github.com/DataDog/guarddog)
-
+- repo: open-policy-agent/opa
+  category: cloud-kubernetes-security
+  name: Open Policy Agent
+  description: General-purpose policy engine with the Rego language for policy as code across Kubernetes admission, CI/CD, APIs and infrastructure.
+  tags: []
+  subcategory: Policy as Code
+  added: '2026-11-22'
+  reason: CNCF graduated project and the base engine behind Gatekeeper and Conftest; docs site (openpolicyagent.org); Apache-2.0, created 2015-12-28, last push 2026-11-21, release v1.22.4 on 2026-11-12. Check overlap with existing Policy as Code entries at scoring.
+  source: gap-check cloud-kubernetes-security Policy as Code (https://github.com/open-policy-agent/opa)
+- repo: MobSF/Mobile-Security-Framework-MobSF
+  category: devsecops-appsec
+  name: MobSF
+  description: Automated static and dynamic security analysis framework for Android, iOS and Windows mobile apps, with REST API for CI/CD use.
+  tags: []
+  subcategory: Mobile
+  added: '2026-11-22'
+  reason: Long-standing mobile AppSec scanner used in pentests and pipelines; GPL-3.0, created 2015-01-31, last push 2026-11-18, release v4.6.9 on 2026-11-18. Fills a mobile gap; new subcategory Mobile, confirm group (devsecops-appsec vs offensive-security) at scoring.
+  source: gap-check devsecops-appsec Mobile (https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+- repo: NationalSecurityAgency/ghidra
+  category: defensive-security
+  name: Ghidra
+  description: Software reverse engineering suite with disassembler, decompiler and scripting, used for malware analysis and vulnerability research.
+  tags: []
+  subcategory: Malware Analysis
+  added: '2026-11-22'
+  reason: NSA-maintained SRE framework widely used in malware analysis; base for GhidraMCP already in candidates; Apache-2.0, created 2019-03-01, last push 2026-11-20, release Ghidra_12.2_build on 2026-10-22. Star count rose sharply versus earlier public figures, verify with snapshots at scoring.
+  source: gap-check defensive-security Malware Analysis (https://github.com/NationalSecurityAgency/ghidra)
