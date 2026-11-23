@@ -1,3 +1,4 @@
+import http.client
 import io
 import json
 import urllib.error
@@ -177,6 +178,39 @@ def test_urlerror_is_retried_with_exponential_backoff(monkeypatch):
         calls["n"] += 1
         if calls["n"] < 3:
             raise urllib.error.URLError("timed out")
+        return _Response(200, b'{"ok": true}')
+
+    monkeypatch.setattr("collect.urllib.request.urlopen", urlopen)
+    client = Client("token", pause=0)
+    status, _headers, parsed = client.json_request("https://api.github.com/graphql", {"query": "{}"})
+    assert status == 200
+    assert parsed["ok"] is True
+    assert calls["n"] == 3
+    assert sleeps == [1, 2]
+
+
+def test_truncated_response_is_retried(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr("collect.time.sleep", lambda seconds: sleeps.append(seconds))
+    calls = {"n": 0}
+
+    class _Truncated:
+        status = 200
+        headers = {}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_exc):
+            return False
+
+        def read(self):
+            raise http.client.IncompleteRead(b"", 113221)
+
+    def urlopen(_request, timeout=60):
+        calls["n"] += 1
+        if calls["n"] < 3:
+            return _Truncated()
         return _Response(200, b'{"ok": true}')
 
     monkeypatch.setattr("collect.urllib.request.urlopen", urlopen)
