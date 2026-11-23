@@ -19,6 +19,7 @@ a dead token or a total outage does.
 from __future__ import annotations
 
 import argparse
+import http.client
 import json
 import logging
 import os
@@ -262,7 +263,8 @@ class Client:
                 return response.status, dict(response.headers), response.read()
         except urllib.error.HTTPError as exc:
             return exc.code, dict(exc.headers), exc.read()
-        except (urllib.error.URLError, TimeoutError, ConnectionError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException):
+            # A dropped or truncated response (e.g. IncompleteRead) is transient: retry it.
             return 0, {}, b""
 
     def json_request(self, url: str, payload: dict | None = None, retries: int = 5) -> tuple[int, dict, dict]:
