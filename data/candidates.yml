@@ -180,3 +180,170 @@ candidates:
   added: '2026-11-15'
   reason: Security-focused skill pack with docs site, multi-harness support; MIT, last push 2026-11-13, created 2026-02-01, ~6 contributors. Offensive/education use; check content quality at scoring.
   source: github-search topic:agent-skills+security (https://github.com/ljagiello/ctf-skills)
+- repo: google/mantis
+  category: ai-security
+  name: Mantis
+  description: Modular toolkit for AI coding agents to autonomously find, reproduce and patch vulnerabilities.
+  tags:
+  - ai
+  subcategory: Vulnerability Discovery
+  added: '2026-11-17'
+  reason: Google-maintained AI vuln discovery and patching toolkit built on ADK; Apache-2.0, last push 2026-11-16, created 2026-06-15, ~5 pages of contributors. Compare with trailofbits/buttercup at scoring; young, may start on Watchlist.
+  source: github-search topic:vulnerability-detection (https://github.com/google/mantis)
+- repo: beelzebub-labs/beelzebub
+  category: defensive-security
+  name: Beelzebub
+  description: Low-code deception and honeypot framework that uses LLMs to emulate realistic systems, including MCP honeypots.
+  tags:
+  - ai
+  subcategory: Deception
+  added: '2026-11-17'
+  reason: Long-running AI-backed honeypot (created 2022-05-08, last push 2026-11-14), GPL-3.0, docs site, ~21 contributors. Fills a deception gap; new subcategory Deception, confirm at scoring.
+  source: github-search topic:mcp+security (https://github.com/beelzebub-labs/beelzebub)
+- repo: pipelab-org/pipelock
+  category: ai-security
+  name: Pipelock
+  description: AI agent firewall that scans MCP, HTTP, A2A and WebSocket traffic for exfiltration, SSRF and prompt injection, with signed audit receipts.
+  tags:
+  - ai
+  subcategory: MCP Runtime Security
+  added: '2026-11-17'
+  reason: Agent egress firewall with docs site and GitHub Action; Apache-2.0, last push 2026-11-17, created 2026-02-08, ~12 contributors. Compare with stacklok/toolhive and nolabs-ai/nono at scoring.
+  source: github-search topic:prompt-injection (https://github.com/pipelab-org/pipelock)
+- repo: cdxgen/cdxgen
+  category: devsecops-appsec
+  name: cdxgen
+  description: Generates CycloneDX SBOMs (plus CBOM, SaaSBOM and OBOM) from source code, container images and VMs across many ecosystems.
+  tags: []
+  subcategory: SBOM
+  added: '2026-11-18'
+  reason: Long-running CycloneDX generator with docs site (created 2019-12-30, last push 2026-11-18), Apache-2.0, ~144 contributors. Compare with anchore/syft at scoring.
+  source: github-search topic:sbom (https://github.com/cdxgen/cdxgen)
+- repo: ghostsecurity/skills
+  category: ai-skills
+  name: Ghost Security Skills
+  description: AppSec skills for AI coding agents from Ghost Security.
+  tags:
+  - ai
+  subcategory: Security Skills
+  added: '2026-11-18'
+  reason: Vendor-maintained AppSec skill pack; Apache-2.0, created 2026-02-05, last push 2026-09-28, ~4 contributors. Young and slower cadence; check content depth at scoring, may start on Watchlist.
+  source: github-search topic:agent-skills+security (https://github.com/ghostsecurity/skills)
+- repo: thalesgroup-cert/Watcher
+  category: defensive-security
+  name: Watcher
+  description: AI-assisted cyber threat intelligence and hunting platform (trend detection, data leak, certificate-transparency and malicious-domain monitoring).
+  tags:
+  - ai
+  subcategory: Threat Intelligence
+  added: '2026-11-18'
+  reason: CTI platform developed by Thales CERT with docs site (created 2020-09-01, last push 2026-11-17), AGPL-3.0, ~16 contributors. Complements OpenCTI/MISP at scoring.
+  source: github-search topic:threat-detection+ai (https://github.com/thalesgroup-cert/Watcher)
+- repo: mongodb/kingfisher
+  category: devsecops-appsec
+  name: Kingfisher
+  description: Secret scanner from MongoDB that detects secrets, validates them live, maps blast radius and supports revocation; CLI plus Rust, Python and Node.js embedding.
+  tags: []
+  subcategory: Secrets
+  added: '2026-11-19'
+  reason: MongoDB-maintained secret scanner with docs site; Apache-2.0, created 2025-05-08, last push 2026-11-17, release v2.19.1 on 2026-11-17, ~21 contributors. Compare with trufflesecurity/trufflehog and gitleaks/gitleaks at scoring.
+  source: github-search topic:secret-scanning (https://github.com/mongodb/kingfisher)
+- repo: salesforce/cloudsplaining
+  category: cloud-kubernetes-security
+  name: Cloudsplaining
+  description: AWS IAM security assessment that finds least-privilege violations and produces a risk-prioritized report.
+  tags: []
+  subcategory: Cloud Posture
+  added: '2026-11-19'
+  reason: Salesforce-maintained AWS IAM analyzer with docs site; BSD-3-Clause, created 2020-04-18, last push 2026-11-13, last release 0.9.1 on 2026-06-14, ~30 contributors.
+  source: github-search topic:cloud-security (https://github.com/salesforce/cloudsplaining)
+- repo: DataDog/KubeHound
+  category: cloud-kubernetes-security
+  name: KubeHound
+  description: Builds Kubernetes attack-path graphs to show how an attacker could move from a foothold to cluster compromise.
+  tags: []
+  subcategory: Cloud Offensive
+  added: '2026-11-19'
+  reason: Datadog-maintained attack-path tool with docs site; Apache-2.0, created 2023-05-15, last push 2026-11-18, last release v1.6.7 on 2025-11-14, ~26 contributors. Release cadence slower; check at scoring.
+  source: github-search topic:kubernetes-security (https://github.com/DataDog/KubeHound)
+- repo: Pennyw0rth/NetExec
+  category: offensive-security
+  name: NetExec
+  description: Network execution and Active Directory assessment tool (SMB, LDAP, WinRM, MSSQL, SSH and more); community successor to CrackMapExec.
+  tags: []
+  subcategory: Active Directory
+  added: '2026-11-20'
+  reason: Community-maintained CrackMapExec successor with wiki (netexec.wiki); BSD-2-Clause, created 2023-09-08, last push 2026-11-20, last release v1.5.1 on 2026-02-23, 250+ contributors. Complements impacket and BloodHound at scoring.
+  source: gap-check offensive-security Active Directory (https://github.com/Pennyw0rth/NetExec)
+- repo: crowdsecurity/crowdsec
+  category: defensive-security
+  name: CrowdSec
+  description: Open-source IDS/IPS, WAF and bot detection for Linux, Windows, Docker and Kubernetes, with a crowdsourced blocklist of malicious IPs.
+  tags: []
+  subcategory: Intrusion Prevention
+  added: '2026-11-20'
+  reason: Vendor-backed open-source IPS with docs site (docs.crowdsec.net); MIT, created 2020-05-15, last push 2026-11-19, release v1.8.2 on 2026-10-26, ~97 contributors. Crowdsourced blocklist is a cloud service, note privacy at scoring; new subcategory Intrusion Prevention (or Network Security Monitoring), confirm at scoring.
+  source: gap-check defensive-security (https://github.com/crowdsecurity/crowdsec)
+- repo: projectdiscovery/katana
+  category: offensive-security
+  name: Katana
+  description: Fast web crawling and spidering framework with headless and standard modes, built for recon pipelines.
+  tags: []
+  subcategory: Recon
+  added: '2026-11-20'
+  reason: ProjectDiscovery-maintained crawler alongside httpx/subfinder/nuclei; MIT, created 2021-01-02, last push 2026-11-19, release v1.8.0 on 2026-10-05, ~80 contributors.
+  source: gap-check offensive-security Recon (https://github.com/projectdiscovery/katana)
+- repo: zizmorcore/zizmor
+  category: devsecops-appsec
+  name: zizmor
+  description: Static analysis for GitHub Actions workflows that finds template injection, excessive permissions, credential persistence and other CI/CD risks.
+  tags: []
+  subcategory: CI/CD Security
+  added: '2026-11-21'
+  reason: Widely used GitHub Actions auditor with docs site (docs.zizmor.sh) and SARIF output; MIT, created 2024-08-19, last push 2026-11-19, release v1.32.0 on 2026-11-02. Fills CI/CD Security next to existing entries; compare overlap with actionlint at scoring.
+  source: gap-check devsecops-appsec CI/CD Security (https://github.com/zizmorcore/zizmor)
+- repo: redcanaryco/atomic-red-team
+  category: defensive-security
+  name: Atomic Red Team
+  description: Library of small, portable detection tests mapped to MITRE ATT&CK for validating security controls and detections.
+  tags: []
+  subcategory: Detection Engineering
+  added: '2026-11-21'
+  reason: Red Canary-maintained ATT&CK test library widely used by detection teams; MIT, created 2017-10-11, last push 2026-11-16. Tests execute real adversary techniques, so note lab-only use at scoring; no GitHub releases, judge maintenance by commits.
+  source: gap-check defensive-security Detection Engineering (https://github.com/redcanaryco/atomic-red-team)
+- repo: DataDog/guarddog
+  category: devsecops-appsec
+  name: GuardDog
+  description: CLI that detects malicious PyPI, npm and other packages using Semgrep rules and package metadata heuristics.
+  tags: []
+  subcategory: Supply Chain
+  added: '2026-11-21'
+  reason: Datadog Security Labs tool for malicious-package detection, complements SCA entries; Apache-2.0, created 2022-06-14, last push 2026-11-16, release v3.2.0 on 2026-08-12.
+  source: gap-check devsecops-appsec Supply Chain (https://github.com/DataDog/guarddog)
+- repo: open-policy-agent/opa
+  category: cloud-kubernetes-security
+  name: Open Policy Agent
+  description: General-purpose policy engine with the Rego language for policy as code across Kubernetes admission, CI/CD, APIs and infrastructure.
+  tags: []
+  subcategory: Policy as Code
+  added: '2026-11-22'
+  reason: CNCF graduated project and the base engine behind Gatekeeper and Conftest; docs site (openpolicyagent.org); Apache-2.0, created 2015-12-28, last push 2026-11-21, release v1.22.4 on 2026-11-12. Check overlap with existing Policy as Code entries at scoring.
+  source: gap-check cloud-kubernetes-security Policy as Code (https://github.com/open-policy-agent/opa)
+- repo: MobSF/Mobile-Security-Framework-MobSF
+  category: devsecops-appsec
+  name: MobSF
+  description: Automated static and dynamic security analysis framework for Android, iOS and Windows mobile apps, with REST API for CI/CD use.
+  tags: []
+  subcategory: Mobile
+  added: '2026-11-22'
+  reason: Long-standing mobile AppSec scanner used in pentests and pipelines; GPL-3.0, created 2015-01-31, last push 2026-11-18, release v4.6.9 on 2026-11-18. Fills a mobile gap; new subcategory Mobile, confirm group (devsecops-appsec vs offensive-security) at scoring.
+  source: gap-check devsecops-appsec Mobile (https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+- repo: NationalSecurityAgency/ghidra
+  category: defensive-security
+  name: Ghidra
+  description: Software reverse engineering suite with disassembler, decompiler and scripting, used for malware analysis and vulnerability research.
+  tags: []
+  subcategory: Malware Analysis
+  added: '2026-11-22'
+  reason: NSA-maintained SRE framework widely used in malware analysis; base for GhidraMCP already in candidates; Apache-2.0, created 2019-03-01, last push 2026-11-20, release Ghidra_12.2_build on 2026-10-22. Star count rose sharply versus earlier public figures, verify with snapshots at scoring.
+  source: gap-check defensive-security Malware Analysis (https://github.com/NationalSecurityAgency/ghidra)
