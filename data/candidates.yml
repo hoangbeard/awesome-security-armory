@@ -180,3 +180,30 @@ candidates:
   added: '2026-11-15'
   reason: Security-focused skill pack with docs site, multi-harness support; MIT, last push 2026-11-13, created 2026-02-01, ~6 contributors. Offensive/education use; check content quality at scoring.
   source: github-search topic:agent-skills+security (https://github.com/ljagiello/ctf-skills)
+- repo: Checkmarx/kics
+  category: devsecops-appsec
+  name: KICS
+  description: Static analysis of infrastructure as code (Terraform, Kubernetes, Docker, CloudFormation, Ansible and more) for security misconfigurations.
+  tags: []
+  subcategory: IaC
+  added: '2026-11-24'
+  reason: Checkmarx-maintained IaC scanner with large query library and docs site (kics.io); Apache-2.0, created 2020-07-08, last push 2026-11-23, release v2.2.1 on 2026-11-09. Check overlap with checkov at scoring.
+  source: gap-check devsecops-appsec IaC (https://github.com/Checkmarx/kics)
+- repo: kubearmor/KubeArmor
+  category: cloud-kubernetes-security
+  name: KubeArmor
+  description: Runtime security enforcement for Kubernetes and VMs using LSMs (AppArmor, SELinux, BPF-LSM) to restrict process, file and network behavior.
+  tags: []
+  subcategory: Runtime Security
+  added: '2026-11-24'
+  reason: CNCF sandbox project focused on enforcement, complementing detection-first falco/tetragon; docs site (kubearmor.io); Apache-2.0, created 2020-11-26, last push 2026-11-24, release v1.7.7 on 2026-11-19.
+  source: gap-check cloud-kubernetes-security Runtime Security (https://github.com/kubearmor/KubeArmor)
+- repo: hadolint/hadolint
+  category: devsecops-appsec
+  name: hadolint
+  description: Dockerfile linter that checks best practices and runs ShellCheck on RUN instructions, commonly used in CI.
+  tags: []
+  subcategory: Container & SCA
+  added: '2026-11-24'
+  reason: Widely used Dockerfile linter in CI pipelines and pre-commit; GPL-3.0, created 2015-11-15, last push 2026-10-19, release v2.15.1 on 2026-07-31. Lint/hardening focus rather than vuln scanning; confirm subcategory (Container vs IaC) at scoring.
+  source: gap-check devsecops-appsec Container (https://github.com/hadolint/hadolint)
