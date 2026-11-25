@@ -207,3 +207,30 @@ candidates:
   added: '2026-11-24'
   reason: Widely used Dockerfile linter in CI pipelines and pre-commit; GPL-3.0, created 2015-11-15, last push 2026-10-19, release v2.15.1 on 2026-07-31. Lint/hardening focus rather than vuln scanning; confirm subcategory (Container vs IaC) at scoring.
   source: gap-check devsecops-appsec Container (https://github.com/hadolint/hadolint)
+- repo: opengrep/opengrep
+  category: devsecops-appsec
+  name: Opengrep
+  description: Open-source static analysis engine (community fork of Semgrep CE) for finding bugs and security issues with pattern rules across many languages.
+  tags: []
+  subcategory: SAST
+  added: '2026-11-25'
+  reason: Community-governed SAST engine backed by multiple AppSec vendors after Semgrep's licensing change; LGPL-2.1, created 2024-12-14, last push 2026-11-24, release v2.0.0 on 2026-11-13. Overlaps semgrep/semgrep; decide at scoring whether both belong in Main.
+  source: gap-check devsecops-appsec SAST (https://github.com/opengrep/opengrep)
+- repo: WithSecureOpenSource/chainsaw
+  category: defensive-security
+  name: Chainsaw
+  description: Fast search and hunting over Windows event logs (EVTX) and other forensic artifacts using Sigma rules and custom detections.
+  tags: []
+  subcategory: Endpoint & DFIR
+  added: '2026-11-25'
+  reason: Widely used DFIR triage tool from WithSecure Labs that complements hayabusa; GPL-3.0, created 2021-08-13, last push 2026-11-15, release v2.18.0 on 2026-11-15. Canonical repo moved from WithSecureLabs/chainsaw.
+  source: gap-check defensive-security Endpoint & DFIR (https://github.com/WithSecureOpenSource/chainsaw)
+- repo: securego/gosec
+  category: devsecops-appsec
+  name: gosec
+  description: Go security checker that inspects source code AST/SSA for common security problems, with SARIF output for CI.
+  tags: []
+  subcategory: SAST
+  added: '2026-11-25'
+  reason: De facto Go SAST linter (bundled in golangci-lint) with docs site (securego.io); Apache-2.0, created 2016-07-18, last push 2026-11-24, release v2.30.0 on 2026-10-23.
+  source: gap-check devsecops-appsec SAST (https://github.com/securego/gosec)
