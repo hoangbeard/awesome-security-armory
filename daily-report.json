@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T07:01:00.357028+00:00",
+  "generated": "2026-11-25T05:27:38.981196+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -50,13 +50,13 @@
     },
     {
       "repo": "aaif-goose/goose",
-      "tag": "v1.60.2",
-      "published_at": "2026-11-20T06:18:55Z"
+      "tag": "v1.61.0",
+      "published_at": "2026-11-25T03:31:49Z"
     },
     {
       "repo": "OpenHands/OpenHands",
-      "tag": "v1.44.0",
-      "published_at": "2026-11-23T15:29:47Z"
+      "tag": "v1.45.0",
+      "published_at": "2026-11-24T09:13:54Z"
     },
     {
       "repo": "can1357/oh-my-pi",
@@ -70,8 +70,8 @@
     },
     {
       "repo": "anthropics/claude-code",
-      "tag": "v2.1.331",
-      "published_at": "2026-11-23T21:34:41Z"
+      "tag": "v2.1.332",
+      "published_at": "2026-11-25T01:32:14Z"
     },
     {
       "repo": "charmbracelet/crush",
@@ -80,13 +80,13 @@
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "tag": "v21.2.0",
-      "published_at": "2026-11-23T07:52:25Z"
+      "tag": "v21.3.0",
+      "published_at": "2026-11-24T10:09:48Z"
     },
     {
       "repo": "addyosmani/agent-skills",
-      "tag": "0.6.17",
-      "published_at": "2026-11-18T20:06:40Z"
+      "tag": "0.6.18",
+      "published_at": "2026-11-24T07:11:18Z"
     },
     {
       "repo": "alirezarezvani/claude-skills",
@@ -105,8 +105,8 @@
     },
     {
       "repo": "vercel/ai",
-      "tag": "@ai-sdk/xai@5.0.49",
-      "published_at": "2026-11-23T21:10:42Z"
+      "tag": "@ai-sdk/xai@5.0.50",
+      "published_at": "2026-11-24T21:57:49Z"
     },
     {
       "repo": "vllm-project/vllm",
@@ -135,8 +135,8 @@
     },
     {
       "repo": "pydantic/pydantic-ai",
-      "tag": "v2.73.0",
-      "published_at": "2026-11-24T03:53:12Z"
+      "tag": "v2.74.0",
+      "published_at": "2026-11-24T23:22:14Z"
     },
     {
       "repo": "browser-use/browser-use",
@@ -150,13 +150,13 @@
     },
     {
       "repo": "ollama/ollama",
-      "tag": "v0.40.17",
-      "published_at": "2026-11-10T22:25:00Z"
+      "tag": "v0.40.18",
+      "published_at": "2026-11-24T04:18:13Z"
     },
     {
       "repo": "BerriAI/litellm",
-      "tag": "v1.110.3",
-      "published_at": "2026-11-24T04:11:03Z"
+      "tag": "v1.111.0",
+      "published_at": "2026-11-25T01:42:50Z"
     },
     {
       "repo": "microsoft/PyRIT",
@@ -180,8 +180,8 @@
     },
     {
       "repo": "snyk/agent-scan",
-      "tag": "v0.7.0",
-      "published_at": "2026-11-18T10:34:09Z"
+      "tag": "v0.7.1",
+      "published_at": "2026-11-24T09:08:22Z"
     },
     {
       "repo": "SpecterOps/BloodHound",
@@ -205,8 +205,8 @@
     },
     {
       "repo": "OpenCTI-Platform/opencti",
-      "tag": "7.261119.0",
-      "published_at": "2026-11-19T16:57:03Z"
+      "tag": "7.261124.0",
+      "published_at": "2026-11-24T19:07:24Z"
     },
     {
       "repo": "MISP/MISP",
@@ -230,8 +230,13 @@
     },
     {
       "repo": "turbot/steampipe",
-      "tag": "v2.5.2",
-      "published_at": "2026-11-22T00:00:06Z"
+      "tag": "v2.5.3",
+      "published_at": "2026-11-24T19:04:39Z"
+    },
+    {
+      "repo": "sigstore/cosign",
+      "tag": "v3.1.5",
+      "published_at": "2026-11-24T15:47:22Z"
     },
     {
       "repo": "trufflesecurity/trufflehog",
@@ -260,13 +265,13 @@
     },
     {
       "repo": "bridgecrewio/checkov",
-      "tag": "3.4.6",
-      "published_at": "2026-11-19T23:01:36Z"
+      "tag": "3.4.10",
+      "published_at": "2026-11-24T23:01:40Z"
     },
     {
       "repo": "semgrep/semgrep",
-      "tag": "v1.186.0",
-      "published_at": "2026-11-18T00:22:26Z"
+      "tag": "v1.187.0",
+      "published_at": "2026-11-24T21:39:31Z"
     },
     {
       "repo": "ossf/scorecard",
@@ -280,8 +285,8 @@
     },
     {
       "repo": "astral-sh/uv",
-      "tag": "0.13.9",
-      "published_at": "2026-11-17T09:57:55Z"
+      "tag": "0.13.10",
+      "published_at": "2026-11-24T21:15:44Z"
     },
     {
       "repo": "opentofu/opentofu",
@@ -305,8 +310,8 @@
     },
     {
       "repo": "jdx/mise",
-      "tag": "v2026.11.13",
-      "published_at": "2026-11-23T23:20:03Z"
+      "tag": "v2026.11.14",
+      "published_at": "2026-11-24T11:00:43Z"
     },
     {
       "repo": "tldraw/tldraw",
@@ -325,8 +330,8 @@
     },
     {
       "repo": "penpot/penpot",
-      "tag": "2.19.4",
-      "published_at": "2026-11-23T09:14:36Z"
+      "tag": "2.19.5",
+      "published_at": "2026-11-24T09:22:02Z"
     },
     {
       "repo": "NVIDIA/SkillSpector",
@@ -343,7 +348,7 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 979
+      "days": 980
     }
   ],
   "errors": []
