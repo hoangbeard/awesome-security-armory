@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T05:27:38.981196+00:00",
+  "generated": "2026-11-26T04:54:21.454015+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -50,18 +50,18 @@
     },
     {
       "repo": "aaif-goose/goose",
-      "tag": "v1.61.0",
-      "published_at": "2026-11-25T03:31:49Z"
+      "tag": "v1.61.1",
+      "published_at": "2026-11-26T00:09:20Z"
     },
     {
       "repo": "OpenHands/OpenHands",
-      "tag": "v1.45.0",
-      "published_at": "2026-11-24T09:13:54Z"
+      "tag": "v1.46.0",
+      "published_at": "2026-11-25T14:13:07Z"
     },
     {
       "repo": "can1357/oh-my-pi",
-      "tag": "v19.1.1",
-      "published_at": "2026-11-23T05:37:29Z"
+      "tag": "v19.2.1",
+      "published_at": "2026-11-25T17:10:03Z"
     },
     {
       "repo": "QwenLM/qwen-code",
@@ -105,8 +105,8 @@
     },
     {
       "repo": "vercel/ai",
-      "tag": "@ai-sdk/xai@5.0.50",
-      "published_at": "2026-11-24T21:57:49Z"
+      "tag": "@ai-sdk/zai@3.0.59",
+      "published_at": "2026-11-26T04:37:59Z"
     },
     {
       "repo": "vllm-project/vllm",
@@ -125,8 +125,8 @@
     },
     {
       "repo": "langchain-ai/langchain",
-      "tag": "langchain-core==1.8.4",
-      "published_at": "2026-11-19T22:35:57Z"
+      "tag": "langchain-core==1.8.5",
+      "published_at": "2026-11-25T21:52:39Z"
     },
     {
       "repo": "crewAIInc/crewAI",
@@ -135,8 +135,8 @@
     },
     {
       "repo": "pydantic/pydantic-ai",
-      "tag": "v2.74.0",
-      "published_at": "2026-11-24T23:22:14Z"
+      "tag": "v2.75.0",
+      "published_at": "2026-11-25T18:21:00Z"
     },
     {
       "repo": "browser-use/browser-use",
@@ -145,8 +145,8 @@
     },
     {
       "repo": "langchain-ai/langgraph",
-      "tag": "1.2.24",
-      "published_at": "2026-11-20T01:10:26Z"
+      "tag": "cli==0.4.44",
+      "published_at": "2026-11-25T20:52:34Z"
     },
     {
       "repo": "ollama/ollama",
@@ -199,9 +199,9 @@
       "published_at": "2026-11-23T22:35:16Z"
     },
     {
-      "repo": "AIPentest/CyberStrikeAI",
-      "tag": "v1.8.1",
-      "published_at": "2026-11-19T08:47:08Z"
+      "repo": "wazuh/wazuh",
+      "tag": "v4.14.11",
+      "published_at": "2026-11-25T15:19:41Z"
     },
     {
       "repo": "OpenCTI-Platform/opencti",
@@ -225,8 +225,8 @@
     },
     {
       "repo": "DataDog/stratus-red-team",
-      "tag": "v2.38.1",
-      "published_at": "2026-11-16T16:10:21Z"
+      "tag": "v2.38.2",
+      "published_at": "2026-11-25T09:27:19Z"
     },
     {
       "repo": "turbot/steampipe",
@@ -235,8 +235,8 @@
     },
     {
       "repo": "sigstore/cosign",
-      "tag": "v3.1.5",
-      "published_at": "2026-11-24T15:47:22Z"
+      "tag": "v3.1.6",
+      "published_at": "2026-11-25T22:06:06Z"
     },
     {
       "repo": "trufflesecurity/trufflehog",
@@ -265,8 +265,8 @@
     },
     {
       "repo": "bridgecrewio/checkov",
-      "tag": "3.4.10",
-      "published_at": "2026-11-24T23:01:40Z"
+      "tag": "3.4.11",
+      "published_at": "2026-11-25T23:02:45Z"
     },
     {
       "repo": "semgrep/semgrep",
@@ -295,13 +295,13 @@
     },
     {
       "repo": "zed-industries/zed",
-      "tag": "v1.29.3",
-      "published_at": "2026-11-20T16:10:31Z"
+      "tag": "v1.30.2",
+      "published_at": "2026-11-25T17:43:29Z"
     },
     {
       "repo": "cli/cli",
-      "tag": "v2.105.0",
-      "published_at": "2026-11-18T00:18:35Z"
+      "tag": "v2.106.0",
+      "published_at": "2026-11-25T22:48:46Z"
     },
     {
       "repo": "astral-sh/ruff",
@@ -348,8 +348,27 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 980
+      "days": 981
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "repo": "AIPentest/CyberStrikeAI",
+      "error": [
+        {
+          "type": "NOT_FOUND",
+          "path": [
+            "r18"
+          ],
+          "locations": [
+            {
+              "line": 506,
+              "column": 5
+            }
+          ],
+          "message": "Could not resolve to a Repository with the name 'AIPentest/CyberStrikeAI'."
+        }
+      ]
+    }
+  ]
 }
