@@ -234,3 +234,30 @@ candidates:
   added: '2026-11-25'
   reason: De facto Go SAST linter (bundled in golangci-lint) with docs site (securego.io); Apache-2.0, created 2016-07-18, last push 2026-11-24, release v2.30.0 on 2026-10-23.
   source: gap-check devsecops-appsec SAST (https://github.com/securego/gosec)
+- repo: cartography-cncf/cartography
+  category: cloud-kubernetes-security
+  name: Cartography
+  description: Consolidates cloud, Kubernetes, identity and SaaS assets and their relationships into a Neo4j graph to find attack paths and security risks.
+  tags: []
+  subcategory: Cloud Posture
+  added: '2026-11-26'
+  reason: CNCF-hosted asset-graph tool (originally from Lyft) widely used for cloud security inventory and attack-path analysis; docs site (docs.cartography.dev); Apache-2.0, created 2019-02-27, last push 2026-11-25, release 0.145.0 on 2026-11-19. Graph/inventory focus complements posture scanners like prowler.
+  source: gap-check cloud-kubernetes-security Cloud Posture (https://github.com/cartography-cncf/cartography)
+- repo: projectdiscovery/naabu
+  category: offensive-security
+  name: naabu
+  description: Fast port scanner written in Go with SYN/CONNECT scans, host discovery and easy piping into other ProjectDiscovery recon tools.
+  tags: []
+  subcategory: Recon
+  added: '2026-11-26'
+  reason: Core port-scanning step in the ProjectDiscovery recon chain alongside subfinder/httpx/nuclei (already listed); MIT, created 2020-01-21, last push 2026-11-25, release v2.7.0 on 2026-10-28. OSI-licensed alternative to nmap, which was skipped for its non-standard license.
+  source: gap-check offensive-security Recon (https://github.com/projectdiscovery/naabu)
+- repo: google/timesketch
+  category: defensive-security
+  name: Timesketch
+  description: Collaborative forensic timeline analysis platform for importing, searching and annotating large event timelines (works with plaso output).
+  tags: []
+  subcategory: Endpoint & DFIR
+  added: '2026-11-26'
+  reason: Established DFIR timeline tool that pairs with log2timeline/plaso (already listed); Apache-2.0, created 2014-06-19, last push 2026-11-12, release 20261014 on 2026-10-14.
+  source: gap-check defensive-security Endpoint & DFIR (https://github.com/google/timesketch)
