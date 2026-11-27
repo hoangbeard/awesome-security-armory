@@ -261,3 +261,30 @@ candidates:
   added: '2026-11-26'
   reason: Established DFIR timeline tool that pairs with log2timeline/plaso (already listed); Apache-2.0, created 2014-06-19, last push 2026-11-12, release 20261014 on 2026-10-14.
   source: gap-check defensive-security Endpoint & DFIR (https://github.com/google/timesketch)
+- repo: google/grr
+  category: defensive-security
+  name: GRR Rapid Response
+  description: Remote live forensics and incident response framework with agents on endpoints for fleet-wide artifact collection and hunts.
+  tags: []
+  subcategory: Endpoint & DFIR
+  added: '2026-11-27'
+  reason: Long-running Google incident-response framework with readthedocs docs (grr-doc.readthedocs.io); Apache-2.0, created 2013-12-04, last push 2026-11-26, release v4.0.0.0 on 2025-12-15. Fleet-scale live collection complements timeline tools already listed (plaso, timesketch).
+  source: gap-check defensive-security Endpoint & DFIR (https://github.com/google/grr)
+- repo: aquasecurity/tracee
+  category: cloud-kubernetes-security
+  name: Tracee
+  description: eBPF-based runtime security and forensics tool for Linux hosts and Kubernetes that detects suspicious behavior from kernel events.
+  tags: []
+  subcategory: Runtime Security
+  added: '2026-11-27'
+  reason: Aqua Security's eBPF runtime detection tool with docs site (aquasecurity.github.io/tracee); Apache-2.0, created 2019-09-18, last push 2026-11-01, release v0.24.1 on 2025-11-19. Alternative to Falco/KubeArmor in the same subcategory.
+  source: gap-check cloud-kubernetes-security Runtime Security (https://github.com/aquasecurity/tracee)
+- repo: dfir-iris/iris-web
+  category: defensive-security
+  name: IRIS
+  description: Collaborative incident response case management platform for DFIR teams to track cases, assets, IOCs, evidence and timelines.
+  tags: []
+  subcategory: Endpoint & DFIR
+  added: '2026-11-27'
+  reason: Open-source IR case-management platform used by DFIR teams; LGPL-3.0 (OSI), created 2021-12-20, last push 2026-11-10, release v2.4.29 on 2026-08-10. Fills the case-management gap next to collection/timeline tools.
+  source: gap-check defensive-security Endpoint & DFIR (https://github.com/dfir-iris/iris-web)
