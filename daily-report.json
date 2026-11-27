@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T04:54:21.454015+00:00",
+  "generated": "2026-11-27T05:00:45.422712+00:00",
   "timezone": "Asia/Saigon (UTC+7)",
   "mode": "daily",
   "checked": 186,
@@ -35,8 +35,8 @@
     },
     {
       "repo": "cline/cline",
-      "tag": "v4.1.27",
-      "published_at": "2026-11-21T06:05:04Z"
+      "tag": "v4.1.28",
+      "published_at": "2026-11-26T09:57:49Z"
     },
     {
       "repo": "google-gemini/gemini-cli",
@@ -65,8 +65,8 @@
     },
     {
       "repo": "QwenLM/qwen-code",
-      "tag": "v0.28.4",
-      "published_at": "2026-11-22T12:04:21Z"
+      "tag": "v0.28.7",
+      "published_at": "2026-11-26T18:04:26Z"
     },
     {
       "repo": "anthropics/claude-code",
@@ -75,13 +75,13 @@
     },
     {
       "repo": "charmbracelet/crush",
-      "tag": "v0.102.0",
-      "published_at": "2026-11-19T17:30:03Z"
+      "tag": "v0.103.0",
+      "published_at": "2026-11-26T15:56:38Z"
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "tag": "v21.3.0",
-      "published_at": "2026-11-24T10:09:48Z"
+      "tag": "v21.4.0",
+      "published_at": "2026-11-26T19:07:30Z"
     },
     {
       "repo": "addyosmani/agent-skills",
@@ -90,8 +90,8 @@
     },
     {
       "repo": "alirezarezvani/claude-skills",
-      "tag": "v2.14.16",
-      "published_at": "2026-11-23T05:14:25Z"
+      "tag": "v2.14.17",
+      "published_at": "2026-11-26T05:10:57Z"
     },
     {
       "repo": "Jeffallan/claude-skills",
@@ -119,6 +119,11 @@
       "published_at": "2026-11-18T09:13:14Z"
     },
     {
+      "repo": "ggml-org/llama.cpp",
+      "tag": "v1.1.0",
+      "published_at": "2026-11-26T09:16:47Z"
+    },
+    {
       "repo": "openai/openai-agents-python",
       "tag": "v0.26.0",
       "published_at": "2026-11-24T03:15:47Z"
@@ -135,13 +140,13 @@
     },
     {
       "repo": "pydantic/pydantic-ai",
-      "tag": "v2.75.0",
-      "published_at": "2026-11-25T18:21:00Z"
+      "tag": "v2.76.0",
+      "published_at": "2026-11-26T23:49:06Z"
     },
     {
       "repo": "browser-use/browser-use",
-      "tag": "1.0.8",
-      "published_at": "2026-11-22T03:30:41Z"
+      "tag": "1.0.9",
+      "published_at": "2026-11-26T22:45:43Z"
     },
     {
       "repo": "langchain-ai/langgraph",
@@ -195,8 +200,8 @@
     },
     {
       "repo": "peass-ng/PEASS-ng",
-      "tag": "20261123-b0547dea",
-      "published_at": "2026-11-23T22:35:16Z"
+      "tag": "20261126-5589f45b",
+      "published_at": "2026-11-26T06:20:46Z"
     },
     {
       "repo": "wazuh/wazuh",
@@ -348,7 +353,7 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "pushed_at": "2024-03-19T12:30:55Z",
-      "days": 981
+      "days": 982
     }
   ],
   "errors": [
