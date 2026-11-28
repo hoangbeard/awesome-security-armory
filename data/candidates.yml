@@ -288,3 +288,30 @@ candidates:
   added: '2026-11-27'
   reason: Open-source IR case-management platform used by DFIR teams; LGPL-3.0 (OSI), created 2021-12-20, last push 2026-11-10, release v2.4.29 on 2026-08-10. Fills the case-management gap next to collection/timeline tools.
   source: gap-check defensive-security Endpoint & DFIR (https://github.com/dfir-iris/iris-web)
+- repo: google/osv-scalibr
+  category: devsecops-appsec
+  name: OSV-SCALIBR
+  description: Google's extensible library and CLI for software composition analysis, extracting installed packages and known vulnerabilities from filesystems and container images.
+  tags: []
+  subcategory: SCA
+  added: '2026-11-28'
+  reason: Google-maintained SCA engine (announced on the Google Security Blog) that also powers osv-scanner v2; Apache-2.0, created 2024-04-10, last push 2026-11-26, release v0.5.4 on 2026-11-26. Complements osv-scanner already listed as the underlying scanning library.
+  source: gap-check devsecops-appsec SCA (https://github.com/google/osv-scalibr)
+- repo: gchq/CyberChef
+  category: defensive-security
+  name: CyberChef
+  description: Browser-based "cyber swiss army knife" from GCHQ for encoding, decoding, decrypting, parsing and analysing data in chained recipes.
+  tags: []
+  subcategory: Data Analysis & Decoding
+  added: '2026-11-28'
+  reason: Widely used analyst tool in SOC, DFIR and CTF work, runs fully client-side (gchq.github.io/CyberChef); Apache-2.0, created 2016-11-28, last push 2026-11-27, release v11.6.0 on 2026-11-20.
+  source: gap-check defensive-security (https://github.com/gchq/CyberChef)
+- repo: lasso-security/mcp-gateway
+  category: ai-security
+  name: Lasso MCP Gateway
+  description: Plugin-based gateway that proxies MCP servers and applies security plugins to sanitize tokens, PII and risky tool responses.
+  tags: []
+  subcategory: MCP Runtime Security
+  added: '2026-11-28'
+  reason: Open-source MCP proxy with guardrail plugins from Lasso Security; MIT, created 2025-04-14, last push 2026-01-22, release v1.2.0 on 2026-01-21. Activity slowed since January, so maintenance should be watched at scoring.
+  source: carried over from 2026-11-26 shortlist (https://github.com/lasso-security/mcp-gateway)
